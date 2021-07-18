@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+@import url('base.css') screen; /* Common Base */
+@import url('mobile.css') screen and (max-width: 768px); /* Mobile Only */
+@import url('pc.css') screen and (min-width: 769px); /* PC Only */
