@@ -99,7 +99,7 @@ article h1,
 article p,
 aside h1,
 aside p {
-  margin-bottom: 1rem;
+  margin-bottom: rem;
 }
 
 footer {
