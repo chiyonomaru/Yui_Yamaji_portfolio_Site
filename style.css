@@ -36,25 +36,10 @@ header h1 {
   font-size: 1.2rem;
 }
 
-#button {
-  position: absolute;
-  top: 1.5rem;
-  right: 2rem;
-}
-#button a {
-  color:#FFF;
-}
-#button img {
-  cursor: pointer;
-  width: 1.8rem;
-}
-
 #lists {
   display: flex;
   flex-direction: column;
   width: 100%;
-  position: absolute;
-  top: 5rem;
   background-color: #444;
   box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
   opacity: 0.85;
@@ -99,7 +84,7 @@ article h1,
 article p,
 aside h1,
 aside p {
-  margin-bottom: rem;
+  margin-bottom: 1rem;
 }
 
 footer {
@@ -143,7 +128,6 @@ footer {
 
   main {
     flex-direction: row;
-    margin-top: 3rem;
   }
   article {
     flex: 3;
