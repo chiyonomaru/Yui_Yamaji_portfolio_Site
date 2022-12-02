@@ -23,7 +23,7 @@ body {
 }
 
 header {
-  display: flx;
+  display: flex;
   height: 5rem;
   box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
   background-color: #333;
@@ -111,8 +111,6 @@ ul {
 }
 
 main {
-  margin: auto;
-  max-width: 960px;
   display: flex;
   flex-direction: column;
 }
