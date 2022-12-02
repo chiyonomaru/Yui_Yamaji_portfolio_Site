@@ -1,193 +1,59 @@
-/*-------------------------------
-               BASE
---------------------------------*/
+<!DOCTYPE html>
+<html lang="ja">
 
-* {
-  margin: 0;
-  padding: 0;
-}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="script.js" defer></script>
+  <link href="style.css" rel="stylesheet" >
+  <title>Sample Site</title>
+</head>
 
-body {
-  font-family: sans-serif;
-  font-size: 16px;
-  background-color: silver;
-}
+<body>
 
-/*-------------------------------
-         LAYOUT MOBILE
---------------------------------*/
+  <div id="container">
 
-#container {
-  margin: auto;
-  max-width: 960px;
-}
-
-header {
-  display: flx;
-  height: 5rem;
-  box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
-  background-color: #333;
-  color: white;
-}
-header h1 {
-  position: absolute;
-  top: 1.5rem;
-  left: 2rem;
-  font-size: 1.2rem;
-}
-
-.logo {
-  margin: 5px;
-}
-
-nav ul {
-    color: white;
-    display: flex;
-    justify-content: flex-end;
-    margin: 0 70px;
-    padding: 30px 10px;
-}
-
-a{
-   
-  text-decoration: none;    
-  font-size: 5px;
-    float: right;
-    color: white;
-    padding: 5px 2px;
-}
-
-li {margin-left: 10px;
-
-}
-
-ul {
-  display: flex;
-  list-style: none;
+    <header>
+      <div class"="logo"><img src="images/"></div>
+       <div id="button">
+        <img src="images/icon.png">
+      </div>
+         <nav>
+             <ul>
+          <li><a href="#">Item01</a></li>
+          <li><a href="#">Item02</a></li>
+          <li><a href="#">Item03</a></li>
+          <li><a href="#">Item04</a></li>
+        </ul>
+       </nav>
+      </div>             
+     
   
-  margin: 5px;
-}
-#button {
-  position: absolute;
-  top: 1.5rem;
-  right: 2rem;
-}
-#button a {
-  color:#FFF;
-}
-#button img {
-  cursor: pointer;
-  width: 1.8rem;
-}
+    </header>
 
-#lists {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  position: absolute;
-  top: 5rem;
-  background-color: #444;
-  box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
-  opacity: 0.85;
-}
-#lists li {
-  width: 100%;
-  border-bottom: 1px solid #777;
-  list-style-type: none;
-  font-size: 80%;
-}
-#lists li:last-child {
-  border-bottom: none;
-}
-#lists a {
-  display: block;
-  padding: 1rem 0;
-  color: #FFF;
-  text-decoration: none;
-  text-align: center;
-}
-#lists a:hover {
-  background: #222;
-}
+    <main>
 
-main {
-  margin: auto;
-  max-width: 960px;
-  display: flex;
-  flex-direction: column;
-}
-article {
-  padding: 2rem;
-  text-align: justify;
-  font-size: 0.85rem;
-  background-color: white;
-}
-aside {
-  padding: 2rem;
-  text-align: left;
-  font-size: 0.85rem;
-  background-color: #EEE;
-}
-article h1,
-article p,
-aside h1,
-aside p {
-  margin-bottom: 1rem;
-}
+      <article>
+        <h1>article</h1>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum a diam vitae congue. Curabitur sed egestas erat. Donec facilisis tristique elit, nec consequat erat consectetur sit amet. Morbi in dictum nulla, nec malesuada odio. Cras euismod orci vitae lectus bibendum, non mattis magna posuere. Pellentesque mi est, vulputate a orci quis, lobortis rutrum dui. Fusce commodo enim vel ultrices hendrerit. Curabitur lobortis velit et purus finibus tincidunt non sed est. Maecenas ac justo aliquet, consectetur ipsum a, imperdiet odio. Nam consectetur eros et ex viverra, ullamcorper venenatis sapien pharetra.</p>
+        <p>Morbi at magna eu dui consectetur convallis at vitae odio. Suspendisse sollicitudin lobortis tellus, eget varius augue fringilla sit amet. Etiam ligula odio, lacinia non erat quis, cursus iaculis mi. Vestibulum efficitur ante eu tellus fringilla, imperdiet pretium ex scelerisque. Quisque ornare scelerisque ligula, nec varius dolor malesuada quis. Nullam eleifend tortor sapien, sit amet vestibulum massa finibus ut. Ut ut ipsum eros. Etiam euismod eros non libero viverra lobortis. </p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum a diam vitae congue. Curabitur sed egestas erat. Donec facilisis tristique elit, nec consequat erat consectetur sit amet. Morbi in dictum nulla, nec malesuada odio. Cras euismod orci vitae lectus bibendum, non mattis magna posuere. Pellentesque mi est, vulputate a orci quis, lobortis rutrum dui. Fusce commodo enim vel ultrices hendrerit. Curabitur lobortis velit et purus finibus tincidunt non sed est. Maecenas ac justo aliquet, consectetur ipsum a, imperdiet odio. Nam consectetur eros et ex viverra, ullamcorper venenatis sapien pharetra.</p>
+      </article>
 
-footer {
-  padding: 1.2rem;
-  max-width: 960px;
-  text-align: center;
-  background-color: #333;
-  color:white;
-}
+      <aside>
+        <h1>aside</h1>
+        <p>Morbi at magna eu dui consectetur convallis at vitae odio. Suspendisse sollicitudin lobortis tellus, eget varius augue fringilla sit amet. Etiam ligula odio, lacinia non erat quis, cursus iaculis mi. </p>
+        <p>finibus tincidunt non sed est. Maecenas ac justo aliquet, consectetur ipsum a, imperdiet odio. Nam consectetur eros et ex viverra, ullamcorper venenatis sapien pharetra.</p>
+      </aside>
 
-/*-------------------------------
-      LAYOUT PC (OverWrite)
---------------------------------*/
+    </main>
 
-@media only screen and (min-width: 769px) {
+    <footer>
+      <h6>&copy; http://www.example.com</h6>
+    </footer>
 
-  header {
-    height: 7rem;
-  }
-  header h1 {
-    top: 2.5rem;
-    left: 0rem;
-    width: 100%;
-    text-align: center;
-    font-size: 1.5rem;
-  }
+  </div>
 
-  #lists {
-    flex-direction: row;
-    justify-content: space-between;
-    top: 7rem;
-    left: 0;
-  }
-  #lists li {
-    flex:1;
-    border-bottom: none;
-    border-right: 1px solid #777;
-  }
-  #lists li:last-child {
-    border-right: none;
-  }
-
-  main {
-    flex-direction: row;
-    margin-top: 3rem;
-  }
-  article {
-    flex: 3;
-    padding: 3rem;
-    font-size: 1rem;
-  }
-  aside {
-    flex: 1;
-    padding: 3rem;
-    font-size: 1rem;
-  }
-
-}
+</body>
+</html>
