@@ -1,7 +1,6 @@
 // Window幅に応じたメニュー表示の変更
-$(function (){
 function ShowAndHide(win){
-  if(win > 800){
+  if(win < 769){
     $("#button").show();
     $("#lists").hide();
   }else{
@@ -10,15 +9,14 @@ function ShowAndHide(win){
   }
 }
 
+$( function(){
 
   // 初めてページを開いた時の状態チェック
-  var win =$(window).width();
-  ShowAndHide(win)
+  ShowAndHide($(window).width());
 
   // Windowサイズが変更された時の状態チェック
   $(window).resize(function(){
-    var win = $(window).width();
-    ShowAndHide(win);
+    ShowAndHide($(window).width());
   });
 
   // メニューボタンクリック時のトグル動作
