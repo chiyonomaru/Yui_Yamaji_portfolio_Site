@@ -10,7 +10,7 @@
 body {
   font-family: 'System', 'Luc', 'Arial', 'ＭＳ ゴシック', 'TsukuARdGothic-Regular', 'Hiragino Kaku Gothic ProN', 'Hiragino Mincho ProN', sans-serif;
   font-size: 16px;
-  background-color: silvr;
+  background-color: white;
 }
 
 /*-------------------------------
@@ -25,6 +25,7 @@ body {
 header {
   position: relative;
   height: 5rem;
+  
   background-color: #E61673;
   color: white;
 }
@@ -56,7 +57,7 @@ header h1 {
   top: 5rem;
   color: #444;
   background-color: #fff;
-  box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
+  box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3); opacity: 0.85;
   opacity: 0.85;
 }
 #lists li {
@@ -71,10 +72,12 @@ header h1 {
 }
 #lists a {
   display: block;
-  padding: 1rem 0;
+  font-size: 14px;
+  padding: 1.4rem;
   color: #444;
   text-decoration: none;
   text-align: center;
+  margin-top: -1px;
 }
 #lists a:hover {
   background: #222;
