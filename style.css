@@ -38,8 +38,8 @@ header h1 {
 
 #button {
   position: absolute;
-  top: 1.2rem;
-  right: 2rem;
+  top: -0.5rem;
+  right: 1rem;
 }
 #button a {
   color:#FFF;
@@ -49,6 +49,10 @@ header h1 {
   width: 1.8rem;
 }
 
+.logo img {
+   margin: -25px -87px -30px -42px;
+  text-align:ceter;
+}
 #lists {
   display: flex;
   flex-direction: column;
