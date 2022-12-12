@@ -27,8 +27,8 @@ body {
 header {
   position: relative;
   height: 4rem;
-  
-  background-color: #444;
+
+  background-color: #404855;
   color: white;
 }
 header h1 {
@@ -93,8 +93,30 @@ article {
   padding: 2rem;
   text-align: justify;
   font-size: 0.85rem;
-  background-color: white;
+  background-color: #fff;
 }
+
+#page {
+  display: fex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #fff;
+  
+}
+
+#pic {
+  width: 10%;
+  height: auto;
+}
+
+.picbig img {
+  width: 50%;
+  margin: 30px;
+
+}
+
 aside {
   padding: 2rem;
   text-align: center;
@@ -102,6 +124,34 @@ aside {
   background-color: #EE;
 }
 
+
+ #pic {
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-left: 0;
+  }
+
+
+  #pic2 {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+#info p {
+    font-size: 12px;
+    color: #444;
+}
+
+
+#info2 p{
+  color: #696969;
+  margin: 40px;
+}
+
+#info2 span{
+  font-size: 11px;
+  font-weight: bold;
+}
 
 article h1 {
   text-align: center;
@@ -112,7 +162,7 @@ article p {
 }
 aside h1 {
   height: 
-} 
+}
 aside p {
   margin-bottom: 1rem;
    
@@ -122,7 +172,7 @@ footer {
   
   padding: 1.5rem;
   text-align: center;
-  background-color: #444;
+  background-color: #404855;
   color:white;
 }
 
@@ -180,4 +230,3 @@ footer {
   }
 
 }
-
