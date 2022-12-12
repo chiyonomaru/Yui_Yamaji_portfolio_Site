@@ -95,6 +95,24 @@ article {
   font-size: 0.85rem;
   background-color: white;
 }
+
+#page {
+  display: fex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#pic {
+  width: 10%;
+  height: auto;
+}
+
+.picbig img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
 aside {
   padding: 2rem;
   text-align: center;
