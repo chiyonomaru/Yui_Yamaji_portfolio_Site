@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'System', 'Lucida Grande', 'Arial', 'ＭＳ ゴシック', 'TsukuARdGothic-Regular', 'Hiragino Kaku Gothic ProN', 'Hiragino Mincho ProN', sans-serif;
+  font-family: sans-serif;
   font-size: 16px;
   background-color: white;
 }
@@ -102,21 +102,21 @@ aside {
 
 article h1 {
   text-align: center;
-  height: 60px;
+  
 }
 article p {
-  height: 100px;
+  
 }
 aside h1 {
   height: 
 }
 aside p {
   margin-bottom: 1rem;
-   height: 20px;
+   
 }
 
 footer {
-  height: 20px;
+  
   padding: 1.5rem;
   text-align: center;
   background-color: #E61673;
