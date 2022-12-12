@@ -102,6 +102,17 @@ aside {
   background-color: #EE;
 }
 
+/* Loading背景画面設定　*/
+#splash {
+  /*fixedで全面に固定*/
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	background:#333;
+	text-align:center;
+	color:#fff;
+}
 
 article h1 {
   text-align: center;
