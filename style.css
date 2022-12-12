@@ -24,9 +24,9 @@ body {
 
 header {
   position: relative;
-  height: 5rem;
+  height: 4rem;
   
-  background-color: #E61673;
+  background-color: #444;
   color: white;
 }
 header h1 {
@@ -71,15 +71,12 @@ header h1 {
 }
 #lists a {
   display: block;
-  font-size: 14px;
+  font-size: 18px;
   padding: 1.4rem;
-  color: #fff;
+  color: #444;
   text-decoration: none;
   text-align: center;
   margin-top: -1px;
-}
-#lists a:hover {
-  background: #222;
 }
 
 main {
@@ -119,7 +116,7 @@ footer {
   
   padding: 1.5rem;
   text-align: center;
-  background-color: #E61673;
+  background-color: #444;
   color:white;
 }
 
@@ -145,7 +142,8 @@ footer {
     justify-contet: space-between;
     top: 5rem;
     left: 0;
-    background-color: black;
+
+    background-color: white;
   }
   #lists li {
     flex:1;
