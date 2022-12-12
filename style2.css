@@ -103,6 +103,18 @@ aside {
 }
 
 
+ #pic {
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-left: 0;
+  }
+
+
+  #pic2 {
+    width: 100%;
+    margin-left: 0px;
+  }
+
 article h1 {
   text-align: center;
   
