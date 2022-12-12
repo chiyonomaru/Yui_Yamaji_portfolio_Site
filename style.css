@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'System', 'Lucida Grande', 'Arial', 'ＭＳ ゴシック', 'TsukuARdGothic-Regular', 'Hiragino Kaku Gothic ProN', 'Hiragino Mincho ProN', sans-serif;
   font-size: 16px;
   background-color: white;
 }
@@ -55,14 +55,13 @@ header h1 {
   width: 100%;
   position: absolute;
   top: 5rem;
-  color: #444;
+  color: #fff;
   background-color: #fff;
-  box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3); opacity: 0.85;
   opacity: 0.85;
 }
 #lists li {
   width: 100%;
-  border-bottom: 1px solid #777;
+  border-bottom: 1px solid #fff;
   list-style-type: none;
   font-size: 80%;
 }
@@ -74,7 +73,7 @@ header h1 {
   display: block;
   font-size: 14px;
   padding: 1.4rem;
-  color: #444;
+  color: #fff;
   text-decoration: none;
   text-align: center;
   margin-top: -1px;
@@ -97,20 +96,27 @@ aside {
   padding: 2rem;
   text-align: center;
   font-size: 0.85rem;
-  background-color: #EEE;
+  background-color: #EE;
 }
 
 
 article h1 {
   text-align: center;
+  height: 60px;
 }
-article p,
-aside h1,
+article p {
+  height: 100px;
+}
+aside h1 {
+  height: 
+}
 aside p {
   margin-bottom: 1rem;
+   height: 20px;
 }
 
 footer {
+  height: 20px;
   padding: 1.5rem;
   text-align: center;
   background-color: #E61673;
@@ -124,10 +130,10 @@ footer {
 @media only screen and (min-width: 769px) {
 
   header {
-    height: 7em;
+    height: 5em;
   }
   header h1 {
-    top: 2.5rem;
+    top: 2.4rem;
     left: -20.6rem;
     width: 100%;
     text-align: center;
@@ -136,13 +142,18 @@ footer {
 
   #lists {
     flex-direction: row;
-    justify-content: space-between;
-    top: 7rem;
+    justify-contet: space-between;
+    top: 5rem;
     left: 0;
+    background-color: black;
   }
   #lists li {
     flex:1;
     border-bottom: none;
+     display: block;
+  padding: 12px 12px 12px 12px;
+  /*color: #778899;*/
+  text-align: center;
    
   }
   #lists li:last-child {
@@ -165,3 +176,4 @@ footer {
   }
 
 }
+
