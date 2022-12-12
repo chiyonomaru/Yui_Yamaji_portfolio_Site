@@ -1,6 +1,3 @@
-$(function(){
-  $('.svglogo').on('click', function(){
-    $('svg', $(this)).addClass('active');
-    $('p', $(this)).remove();
-  });
-});
+setTimeout(function () {
+  // 処理
+}, ミリ秒数)
