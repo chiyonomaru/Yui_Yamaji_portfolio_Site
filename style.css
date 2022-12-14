@@ -27,7 +27,6 @@ body {
 header {
   position: relative;
   height: 4rem;
-
   background-color: #404855;
   color: white;
 }
@@ -55,8 +54,17 @@ header h1 {
    margin: -25px -87px -37px -40px;
   text-align:ceter;
 }
+nav ul {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0px px 1px;
+   
+}
+
 #lists {
-   letter-spacing: 5px;
+  letter-spacing: 3px;
   display: flex;
   flex-direction: column;
   width: 100%;
