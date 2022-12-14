@@ -86,11 +86,12 @@ header h1 {
 }
 
 main {
-  
+  margin-bottom: 1px;
+  padding: 20px 0 0 0;
+  margin: 0 auto;
   flex-direction: column;
 }
 article {
-  padding: 2rem;
   text-align: justify;
   font-size: 0.85rem;
   background-color: #fff;
