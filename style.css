@@ -189,15 +189,17 @@ article h1 {
   
 }
 article p {
-  
+   padding:px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 aside h1 {
 　margin-bottom: 5rem;
-　
+　 margin: px;
 }
 aside p {
-  margin-bottom: 3rem;
-   
+  margin-bottom:rem;
+  
 }
 
 footer {
