@@ -86,10 +86,10 @@ header h1 {
 }
 
 main {
-  
   flex-direction: column;
 }
 article {
+  
   padding: 2rem;
   text-align: justify;
   font-size: 0.85rem;
@@ -115,6 +115,7 @@ article {
 }
 
 #page {
+   margin-bottom: 5rem;
   display: fex;
   text-align: center;
   flex-direction: column;
@@ -130,13 +131,14 @@ article {
 }
 
 .picbig img {
-  width: 35%;
+  width: 30%;
   height: 50%;
-  margin: 30px;
+  margin: 80px 50px 40px 50px;
 
 }
 
 aside {
+  margin: -90px 50px -0px 50px;
   padding: 2rem;
   text-align: center;
   font-size: 0.85rem;
@@ -180,10 +182,10 @@ article p {
   
 }
 aside h1 {
-  height: 
+margin: 5px;
 }
 aside p {
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
    
 }
 
