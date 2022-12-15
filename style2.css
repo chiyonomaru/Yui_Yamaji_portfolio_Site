@@ -136,27 +136,30 @@ aside {
     margin-left: 0px;
   }
 
-#info p {
-  
-    font-size: 13px;
+#info span {
+  margin-top: -20px;
+    font-size: 135x;
     color: #444;
   text-align:center;
 }
 
-
-#info2 p {
+#info {
+  
+}
+#info2  {
   color: #696969;
   margin: 40px;
-  font-size: 12px;
+  font-size: 9px;
   text-align: left;
    margin-top: 20px;
 }
 
 
 
-#info2 span{
-  font-size: 15px;
+#info2 span {
+  font-size: 13px;
   font-weight: bold;
+   margin-top: 20px;
   
 }
 
@@ -203,14 +206,7 @@ footer h6 {
   }
 
 
-#container {
-  position: relative;
-  width: 80%
- 
 
-  margin: auto;
-
-}
   
   #lists {
     flex-direction: row;
@@ -259,11 +255,12 @@ footer h6 {
 
 #info2 {
  width: 100%;
+  font-size: px;
   margin-top: 40px;
   margin-left: -4px;
 }
   
-  #info2 p {
+  #info2  {
   text-align: center;
     margin-right: -20px;
   font-size: 19px;
@@ -271,11 +268,12 @@ footer h6 {
  
 }
 
-#info2 p span {
+
+  #info2 p  {
   font-size: 20px;
   font-weight: bold;
+    margin-left: 35px;
 }
-  
 article {
     
 }
@@ -289,7 +287,8 @@ article {
   }
 
  #info2 span {
- font-size: 15px;
+   margin-right: -60px;
+ font-size: 20px;
   font-weight: bold;
   }
 
