@@ -230,7 +230,7 @@ footer h6 {
   }
 
 #info2 p span {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 #info2 span p {
@@ -242,7 +242,7 @@ article {
 }
   
   article p {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     padding: 3rem;
     
@@ -251,7 +251,7 @@ article {
     text-align: left;
     flex: 1re,m;
     padding: 3rem;
-    font-size: 17px;
+    font-size: 20px;
   }
 
 }
