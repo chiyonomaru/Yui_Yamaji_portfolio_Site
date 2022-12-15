@@ -247,7 +247,7 @@ footer {
   #lists li:last-child {
     border-right: none;
   }
-
+ 
   main {
     flex-direction: row;
     margin-top: 3rem;
