@@ -25,7 +25,7 @@ header {
   position: relative;
   height: 4rem;
   
-  background-color: #40485;
+  background-color: rgba(255,255,255,0);
   color: white;
 }
 header h1 {
@@ -204,9 +204,7 @@ footer h6 {
 
 
 #container {
- 
   position: relative;
-
   width: 80%;
   max-width: 960px;
 
