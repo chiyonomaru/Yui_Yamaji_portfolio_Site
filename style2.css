@@ -26,7 +26,7 @@ body {
 
 header {
   position: relative;
-  height: 5rem;
+  height: 4rem;
 
   background-color: #404855;
   color: white;
@@ -56,11 +56,12 @@ header h1 {
   text-align:ceter;
 }
 #lists {
+  letter-spacing: 3px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   width: 100%;
   position: absolute;
-  top: 5rem;
+  top: 4rem;
   color: #fff;
   background-color: #fff;
   opacity: 0.85;
@@ -76,7 +77,6 @@ header h1 {
   
 }
 #lists a {
-   display: flex;
   display: block;
   font-size: 18px;
   padding: 1.4rem;
@@ -141,7 +141,7 @@ aside {
 
 #info p {
   
-    font-size: 14px;
+    font-size: 12px;
     color: #444;
   text-align:center;
 }
@@ -195,39 +195,30 @@ footer h6 {
 @media only screen and (min-width: 769px) {
 
   header {
-    height: 5rem;
-    ader h1 {
-    top: 2.5rem;
-    left: 0rem;
+    height: 5em;
+  }
+  header h1 {
+    top: 2.4rem;
+    left: -20.6rem;
     width: 100%;
     text-align: center;
     font-size: 1.5rem;
-      
   }
 
-  
-
-#container {
-  position: relative;
-  width: 80%;
-  max-width: 960px;
-  margin: auto;
-  color
-}
-  
-  #lists  {
+  #lists {
     flex-direction: row;
     justify-contet: space-between;
-    top: 7rem;
+    top: 5rem;
     left: 0;
 
     background-color: white;
   }
   #lists li {
-    
+    flex:1;
     border-bottom: none;
      display: block;
- 
+  padding: 12px 12px 12px 12px;
+  /*color: #778899;*/
   text-align: center;
    
   }
@@ -241,8 +232,8 @@ footer h6 {
   }
 
 .picbig img {
-  width: 50%;
-  margin: 70px;
+  width: 30%;
+  margin: 60px;
 
 }
   
