@@ -139,34 +139,43 @@ aside {
   }
 
 #info p {
-    font-size: 12px;
+    font-size: 18px;
     color: #444;
+  
 }
 
 
 #info2 p{
   color: #696969;
   margin: 40px;
+  font-size: 12px;
+  text-align: left;
+   margin-top: 20px;
 }
 
+
+
 #info2 span{
-  font-size: 11px;
+  font-size: 15px;
   font-weight: bold;
+  
 }
 
 article h1 {
-  text-align: center;
   
 }
 article p {
-  
+   color: #696969;
 }
 aside h1 {
-  height: 
+  height: 10px;
+  
 }
 aside p {
   margin-bottom: 1rem;
-   
+   font-size: 9px;
+  text-align: left;
+  
 }
 
 footer h6 {
@@ -219,15 +228,30 @@ footer h6 {
     flex-direction: row;
     margin-top: 3rem;
   }
-  article {
-    flex: 3;
+
+#info2 p span {
+  font-size: 20px;
+}
+
+#info2 span p {
+  font-size: 30px;
+}
+  
+article {
+    
+}
+  
+  article p {
+    font-size: 20px;
+    text-align: center;
     padding: 3rem;
-    font-size: 1rem;
+    
   }
-  aside {
-    flex: 1;
+  aside p {
+    text-align: left;
+    flex: 1re,m;
     padding: 3rem;
-    font-size: 1rem;
+    font-size: 17px;
   }
 
 }
