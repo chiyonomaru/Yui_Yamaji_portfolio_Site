@@ -17,18 +17,15 @@ body {
          LAYOUT MOBILE
 --------------------------------*/
 
-#container {
-  margin: auto;
-  
-}
+
 
 
 
 header {
   position: relative;
   height: 4rem;
-
-  background-color: #404855;
+  
+  background-color: #40485;
   color: white;
 }
 header h1 {
@@ -141,13 +138,13 @@ aside {
 
 #info p {
   
-    font-size: 12px;
+    font-size: 13px;
     color: #444;
   text-align:center;
 }
 
 
-#info2 p{
+#info2 p {
   color: #696969;
   margin: 40px;
   font-size: 12px;
@@ -184,8 +181,8 @@ footer h6 {
   
   padding: 1.5rem;
   text-align: center;
-  background-color: #404855;
-  color:white;
+  background-color: #40485;
+  color:444;
 }
 
 /*-------------------------------
@@ -205,6 +202,18 @@ footer h6 {
     font-size: 1.5rem;
   }
 
+
+#container {
+ 
+  position: relative;
+
+  width: 80%;
+  max-width: 960px;
+
+  margin: auto;
+
+}
+  
   #lists {
     flex-direction: row;
     justify-contet: space-between;
@@ -249,7 +258,9 @@ footer h6 {
 }
   
   #info2 p {
-  font-size: 20px;
+  width: 80%;
+  text-align: left;
+  font-size: 19px;
  color: #696969
     
 }
@@ -272,8 +283,15 @@ article {
   }
 
    #info2 span {
-     
+      margin: 90px;
+  font-size: 12px;
+  text-align: left;
+   margin-top: 20px;
     font-size: px;
+  }
+
+  #info2 p span{
+    
   }
   aside p {
     text-align: left;
