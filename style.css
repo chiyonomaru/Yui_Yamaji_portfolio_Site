@@ -22,9 +22,7 @@ body {
   
 }
 
-ul li {
-  display: flex;
-}
+
 
 header {
   position: relative;
@@ -266,4 +264,3 @@ footer {
   }
 
 }
-  
