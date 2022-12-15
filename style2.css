@@ -243,36 +243,37 @@ footer h6 {
   margin: 60px;
 
 }
-  #info {
-    width: 100%;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 10px;
-    color: #696969
-  }
-
-
-#info2 {
- width: 100%;
+  
+#info span {
+  font-size: 20px;
+  margin-right: -40px;
+  color: #696969
+  width: 100%;
   
 }
   
+  #info p  {
+  font-size: 25px;
+  
+}
+
+#info2 {
+ width: 100%;
+  margin-top: 40px;
+  margin-left: -4px;
+}
+  
   #info2 p {
-  margin-top: -10px;
-  width: 89%;
   text-align: center;
-    
+    margin-right: -20px;
   font-size: 19px;
- color: #696969
-    
+  color: #696969
+ 
 }
 
 #info2 p span {
   font-size: 20px;
-  width: 80%;
-  margin-left: -34px;
-  
+  font-weight: bold;
 }
   
 article {
@@ -282,27 +283,21 @@ article {
   article p {
     font-size: 30px;
     text-align: center;
-    padding: 3rem;
-    margin-right: 20px;
+    
+    
     
   }
 
-   #info2 span {
-      margin: 90px;
-  font-size: 12px;
-  text-align: center;
-   margin-top: 20px;
-    font-size: px;
+ #info2 span {
+ font-size: 15px;
+  font-weight: bold;
   }
 
-  #info2 p span{
-    
-  }
   aside p {
     text-align: center;
     flex: 2rem 0;
     padding: rem;
-    font-size: 17px;
+    font-size: 16px;
   }
 
 }
