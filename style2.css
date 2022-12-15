@@ -26,7 +26,7 @@ body {
 
 header {
   position: relative;
-  height: 4rem;
+  height: 5rem;
 
   background-color: #404855;
   color: white;
@@ -57,7 +57,7 @@ header h1 {
 }
 #lists {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   width: 100%;
   position: absolute;
   top: 5rem;
@@ -76,6 +76,7 @@ header h1 {
   
 }
 #lists a {
+   display: flex;
   display: block;
   font-size: 18px;
   padding: 1.4rem;
@@ -194,30 +195,39 @@ footer h6 {
 @media only screen and (min-width: 769px) {
 
   header {
-    height: 5em;
-  }
-  header h1 {
-    top: 2.4rem;
-    left: -20.6rem;
+    height: 5rem;
+    ader h1 {
+    top: 2.5rem;
+    left: 0rem;
     width: 100%;
     text-align: center;
     font-size: 1.5rem;
+      
   }
 
-  #lists {
+  
+
+#container {
+  position: relative;
+  width: 80%;
+  max-width: 960px;
+  margin: auto;
+  color
+}
+  
+  #lists  {
     flex-direction: row;
     justify-contet: space-between;
-    top: 5rem;
+    top: 7rem;
     left: 0;
 
     background-color: white;
   }
   #lists li {
-    flex:1;
+    
     border-bottom: none;
      display: block;
-  padding: 12px 12px 12px 12px;
-  /*color: #778899;*/
+ 
   text-align: center;
    
   }
@@ -230,6 +240,12 @@ footer h6 {
     margin-top: 3rem;
   }
 
+.picbig img {
+  width: 50%;
+  margin: 70px;
+
+}
+  
 #info p  {
   font-size: 25px;
 }
