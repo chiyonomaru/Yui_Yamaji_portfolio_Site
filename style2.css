@@ -203,6 +203,15 @@ footer h6 {
   }
 
 
+#container {
+  position: relative;
+  width: 80%
+ 
+
+  margin: auto;
+
+}
+  
   #lists {
     flex-direction: row;
     justify-contet: space-between;
@@ -243,11 +252,11 @@ footer h6 {
 
 #info2 {
  width: 100%;
-  margin-top: 10px;
 }
   
   #info2 p {
-  width: 80%;
+
+  width: 89%;
   text-align: center;
   font-size: 19px;
  color: #696969
@@ -274,7 +283,7 @@ article {
    #info2 span {
       margin: 90px;
   font-size: 12px;
-  text-align: left;
+  text-align: center;
    margin-top: 20px;
     font-size: px;
   }
@@ -284,8 +293,8 @@ article {
   }
   aside p {
     text-align: center;
-    flex: 1re,m;
-    padding: 3rem;
+    flex: 2rem 0;
+    padding: rem;
     font-size: 17px;
   }
 
