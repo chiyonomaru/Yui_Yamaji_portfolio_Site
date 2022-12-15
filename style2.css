@@ -238,16 +238,25 @@ footer h6 {
 }
   
 #info p  {
+  color: #696969
   font-size: 25px;
-}
-
   
-  #info2 p span {
-  font-size: 30px;
 }
 
-#info2 span p {
-  font-size: 30px;
+#info2 {
+ width: 100%;
+  margin-top: 10px;
+}
+  
+  #info2 p {
+  font-size: 20px;
+ color: #696969
+    
+}
+
+#info2 p span {
+  font-size: 25px;
+  
 }
   
 article {
@@ -259,12 +268,18 @@ article {
     text-align: center;
     padding: 3rem;
     
+    
+  }
+
+   #info2 span {
+     
+    font-size: px;
   }
   aside p {
     text-align: left;
     flex: 1re,m;
     padding: 3rem;
-    font-size: 20px;
+    font-size: 17px;
   }
 
 }
