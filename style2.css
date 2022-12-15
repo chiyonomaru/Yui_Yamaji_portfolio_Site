@@ -136,7 +136,7 @@ aside {
     margin-left: 0px;
   }
 
-#info p {
+#pro p {
   
     font-size: 13px;
     color: #444;
@@ -144,7 +144,7 @@ aside {
 }
 
 
-#info2 p {
+#pro2 p {
   color: #696969;
   margin: 40px;
   font-size: 12px;
@@ -154,7 +154,7 @@ aside {
 
 
 
-#info2 span{
+#pro2 span{
   font-size: 15px;
   font-weight: bold;
   
@@ -244,17 +244,17 @@ footer h6 {
 
 }
   
-#info p  {
+#pro p  {
   color: #696969
   font-size: 25px;
   
 }
 
-#info2 {
+#pro2 {
  width: 100%;
 }
   
-  #info2 p {
+  #pro2 p {
 
   width: 89%;
   text-align: center;
@@ -263,7 +263,7 @@ footer h6 {
     
 }
 
-#info2 p span {
+#pro2 p span {
   font-size: 25px;
   
 }
@@ -280,7 +280,7 @@ article {
     
   }
 
-   #info2 span {
+   #pro2 span {
       margin: 90px;
   font-size: 12px;
   text-align: center;
@@ -288,7 +288,7 @@ article {
     font-size: px;
   }
 
-  #info2 p span{
+  #pro2 p span{
     
   }
   aside p {
