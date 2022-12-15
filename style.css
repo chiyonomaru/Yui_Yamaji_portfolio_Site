@@ -22,7 +22,9 @@ body {
   
 }
 
-
+ul li {
+  display: flex;
+}
 
 header {
   position: relative;
@@ -140,10 +142,10 @@ article {
 }
 
 .picbig img {
-  width: 70%;
+  width: 30%;
   height: 50%;
   margin: 80px 50px 40px 50px;
-
+  display: flex;
 }
 
 aside {
