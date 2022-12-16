@@ -112,7 +112,7 @@ article {
 
 .picbig img {
   width: 50%;
-  margin: 60px;
+  margin: 40px;
 
 }
 
@@ -137,10 +137,9 @@ aside {
   }
 
 #info span {
-  margin-top: -20px;
     font-size: 14px;
     color: #444;
-  text-align:center;
+  text-align: left;
 }
 
 #info {
@@ -163,6 +162,14 @@ aside {
   
 }
 
+
+#info2 p {
+  font-size: 11px;
+  margin-top: 20px;
+  
+}
+
+
 article h1 {
   
 }
@@ -176,6 +183,7 @@ aside h1 {
 aside p {
   margin-bottom: 1rem;
    font-size: 9px;
+  margin-right: 80px;
   text-align: left;
   
 }
