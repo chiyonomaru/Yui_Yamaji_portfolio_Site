@@ -184,16 +184,16 @@ aside p {
   margin-bottom: 1rem;
    font-size: 9px;
   margin-right: 80px;
+  color: #444;
   text-align: left;
   
 }
 
 footer h6 {
-  
+  color: #fff;
   padding: 1.5rem;
   text-align: center;
-  background-color: #40485;
-  color:444;
+  background-color: #404855;
 }
 
 /*-------------------------------
@@ -261,16 +261,11 @@ margin-top: 6rem;
   
 }
 
-#info2 {
- width: 100%;
-  font-size: px;
-  margin-top: 40px;
-  margin-left: -4px;
-}
+
   
   #info2  {
+  margin-left: px;
   text-align: center;
-    margin-right: 20px;
   font-size: 19px;
   color: #696969
  
@@ -278,9 +273,10 @@ margin-top: 6rem;
 
 
   #info2 p  {
+    margin-right: 0px;
+  text-align: center;
   font-size: 20px;
   font-weight: bold;
-    margin-left: 35px;
 }
 article {
     
@@ -295,13 +291,14 @@ article {
   }
 
  #info2 span {
-   margin-right: -60px;
+   margin-right: -0px;
  font-size: 20px;
   font-weight: bold;
   }
 
   aside p {
     text-align: center;
+    margin-right: -0px;
     flex: 2rem 0;
     padding: rem;
     font-size: 16px;
