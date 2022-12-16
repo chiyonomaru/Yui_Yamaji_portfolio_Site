@@ -91,7 +91,7 @@ nav ul {
   color: #444;
   text-decoration: none;
   text-align: center;
-  margin-top: 1px;
+  margin-top: -1px;
 }
 
 main {
@@ -196,7 +196,7 @@ h1 {
 
 
 article h1 {
-  margin-top: 1rem;
+  margin-top: 3rem;
   text-align: center;
   
 }
@@ -305,9 +305,8 @@ footer {
   }
 
 aside p {
-    text-align: left;
-    flex: 1;
-    margin-top: -2px;
+    text-align: center;
+    margin-top: 1rem;
     font-size: 17px;
   }
   
