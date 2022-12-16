@@ -244,20 +244,20 @@ footer h6 {
 
 .picbig img {
   width: 30%;
-  margin: 60px;
+  margin: 0px;
 margin-top: 6rem;
 }
   
-#info span {
+#info  {
+  margin-top: 40px;
   font-size: 20px;
-  margin-right: -40px;
   color: #696969
-  width: 100%;
   
 }
   
-  #info p  {
-  font-size: 25px;
+  #info span  {
+  font-size: 20px;
+  text-align: center;
   
 }
 
@@ -270,7 +270,7 @@ margin-top: 6rem;
   
   #info2  {
   text-align: center;
-    margin-right: -20px;
+    margin-right: 20px;
   font-size: 19px;
   color: #696969
  
