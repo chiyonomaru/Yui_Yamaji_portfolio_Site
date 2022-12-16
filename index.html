@@ -1,65 +1,303 @@
+/*-------------------------------
+               BASE
+--------------------------------*/
 
-<!DOCTYPE html>
-<html lang="ja">
+* {
+  margin: 0;
+  padding: 0;
+}
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="jquery-3.2.1.min.js"></script>
-  <script src="script.js" defer></script>
-  <link href="style.css" rel="stylesheet" >
-  <link rel="stylesheet" type="text/css" href="css/4-1-1.css">
-  <title>Portfolio Site</title>
-</head>
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  background-color: white;
+}
 
-<body>
+/*-------------------------------
+         LAYOUT MOBILE
+--------------------------------*/
 
-  <div id="container">
+
+
+
+
+header {
+  position: relative;
+  height: 4rem;
   
+  background-color: #404855;
+  color: white;
+}
+header h1 {
+  position: absolute;
+  top: 1.9rem;
+  left: 2rem;
+  font-size: 1.2rem;
+}
 
-    <header>
-      <div class=logo>
-    <a href="index.html">
-          <img src="images/site.png" height="120" alt="sample site">
-        </a>
-      <div id="button">
-        <img src="images/icon (1).png" width="30px">
-      </div>
-      <nav>
-         <ul id="lists">
-          <li><a href="2.html">POSTER</a></li>
-          <li><a href="3.html">ROGO</a></li>
-          <li> <a href="#">WEB</a></li>
-          <li><a href="#">ILLUST</a></li>
-         
-        </ul>
-      </nav>
-    </header>
+#button {
+  position: absolute;
+  top: -0.5rem;
+  right: 1rem;
+}
+#button a {
+  color:#FFF;
+}
+#button img {
+  cursor: pointer;
+  width: 1.8rem;
+}
+
+.logo img {
+   margin: -25px -87px -37px -40px;
+  text-align:ceter;
+}
+#lists {
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  top: 4rem;
+  color: #fff;
+  background-color: #fff;
+  opacity: 0.85;
+}
+#lists li {
+  width: 100%;
+  border-bottom: 1px solid #444;
+  list-style-type: none;
+  font-size: 80%;
+}
+#lists li:last-child {
+  border-bottom: none;
+  
+}
+#lists a {
+  display: block;
+  font-size: 18px;
+  padding: 1.4rem;
+  color: #444;
+  text-decoration: none;
+  text-align: center;
+  margin-top: -1px;
+}
+
+main {
+  margin-bottom: 1px;
+  padding: 20px 0 0 0;
+  margin: 0 auto;
+  flex-direction: column;
+}
+article {
+  text-align: justify;
+  font-size: 0.85rem;
+  background-color: #fff;
+}
+
+#page {
+  display: fex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #fff;
+  
+}
+
+#pic {
+  width: 10%;
+  height: auto;
+}
+
+.picbig img {
+  width: 50%;
+  margin: 60px;
+
+}
+
+aside {
+  padding: 2rem;
+  text-align: center;
+  font-size: 0.85rem;
+  background-color: #EE;
+}
+
+
+ #pic {
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-left: 0;
+  }
+
+
+  #pic2 {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+#info span {
+  margin-top: -20px;
+    font-size: 14px;
+    color: #444;
+  text-align:center;
+}
+
+#info {
+  
+}
+#info2  {
+  color: #696969;
+  margin: 40px;
+  font-size: 9px;
+  text-align: left;
+   margin-top: 20px;
+}
+
+
+
+#info2 span {
+  font-size: 13px;
+  font-weight: bold;
+   margin-top: 20px;
+  
+}
+
+article h1 {
+  
+}
+article p {
+   color: #696969;
+}
+aside h1 {
+  height: 10px;
+  
+}
+aside p {
+  margin-bottom: 2rem;
+   font-size: 8px;
+  text-align: left;
+  margin: auto;
+  
+}
+
+footer h6 {
+  
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #40485;
+  color:444;
+}
+
+/*-------------------------------
+      LAYOUT PC (OverWrite)
+--------------------------------*/
+
+@media only screen and (min-width: 769px) {
+
+  header {
+    height: 5em;
+  }
+  header h1 {
+    top: 2.4rem;
+    left: -20.6rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+
+
+  
+  #lists {
+    flex-direction: row;
+    justify-contet: space-between;
+    top: 5rem;
+    left: 0;
+
+    background-color: white;
+  }
+  #lists li {
+    flex:1;
+    border-bottom: none;
+     display: block;
+  padding: 12px 12px 12px 12px;
+  /*color: #778899;*/
+  text-align: center;
+   
+  }
+  #lists li:last-child {
+    border-right: none;
+  }
+
+  main {
+    flex-direction: row;
+    margin-top: 3rem;
+  }
+
+.picbig img {
+  width: 30%;
+  margin: 60px;
+margin-top: 6rem;
+}
+  
+#info span {
+  font-size: 20px;
+  margin-right: -40px;
+  color: #696969
+  width: 100%;
+  
+}
+  
+  #info p  {
+  font-size: 25px;
+  
+}
+
+#info2 {
+ width: 100%;
+  font-size: px;
+  margin-top: 40px;
+  margin-left: -4px;
+}
+  
+  #info2  {
+  text-align: center;
+    margin-right: -20px;
+  font-size: 19px;
+  color: #696969
+ 
+}
+
+
+  #info2 p  {
+  font-size: 20px;
+  font-weight: bold;
+    margin-left: 35px;
+}
+article {
+    
+}
+  
+  article p {
+    font-size: 30px;
+    text-align: center;
       
-<img src="images/site.png" width="100%" alt="" id="main">
+    
+    
+  }
 
-    <div id="wrapper">
-  
-      <article>
-        <h1>Home</h1>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum a diam vitae congue. Curabitur sed egestas erat. Donec facilisis tristique elit, nec consequat erat consectetur sit amet. Morbi in dictum nulla, nec malesuada odio. Cras euismod orci vitae lectus bibendum, non mattis magna posuere. Pellentesque mi est, vulputate a orci quis, lobortis rutrum dui. Fusce commodo enim vel ultrices hendrerit. Curabitur lobortis velit et purus finibus tincidunt non sed est. Maecenas ac justo aliquet, consectetur ipsum a, imperdiet odio. Nam consectetur eros et ex viverra, ullamcorper venenatis sapien pharetra.</p>
-        <p>Morbi at magna eu dui consectetur convallis at vitae odio. Suspendisse sollicitudin lobortis tellus, eget varius augue fringilla sit amet. Etiam ligula odio, lacinia non erat quis, cursus iaculis mi. Vestibulum efficitur ante eu tellus fringilla, imperdiet pretium ex scelerisque. Quisque ornare scelerisque ligula, nec varius dolor malesuada quis. Nullam eleifend tortor sapien, sit amet vestibulum massa finibus ut. Ut ut ipsum eros. Etiam euismod eros non libero viverra lobortis. </p>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum a diam vitae congue. Curabitur sed egestas erat. Donec facilisis tristique elit, nec consequat erat consectetur sit amet. Morbi in dictum nulla, nec malesuada odio. Cras euismod orci vitae lectus bibendum, non mattis magna posuere. Pellentesque mi est, vulputate a orci quis, lobortis rutrum dui. Fusce commodo enim vel ultrices hendrerit. Curabitur lobortis velit et purus finibus tincidunt non sed est. Maecenas ac justo aliquet, consectetur ipsum a, imperdiet odio. Nam consectetur eros et ex viverra, ullamcorper venenatis sapien pharetra.</p>
-      </article>
+ #info2 span {
+   margin-right: -60px;
+ font-size: 20px;
+  font-weight: bold;
+  }
 
-      <aside>
-        <h1>aside</h1>
-        <p>Morbi at magna eu dui consectetur convallis at vitae odio. Suspendisse sollicitudin lobortis tellus, eget varius augue fringilla sit amet. Etiam ligula odio, lacinia non erat quis, cursus iaculis mi. </p>
-        <p>finibus tincidunt non sed est. Maecenas ac justo aliquet, consectetur ipsum a, imperdiet odio. Nam consectetur eros et ex viverra, ullamcorper venenatis sapien pharetra.</p>
-      </aside>
+  aside p {
+    text-align: center;
+    flex: 2rem 0;
+    padding: rem;
+    font-size: 16px;
+  }
 
-    </main>
-
-    <footer>
-      <h6>&copy; http://www.example.com</h6>
-    </footer>
-
-  </div>
-  <script src="自作のjs"></script> 
-</body>
-</html>
+}
