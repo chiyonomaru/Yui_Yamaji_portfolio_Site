@@ -17,16 +17,14 @@ body {
          LAYOUT MOBILE
 --------------------------------*/
 
-#container {
-  margin: auto;
-  
-}
+
 
 
 
 header {
   position: relative;
   height: 4rem;
+  
   background-color: #404855;
   color: white;
 }
@@ -54,22 +52,13 @@ header h1 {
    margin: -25px -87px -37px -40px;
   text-align:ceter;
 }
-nav ul {
-    color: white;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    margin: 0 0px px 1px;
-   
-}
-
 #lists {
   letter-spacing: 3px;
   display: flex;
   flex-direction: column;
   width: 100%;
   position: absolute;
-  top: rem;
+  top: 4rem;
   color: #fff;
   background-color: #fff;
   opacity: 0.85;
@@ -95,41 +84,18 @@ nav ul {
 }
 
 main {
+  margin-bottom: 1px;
+  padding: 20px 0 0 0;
+  margin: 0 auto;
   flex-direction: column;
 }
 article {
-  
-  padding: 2rem;
   text-align: justify;
   font-size: 0.85rem;
   background-color: #fff;
 }
 
-#gallery {
-  width: 100%;
-  left: 10% 
-  display: flex;
-  filter: 0;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-
-.image {
-  width: 200px;
-  heght: 20px;
- margin:0 auto;
-  margin-top: 30px;
-  background-color: #fff;
-}
-
-.thumb {
-  width: 200px;
-  height: 280px;
-}
-
 #page {
-   margin-bottom: 5rem;
   display: fex;
   text-align: center;
   flex-direction: column;
@@ -145,18 +111,14 @@ article {
 }
 
 .picbig img {
-  width: 30%;
-  height: 50%;
-  margin: 80px 50px 40px 50px;
-  display: flex;
+  width: 50%;
+  margin: 40px;
+
 }
 
 aside {
-  margin: -90px 50px -0px 50px;
-  padding: 2rem;
+  padding: 2rem
   text-align: center;
-  font-size: 0.85rem;
-  background-color: #EE;
 }
 
 
@@ -172,54 +134,77 @@ aside {
     margin-left: 0px;
   }
 
-#info p {
+#info  {
+   margin-top: 10px;
     font-size: 12px;
     color: #444;
+  margin-left: 30px;
 }
 
-
-#info2 p{
+#info span {
+  margin-top: 30px;
+}
+#info2  {
   color: #696969;
   margin: 40px;
-}
-
-#info2 span{
-  font-size: 11px;
-  font-weight: bold;
-}
-
-h1 {
+  font-size: 9px;
   text-align: left;
-  color: #696969;
-  margin-top: 3rem;
+   margin-top: 20px;
+}
+
+
+
+#info2 span {
+  font-size: 13px;
+  font-weight: bold;
+   margin-top: 10px;
+}
+
+
+#info2 p {
+  font-size: 11px;
+  margin-top: 20px;
+  
 }
 
 
 article h1 {
-  margin-top: 3rem;
-  text-align: center;
   
 }
 article p {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-}
-aside h1 {
-　margin-bottom: 5rem;
-　margin-top: 3rem;
-}
-aside p {
-  margin-top: 1rem;
-  text-align: left;
-  color: #696969;
+   color: #696969;
 }
 
-footer {
-  margin-top: 4rem;
+#info2  {
+  margin: 0px 20px -0px 50px;
+  padding: 2rem; 
+  font-size: 0.85rem;
+  background-color: #EE;
+}
+
+
+#info2 p  {
+  font-size: 12px;
+   margin: -20px 20px 0px 0px;
+}
+
+aside h1 {
+  height: 30px;
+  
+}
+aside p {
+   margin: 0px 20px -0px 80px;
+   font-size: 9px;
+  color: #696969;
+  height: 100px;
+  
+}
+
+footer h6 {
+  color: #fff;
   padding: 1.5rem;
   text-align: center;
   background-color: #404855;
-  color:white;
 }
 
 /*-------------------------------
@@ -239,10 +224,13 @@ footer {
     font-size: 1.5rem;
   }
 
+
+
+  
   #lists {
     flex-direction: row;
     justify-contet: space-between;
-    top: 6rem;
+    top: 5rem;
     left: 0;
 
     background-color: white;
@@ -259,56 +247,72 @@ footer {
   #lists li:last-child {
     border-right: none;
   }
- 
+
   main {
-    height: 800px;
     flex-direction: row;
     margin-top: 3rem;
   }
-  article {
-    flex: 3;
-    padding: 3rem;
-    font-size: 1rem;
-  }
-  
-#gallery {
-  margin:auto;
-  margin-top: 70px;
-  width: 600px;
-  outline: none;
-　border: none;
-  display: flex;
-  justify-content: space-around;
+
+.picbig img {
+  width: 30%;
+  margin: 0px;
+margin-top: 6rem;
 }
-
-
   
-.image a {
-  margin-top: 80px;
+#info  {
+  margin-top: 40px;
+  font-size: 20px;
+  color: #696969
+  
+}
+  
+  #info span  {
+  font-size: 20px;
   text-align: center;
-  heght:px;
+  
 }
 
 
-  h1 {
-     text-align: center;
-    margin: 30px;
-    font-size: 25px;
-    margin: 120px 0 0 0;
+  
+  #info2  {
+  margin-left: px;
+  text-align: center;
+  font-size: 19px;
+  color: #696969
+ 
 }
 
-  aside h1 {
-    margin-top: 
-    text-align: left;
-    flex: 1;
-    font-size: 17px;
-  }
 
-aside p {
+  #info2 p  {
+    margin-right: 0px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+article {
+    
+}
+  
+  article p {
+    font-size: 30px;
     text-align: center;
-    margin-top: 1rem;
-    font-size: 17px;
+      
+    
+    
   }
-  
+
+ #info2 span {
+   margin-right: -0px;
+ font-size: 20px;
+  font-weight: bold;
+  }
+
+  aside p {
+    text-align: center;
+    margin-right: -0px;
+    flex: 2rem 0;
+    padding: rem;
+    font-size: 16px;
+  }
+
 }
-  
