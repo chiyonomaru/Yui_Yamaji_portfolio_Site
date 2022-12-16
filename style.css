@@ -265,8 +265,7 @@ footer {
 #gallery {
   margin:auto;
   margin-top: 70px;
-  width:39%;
-  heght: 10px;
+  width: 600px;
   outline: none;
 　border: none;
   display: flex;
