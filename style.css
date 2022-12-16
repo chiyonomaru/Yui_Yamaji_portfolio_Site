@@ -291,9 +291,7 @@ footer {
 }
 
   aside {
-    width: 690px;
-    text-align: left;
-    margin-left: 300px;
+    text-align: center;
     flex: 1;
     padding: 2rem;
     font-size: 17px;
