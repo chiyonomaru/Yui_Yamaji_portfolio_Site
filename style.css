@@ -297,17 +297,17 @@ footer {
     margin: 120px 0 0 0;
 }
 
-  aside {
+  aside h1 {
+    margin-top: 
     text-align: left;
     flex: 1;
-    padding: 2rem;
     font-size: 17px;
   }
 
 aside p {
-    text-align: center;
+    text-align: left;
     flex: 1;
-    margin-top: 20px;
+    margin-top: -2px;
     font-size: 17px;
   }
   
