@@ -252,6 +252,7 @@ footer {
   }
  
   main {
+    height: 700px;
     flex-direction: row;
     margin-top: 3rem;
   }
@@ -260,6 +261,11 @@ footer {
     padding: 3rem;
     font-size: 1rem;
   }
+.image {
+   display: flex;
+  left: -15%;
+}
+  
   aside {
     flex: 1;
     padding: 3rem;
