@@ -117,7 +117,9 @@ article {
 
 .image {
   width: 200px;
+  heght: 20px;
  margin:0 auto;
+  margin-top: 30px;
   background-color: #fff;
 }
 
@@ -186,13 +188,19 @@ aside {
   font-weight: bold;
 }
 
+h1 {
+  text-align: left;
+  color: #696969;
+  margin-top: 3rem;
+}
+
+
 article h1 {
-  
+  margin-top: 3rem;
   text-align: center;
   
 }
 article p {
-   padding:px;
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
@@ -201,12 +209,13 @@ aside h1 {
 　margin-top: 3rem;
 }
 aside p {
-  margin-bottom:rem;
   margin-top: 1rem;
+  text-align: left;
+  color: #696969;
 }
 
 footer {
-  
+  margin-top: 4rem;
   padding: 1.5rem;
   text-align: center;
   background-color: #404855;
@@ -233,7 +242,7 @@ footer {
   #lists {
     flex-direction: row;
     justify-contet: space-between;
-    top: 5rem;
+    top: 6rem;
     left: 0;
 
     background-color: white;
@@ -269,8 +278,6 @@ footer {
   outline: none;
 　border: none;
   display: flex;
-  filter: 0;
-  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -279,23 +286,30 @@ footer {
 .image a {
   margin-top: 80px;
   text-align: center;
-  width: 10px;
   heght:px;
 }
 
 
   h1 {
+     text-align: center;
     margin: 30px;
     font-size: 25px;
-    margin: 124px 0 0 0;
+    margin: 120px 0 0 0;
 }
 
   aside {
-    text-align: center;
+    text-align: left;
     flex: 1;
     padding: 2rem;
     font-size: 17px;
   }
 
+aside p {
+    text-align: center;
+    flex: 1;
+    margin-top: 20px;
+    font-size: 17px;
+  }
+  
 }
   
