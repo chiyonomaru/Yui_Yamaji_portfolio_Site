@@ -260,24 +260,19 @@ footer h6 {
   margin-bottom: 20px;
 }
   
-#info  {
-  margin-top: 40px;
+
+  
+  #info  {
+  margin: 20px 0px -0px 10px;
   font-size: 20px;
-  color: #696969
-  
-}
-  
-  #info span  {
-  font-size: 20px;
-  text-align: center;
-  
+   font-weight: bold;
 }
 
 
   
   #info2  {
-  margin-left: px;
-  text-align: center;
+  text-align: center; 
+  margin: 20px 0px -0px 10px;
   font-size: 19px;
   color: #696969
  
@@ -285,11 +280,14 @@ footer h6 {
 
 
   #info2 p  {
-    margin-right: 0px;
-  text-align: center;
-  font-size: 20px;
+  text-justify: inter-ideograph;
+  text-align: center; 
+  margin: 10px 0px -0px 0px;
+  font-size: 15px; 
   font-weight: bold;
 }
+
+  
 article {
     
 }
@@ -297,18 +295,16 @@ article {
   article p {
     font-size: 30px;
     text-align: center;
-      
-    
-    
   }
 
  #info2 span {
-   margin-right: -0px;
- font-size: 20px;
-  font-weight: bold;
+text-align: left;
+  font-size: 20px;
+ font-weight: bold;
   }
 
   aside p {
+    margin: 20px 0px -0px 10px;
     text-align: center;
     margin-right: -0px;
     flex: 2rem 0;
