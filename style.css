@@ -247,10 +247,20 @@ footer {
   color:white;
 }
 
- #page-top {
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: -50px;
+
+  opacity: 0.6;
+  border-radius: 50%;
+   
     bottom: 20px;
     right: 10px;
-  }
+}
+
 
   .top {
     width: 35px;
