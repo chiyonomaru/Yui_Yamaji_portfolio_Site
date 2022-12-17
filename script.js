@@ -35,34 +35,28 @@ $(window).on('load',function(){
 
 ////////////////////////////////////////////////
 
-//スクロールした際の動きを関数でまとめる
-function PageTopAnime() {
-	var scroll = $(window).scrollTop();
-	if (scroll >= 200){//上から200pxスクロールしたら
-		$('#page-top').removeClass('DownMove');//#page-topについているDownMoveというクラス名を除く
-		$('#page-top').addClass('UpMove');//#page-topについているUpMoveというクラス名を付与
-	}else{
-		if($('#page-top').hasClass('UpMove')){//すでに#page-topにUpMoveというクラス名がついていたら
-			$('#page-top').removeClass('UpMove');//UpMoveというクラス名を除き
-			$('#page-top').addClass('DownMove');//DownMoveというクラス名を#page-topに付与
-		}
-	}
-}
-
-// 画面をスクロールをしたら動かしたい場合の記述
-$(window).scroll(function () {
-	PageTopAnime();/* スクロールした際の動きの関数を呼ぶ*/
-});
-
-// ページが読み込まれたらすぐに動かしたい場合の記述
-$(window).on('load', function () {
-	PageTopAnime();/* スクロールした際の動きの関数を呼ぶ*/
-});
-
-// #page-topをクリックした際の設定
-$('#page-top a').click(function () {
-    $('body,html').animate({
-        scrollTop: 0//ページトップまでスクロール
-    }, 500);//ページトップスクロールの速さ。数字が大きいほど遅くなる
-    return false;//リンク自体の無効化
+jQuery(function() {
+  var appear = false;
+  var pagetop = $('#page_top');
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {  //100pxスクロールしたら
+      if (appear == false) {
+        appear = true;
+        pagetop.stop().animate({
+          'bottom': '50px' //下から50pxの位置に
+        }, 300); //0.3秒かけて現れる
+      }
+    } else {
+      if (appear) {
+        appear = false;
+        pagetop.stop().animate({
+          'bottom': '-50px' //下から-50pxの位置に
+        }, 300); //0.3秒かけて隠れる
+      }
+    }
+  });
+  pagetop.click(function () {
+    $('body, html').animate({ scrollTop: 0 }, 500); //0.5秒かけてトップへ戻る
+    return false;
+  });
 });
