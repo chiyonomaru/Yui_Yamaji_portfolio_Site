@@ -24,7 +24,7 @@ body {
 header {
   position: relative;
   height: 4rem;
-  
+  width: 100%;
   background-color: #404855;
   color: white;
 }
@@ -215,6 +215,7 @@ footer h6 {
 
   header {
     height: 5em;
+    width: 100%;
   }
   header h1 {
     top: 2.4rem;
@@ -254,9 +255,9 @@ footer h6 {
   }
 
 .picbig img {
-  width: 30%;
-  margin: 0px;
-margin-top: 6rem;
+  width: 20%;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
   
 #info  {
