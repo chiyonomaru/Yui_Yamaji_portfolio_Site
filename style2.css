@@ -271,7 +271,7 @@ footer h6 {
 
   
   #info2  {
-  text-align: center; 
+  text-align: left; 
   margin: 0px 0px -0px 20px;
   font-size: 15px;
   color: #696969
@@ -282,7 +282,8 @@ footer h6 {
   #info2 p  {
   text-justify: inter-ideograph;
   text-align: center; 
-  margin: 10px 0px 40px 0px;
+  margin-left: 2px;
+   
   font-size: 12px; 
   font-weight: bold;
 }
