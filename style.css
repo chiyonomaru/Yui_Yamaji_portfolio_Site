@@ -314,6 +314,7 @@ footer {
   }
  
   main {
+    height: 950px;
     flex-direction: row;
     margin-top: 3rem;
   }
