@@ -17,14 +17,41 @@ body {
          LAYOUT MOBILE
 --------------------------------*/
 
+#container {
+  margin: auto;
+  
+}
+
+#loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  width: 100vw;
+  height: 100vh;
+  background: #686868
+}
 
 
+#loading_inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+
+#loading img{
+  max-width: 200px;
+}
 
 
 header {
   position: relative;
   height: 4rem;
-  width: 100%;
   background-color: #404855;
   color: white;
 }
@@ -52,13 +79,22 @@ header h1 {
    margin: -25px -87px -37px -40px;
   text-align:ceter;
 }
+nav ul {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0px px 1px;
+   
+}
+
 #lists {
   letter-spacing: 3px;
   display: flex;
   flex-direction: column;
   width: 100%;
   position: absolute;
-  top: 4rem;
+  top: rem;
   color: #fff;
   background-color: #fff;
   opacity: 0.85;
@@ -84,19 +120,41 @@ header h1 {
 }
 
 main {
-  margin-bottom: 2px;
-  padding: 20px 0 0 0;
   flex-direction: column;
-
 }
 article {
-  height
+  
+  padding: 2rem;
   text-align: justify;
   font-size: 0.85rem;
   background-color: #fff;
 }
 
+#gallery {
+  width: 100%;
+  left: 10% 
+  display: flex;
+  filter: 0;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.image {
+  width: 200px;
+  heght: 20px;
+ margin:0 auto;
+  margin-top: 30px;
+  background-color: #fff;
+}
+
+.thumb {
+  width: 200px;
+  height: 280px;
+}
+
 #page {
+   margin-bottom: 5rem;
   display: fex;
   text-align: center;
   flex-direction: column;
@@ -112,14 +170,18 @@ article {
 }
 
 .picbig img {
-  width: 50%;
-  margin: 20px;
-
+  width: 30%;
+  height: 50%;
+  margin: 80px 50px 40px 50px;
+  display: flex;
 }
 
 aside {
-  padding: 2rem
+  margin: -90px 50px -0px 50px;
+  padding: 2rem;
   text-align: center;
+  font-size: 0.85rem;
+  background-color: #EE;
 }
 
 
@@ -135,84 +197,84 @@ aside {
     margin-left: 0px;
   }
 
-#info  {
-   margin-top: 2px;
-    font-size: 11px;
+#info p {
+    font-size: 12px;
     color: #444;
-  margin-left: 20px;
 }
 
-#info span {
-  margin-top: 40px;
-}
-#info2  {
+
+#info2 p{
   color: #696969;
-  margin: 35px;
-  font-size: 12px;
-  text-align: left;
-   margin-top: 20px;
-  margin-right: 13px;
+  margin: 40px;
 }
 
-
-
-#info2 span {
-  font-size: 13px;
-  font-weight: bold;
-   margin-top: 10px;
-}
-
-
-#info2 p {
+#info2 span{
   font-size: 11px;
-  margin-top: 20px;
-  
+  font-weight: bold;
+}
+
+h1 {
+  text-align: left;
+  color: #696969;
+  margin-top: 3rem;
 }
 
 
 article h1 {
+  margin-top: 3rem;
+  text-align: center;
   
 }
 article p {
-   color: #696969;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
-
-#info2  {
-  margin: 0px 20px 0px px;
-  padding: 1rem; 
-  font-size: 0.85rem;
-  background-color: #EE;
-}
-
-
-#info2 p  {
-  font-size: 12px;
-   margin: -0px 15px 0px 0px;
-}
-
 aside h1 {
-  height: 0px;
-  
+　margin-bottom: 5rem;
+　margin-top: 3rem;
 }
 aside p {
-   margin: 0px 0px -0px 54px;
-   font-size: 9px;
+  margin-top: 1rem;
+  text-align: left;
   color: #696969;
-  
 }
 
 footer {
-   height: 80px;
-   top: 45px;
-  margin-top: 70px;
-}
-footer h6 {
-  color: #fff;
+  margin-top: 4rem;
   padding: 1.5rem;
   text-align: center;
   background-color: #404855;
+  color:white;
 }
 
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: -50px;
+
+  opacity: 0.6;
+  border-radius: 50%;
+   
+    bottom: 20px;
+    right: 10px;
+}
+
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: -50px;
+  opacity: 0.6;
+  border-radius: 50%;
+}
+
+  .top {
+    width: 35px;
+    height: 35px;
+  }
 /*-------------------------------
       LAYOUT PC (OverWrite)
 --------------------------------*/
@@ -221,7 +283,6 @@ footer h6 {
 
   header {
     height: 5em;
-    width: 100%;
   }
   header h1 {
     top: 2.4rem;
@@ -231,18 +292,10 @@ footer h6 {
     font-size: 1.5rem;
   }
 
-  #container {
-  position: relative;
-  width: 80%
-  max-width: 1000px;
-  margin: auto;
-}
-
-  
   #lists {
     flex-direction: row;
     justify-contet: space-between;
-    top: 5rem;
+    top: 6rem;
     left: 0;
 
     background-color: white;
@@ -259,80 +312,57 @@ footer h6 {
   #lists li:last-child {
     border-right: none;
   }
-
+ 
   main {
+    height: 950px;
     flex-direction: row;
     margin-top: 3rem;
   }
-
-.picbig img {
-  width: 40%;
+  article {
+    flex: 3;
+    padding: 3rem;
+    font-size: 1rem;
+  }
+  
+#gallery {
+  margin:auto;
   margin-top: 70px;
-  margin-bottom: 20px;
-}
-  
-
-  
-  #info  {
-   max-width: 900px;
-   margin: auto  250px auto;
-  font-size: 17px;
-   font-weight: bold;
-    text-align: left; 
-    margin-bottom: 20px;
-}
-
-#info span {
-   text-align: left; 
-  
-}
-  
-  #info2  {
-    width: %;
-  color: #696969;
-   font-weight: bold;
-    max-width: 960px;
-   margin: auto  165px auto;
+  width: 600px;
+  outline: none;
+　border: none;
+  display: flex;
+  justify-content: space-around;
 }
 
 
-  #info2 p  {
-    
-  text-align: left; 
-  margin-left: 20px;
-  font-size: 16px; 
   
+.image a {
+  margin-top: 80px;
+  text-align: center;
+  heght:px;
 }
 
-  
-article {
-    
+
+  h1 {
+     text-align: center;
+    margin: 30px;
+    font-size: 25px;
+    margin: 120px 0 0 0;
 }
-  
-  article p {
-    font-size: 30px;
-    text-align: center;
-    
-  }
 
- #info2 span {
-text-align: left;
-  font-size: 15px;
- 
-  }
-
-  aside p {
-      max-width: 960px;
-   margin: auto  199px auto;
+  aside {
     text-align: left;
-    padding: 1rem 0rem;
-    font-size: 15px;
+    flex: 1;
+    padding: 2rem;
+    font-size: 17px;
   }
 
-  footer {
-     padding-top: 100px;
-    padding-bottom: 10px;
+aside p {
     text-align: center;
-      height: 2.5px;
+    flex: 1;
+    margin-top: 20px;
+    font-size: 17px;
   }
+  
 }
+  
