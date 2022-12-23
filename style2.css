@@ -222,14 +222,14 @@ h1 {
 
 
 article  {
-  margin-top: rem;
+  margin-top: 1rem;
   text-align: left;
    color: #696969;
   line-height: 180%;
   font-size: 12px;
 }
 article span {
-    margin-top: 1rem;
+    margin-top: rem;
     margin-bottom: 2rem;
   
 }
@@ -241,6 +241,7 @@ aside p {
   margin-top: 1rem;
   text-align: left;
   color: #696969;
+  font-size: 11px;
 }
 
 footer {
