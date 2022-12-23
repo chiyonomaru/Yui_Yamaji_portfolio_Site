@@ -170,14 +170,13 @@ article {
 }
 
 .picbig img {
-  width: 30%;
+  width: 50%;
   height: 50%;
   margin: 80px 50px 40px 50px;
-  display: flex;
 }
 
 aside {
-  margin: -90px 50px -0px 50px;
+
   padding: 2rem;
   text-align: center;
   font-size: 0.85rem;
@@ -208,9 +207,11 @@ aside {
   margin: 40px;
 }
 
-#info2 span{
-  font-size: 11px;
+#info h1{
+  font-size: 14px;
   font-weight: bold;
+  text-align: left;
+   margin-left: 30px;
 }
 
 h1 {
@@ -220,14 +221,17 @@ h1 {
 }
 
 
-article h1 {
-  margin-top: 3rem;
-  text-align: center;
-  
+article  {
+  margin-top: rem;
+  text-align: left;
+   color: #696969;
+  line-height: 180%;
+  font-size: 12px;
 }
-article p {
+article span {
     margin-top: 1rem;
     margin-bottom: 2rem;
+  
 }
 aside h1 {
 　margin-bottom: 5rem;
