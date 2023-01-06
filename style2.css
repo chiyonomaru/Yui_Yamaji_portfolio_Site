@@ -119,6 +119,14 @@ nav ul {
   margin-top: -1px;
 }
 
+#container {
+ 
+    position: relative;
+ 
+    width: 100%;
+    margin: auto;
+  }
+
 main {
   flex-direction: column;
 }
@@ -204,7 +212,7 @@ aside {
 
 #info2 p{
   color: #696969;
-  margin: 40px;
+  margin: 0px;
 }
 
 #info span{
@@ -213,6 +221,13 @@ aside {
   color: #696969;
   text-align: left;
    margin-left: px;
+}
+
+#wrapper span {
+  max-width: 100%;
+  font-weight: bold;
+    margin-left:1px;
+  font-size: 12px;
 }
 
 h1 {
@@ -232,7 +247,7 @@ article  {
 article span {
     margin-top: rem;
     margin-bottom: 2rem;
-    color: #696969;
+    color: #696969
   
 }
 aside h1 {
@@ -242,7 +257,8 @@ aside p {
   margin-top: 1rem;
   text-align: left;
   color: #696969;
-  font-size: 12px;
+  font-size: 11px;
+  font-weight: bold;
 }
 
 footer {
@@ -293,7 +309,7 @@ footer {
   header h1 {
     top: 2.4rem;
     left: -20.6rem;
-    width: 100%;
+    width: 200%;
     text-align: center;
     font-size: 1.5rem;
   }
@@ -303,9 +319,7 @@ footer {
  
     position: relative;
  
-    width: 80%
-
-    max-width: 960px;
+    width: %;
     margin: auto;
   }
 
@@ -364,15 +378,16 @@ footer {
 
 #info span { 
         width: 100%;
-        font-size: 25px;
+        font-size: 20px;
         font-weight: bold; 
         text-align: left;  
         margin-top: 50px;
+  　　　 
        }
 
-  #wrappe span {
+  #info2 span {
     width: 100%;
-        font-size: 25px;
+        font-size: 15px;
         font-weight: bold; 
         text-align: left;  
         margin-top: 50px;
@@ -395,9 +410,10 @@ footer {
   }
 
 aside p {
+  width: 100%;
     text-align: left;
-    margin-top: px;
-    font-size: 12px;
+    margin-left: 20px;
+    font-size: 14px;
   }
   
 }
