@@ -6,7 +6,7 @@ $(window).on('load',function(){
 
 // Window幅に応じたメニュー表示の変更
 function ShowAndHide(win){
-  if(win < 769){
+  if(win > 769){
     $("#button").show();
     $("#lists").hide();
   }else{
