@@ -243,26 +243,7 @@ a.btn_27:hover {
     background: #fff;
     color: #696969;
 }
-a.btn_27:before, a.btn_27:after {
-  box-sizing: inherit;
-  content: "";
-  position: absolute;
-  border: 2px solid transparent;
-  width: 0;
-  height: 0;
-}
-a.btn_27:before {
-  top: 0;
-  left: 0;
-}
-a.btn_27:after {
-  bottom: 0;
-  right: 0;
-}
-a.btn_27:hover:before, a.btn_27:hover:after {
-  width: 100%;
-  height: 100%;
-}
+
 
 
 
