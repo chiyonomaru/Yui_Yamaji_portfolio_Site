@@ -227,21 +227,21 @@ h1 {
 
 a.btn_27 {
 	display: block;
-	text-align: center;
+	text-align: right;
 	vertical-align: middle;
 	text-decoration: none;
-	width: 120px;
-	margin: auto;
+	width:120px;
+	margin-left: 140px;
 	padding: 1rem 4rem;
 	color: #fff;
 	font-weight: bold;
-	background: #27acd9;
+	background: #696969;
 	position: relative;
 	transition: 0.3s ease-in-out;
 }
 a.btn_27:hover {
     background: #fff;
-    color: #27acd9;
+    color: #696969;
 }
 a.btn_27:before, a.btn_27:after {
   box-sizing: inherit;
@@ -263,16 +263,8 @@ a.btn_27:hover:before, a.btn_27:hover:after {
   width: 100%;
   height: 100%;
 }
-a.btn_27:hover:before {
-  border-top-color: #27acd9;
-  border-right-color: #27acd9;
-  transition: width 0.15s ease-out, height 0.15s ease-out 0.15s;
-}
-a.btn_27:hover:after {
-  border-bottom-color: #27acd9;
-  border-left-color: #27acd9;
-  transition: border-color 0s ease-out 0.2s, width 0.15s ease-out 0.2s, height 0.15s ease-out 0.3s;
-}
+
+
 
 article h1 {
   margin-top: 3rem;
