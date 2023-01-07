@@ -16,20 +16,23 @@ $(function (){
       }
     }
 
-    // 初めてページを開いた時の状態チェック
-    var win = $(window).width();
-    ShowAndHide(win);
+   $( function(){
 
-    // Windowサイズが変更された時の状態チェック
-    $(window).resize(function(){
-      var win = $(window).width();
-      ShowAndHide(win);
-    });
+  // 初めてページを開いた時の状態チェック
+  ShowAndHide($(window).width());
 
-    // MENUボタンクリック時のトグル動作
-    $("#button").click( function () {
-      $("#menu").slideToggle();
-    });
+  // Windowサイズが変更された時の状態チェック
+  $(window).resize(function(){
+    ShowAndHide($(window).width());
+  });
+
+  // メニューボタンクリック時のトグル動作
+  $("#button").click( function () {
+    $("#lists").slideToggle();
+  });
+
+});
+
 
 
    // Smooth Scroll ////////////////////////////////
