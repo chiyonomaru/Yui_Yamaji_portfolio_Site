@@ -14,11 +14,11 @@ $(function (){
    
     function ShowAndHide(win){
       if(win < 769){
-        $("#button").show();
-        $("#menu").hide();
-      }else{
         $("#button").hide();
         $("#menu").show();
+      }else{
+        $("#button").show();
+        $("#menu").hide();
       }
     }
 
