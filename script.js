@@ -8,7 +8,7 @@ $(function (){
     // style.css： @media only screen and (max-width: 800px) {}
     //の幅 587px と、以下の数値を揃える
     function ShowAndHide(win){
-      if(win > 769){
+      if(win < 769){
         $("#button").hide();
         $("#menu").show();
       }else{
