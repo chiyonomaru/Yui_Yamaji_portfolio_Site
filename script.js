@@ -1,104 +1,63 @@
-// Window幅に応じたメニュー表示の変更
-function ShowAndHide(win){
-  if(win < 769){
-    $("#button").show();
-    $("#lists").hide();
-  }else{
-    $("#button").hide();
-    $("#lists").show();
-  }
-}
+// jQuery 関連関数  /////////////////////////////////////////////////////////////
 
-$( function(){
+$(function (){
 
-  // 初めてページを開いた時の状態チェック
-  ShowAndHide($(window).width());
+  // レスポンシブ/////////////////////////////////
 
-  // Windowサイズが変更された時の状態チェック
-  $(window).resize(function(){
-    ShowAndHide($(window).width());
-  });
-
-  // メニューボタンクリック時のトグル動作
-  $("#button").click( function () {
-    $("#lists").slideToggle();
-  });
-
-});
-
-
-//loading
-$(window).on('load',function(){
-  $("#loading").delay(2000).fadeOut('slow');
-  $("#loading_inner").delay(1600).fadeOut('slow');
-});
-
-////////////////////////////////////////////////
-
-jQuery(function() {
-  var appear = false;
-  var pagetop = $('#page_top');
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > 100) {  //100pxスクロールしたら
-      if (appear == false) {
-        appear = true;
-        pagetop.stop().animate({
-          'bottom': '50px' //下から50pxの位置に
-        }, 300); //0.3秒かけて現れる
-      }
-    } else {
-      if (appear) {
-        appear = false;
-        pagetop.stop().animate({
-          'bottom': '-50px' //下から-50pxの位置に
-        }, 300); //0.3秒かけて隠れる
+    // Window幅に応じたメニュー表示の変更
+    // style.css： @media only screen and (max-width: 800px) {}
+    //の幅 587px と、以下の数値を揃える
+    function ShowAndHide(win){
+      if(win > 769){
+        $("#button").hide();
+        $("#menu").show();
+      }else{
+        $("#button").show();
+        $("#menu").hide();
       }
     }
-  });
-  pagetop.click(function () {
-    $('body, html').animate({ scrollTop: 0 }, 500); //0.5秒かけてトップへ戻る
-    return false;
-  });
+
+    // 初めてページを開いた時の状態チェック
+    var win = $(window).width();
+    ShowAndHide(win);
+
+    // Windowサイズが変更された時の状態チェック
+    $(window).resize(function(){
+      var win = $(window).width();
+      ShowAndHide(win);
+    });
+
+    // MENUボタンクリック時のトグル動作
+    $("#button").click( function () {
+      $("#menu").slideToggle();
+    });
+
+
+   // Smooth Scroll ////////////////////////////////
+
+   $('a[href^="#"]').click(function() {
+      // スクロールの速度(ms)
+      var speed = 500;
+      // アンカーを取得
+      var anchor = $(this).attr("href");
+      // ターゲットの位置を取得
+      var target = $(anchor == "#" || anchor == "" ? 'html' : anchor);
+      var position = target.offset().top -80;
+      // スクロール（アニメーション）
+      $('body,html').animate({scrollTop:position}, speed, 'swing');
+      return false;
+   });
+
+   // Slider ////////////////////////////////////
+   /*
+   $('.bxslider').bxSlider({
+     auto:true,
+     speed:1000,
+     pager:true
+   });
+   */
+
 });
 
 
-// Window幅に応じたメニュー表示の変更
-function ShowAndHide(win){
-  if(win < 769){
-    $("#button").show();
-    $("#lists").hide();
-  }else{
-    $("#button").hide();
-    $("#lists").show();
-  }
-}
-
-$( function(){
-
-  // 初めてページを開いた時の状態チェック
-  ShowAndHide($(window).width());
-
-  // Windowサイズが変更された時の状態チェック
-  $(window).resize(function(){
-    ShowAndHide($(window).width());
-  });
-
-  // メニューボタンクリック時のトグル動作
-  $("#button").click( function () {
-    $("#lists").slideToggle();
-  });
-
-});
-
-
-//loading
-$(window).on('load',function(){
-  $("#loading").delay(2000).fadeOut('slow');
-  $("#loading_inner").delay(1600).fadeOut('slow');
-});
-
-////////////////////////////////////////////////
-
-
-
-
+// サブ関数 ///////////////////////
