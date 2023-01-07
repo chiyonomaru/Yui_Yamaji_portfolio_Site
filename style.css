@@ -326,7 +326,7 @@ footer {
   
 #gallery {
   margin:auto;
-  margin-top: 70px;
+  margin-top: 40px;
   width: 600px;
   outline: none;
 　border: none;
@@ -344,7 +344,6 @@ footer {
 
 
   h1 {
-     text-align: center;
     margin: 30px;
     font-size: 25px;
     margin: 120px 0 0 0;
@@ -358,10 +357,10 @@ footer {
   }
 
 aside p {
-    text-align: center;
+    text-align: left;
     flex: 1;
     margin-top: 20px;
-    font-size: 17px;
+    font-size: 20px;
   }
   
 }
