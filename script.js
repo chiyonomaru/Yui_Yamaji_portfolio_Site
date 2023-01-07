@@ -5,8 +5,7 @@ $(function (){
   // レスポンシブ/////////////////////////////////
 
     // Window幅に応じたメニュー表示の変更
-    // style.css： @media only screen and (max-width: 800px) {}
-    //の幅 587px と、以下の数値を揃える
+   
     function ShowAndHide(win){
       if(win < 769){
         $("#button").hide();
