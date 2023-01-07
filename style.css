@@ -231,11 +231,10 @@ a.btn_27 {
 	vertical-align: middle;
 	text-decoration: none;
 	width:120px;
-	margin-left: 140px;
+	margin-left: 95px;
 	padding: 1rem 4rem;
-	color: #fff;
+	color: #696969;
 	font-weight: bold;
-	background: #696969;
 	position: relative;
 	transition: 0.3s ease-in-out;
 }
@@ -243,7 +242,6 @@ a.btn_27:hover {
     background: #fff;
     color: #696969;
 }
-
 
 
 
