@@ -184,6 +184,10 @@ aside {
   background-color: #EE;
 }
 
+.works__item {
+   width: 200px;
+  border-radius: 30px;
+}
 
  #pic {
     width: 100%;
