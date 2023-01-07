@@ -10,7 +10,16 @@
   <link href="style.css" rel="stylesheet" >
   <link rel="stylesheet" type="text/css" href="css/4-1-1.css">
   <title>Yui's portfolio</title>
- 
+ <script>
+  (function(d) {
+    var config = {
+      kitId: 'aos4zmx',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
 </head>
 
 <body>
@@ -49,15 +58,25 @@
   
       <article>
         <h1>Home</h1>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum a diam vitae congue. Curabitur sed egestas erat. Donec facilisis tristique elit, nec consequat erat consectetur sit amet. Morbi in dictum nulla, nec malesuada odio. Cras euismod orci vitae lectus bibendum, non mattis magna posuere. Pellentesque mi est, vulputate a orci quis, lobortis rutrum dui. Fusce commodo enim vel ultrices hendrerit. Curabitur lobortis velit et purus finibus tincidunt non sed est. Maecenas ac justo aliquet, consectetur ipsum a, imperdiet odio. Nam consectetur eros et ex viverra, ullamcorper venenatis sapien pharetra.</p>
-        <p>Morbi at magna eu dui consectetur convallis at vitae odio. Suspendisse sollicitudin lobortis tellus, eget varius augue fringilla sit amet. Etiam ligula odio, lacinia non erat quis, cursus iaculis mi. Vestibulum efficitur ante eu tellus fringilla, imperdiet pretium ex scelerisque. Quisque ornare scelerisque ligula, nec varius dolor malesuada quis. Nullam eleifend tortor sapien, sit amet vestibulum massa finibus ut. Ut ut ipsum eros. Etiam euismod eros non libero viverra lobortis. </p>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum a diam vitae congue. Curabitur sed egestas erat. Donec facilisis tristique elit, nec consequat erat consectetur sit amet. Morbi in dictum nulla, nec malesuada odio. Cras euismod orci vitae lectus bibendum, non mattis magna posuere. Pellentesque mi est, vulputate a orci quis, lobortis rutrum dui. Fusce commodo enim vel ultrices hendrerit. Curabitur lobortis velit et purus finibus tincidunt non sed est. Maecenas ac justo aliquet, consectetur ipsum a, imperdiet odio. Nam consectetur eros et ex viverra, ullamcorper venenatis sapien pharetra.</p>
+        <p>初めまして。当サイトをご覧くださりありがとうございます。私は九州産業大学芸術学部ソーシャルデザイン学科出身の山路由依と言います。2002年　福岡県在住の21歳です。　 </p>
+        <p>私のデザインのモットーは、「一目見て伝わるデザイン」を作ることです。相手に求められる作品を制作することを心がけています。</p>
+      
+        
       </article>
 
       <aside>
-        <h1>aside</h1>
-        <p>Morbi at magna eu dui consectetur convallis at vitae odio. Suspendisse sollicitudin lobortis tellus, eget varius augue fringilla sit amet. Etiam ligula odio, lacinia non erat quis, cursus iaculis mi. </p>
-        <p>finibus tincidunt non sed est. Maecenas ac justo aliquet, consectetur ipsum a, imperdiet odio. Nam consectetur eros et ex viverra, ullamcorper venenatis sapien pharetra.</p>
+        <h1>works</h1>
+        <div class="works__square_contents">
+          <div class="works__hover">
+                <a class="works__link" href="kyu.html">
+                  <img
+                    class="works__item"
+                    src="./images/20AS000九産大郎_課題.png"
+                    alt=""
+                  />
+          <div class="button_line006">
+  　　　　　<a href="kyu.html">works</a>
+　　　　　</div>
       </aside>
 
     </main>
