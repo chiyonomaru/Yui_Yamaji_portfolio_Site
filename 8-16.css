@@ -20,7 +20,7 @@ span.smoothText {
 
 /* アニメーションで傾斜がついている文字列を水平に戻す*/
 span.smoothTextTrigger{
-  transition: .8s ease-in-out;
+  transition: .7s ease-in-out;
   transform: translate3d(0,100%,0) skewY(12deg);
   transform-origin: left;
   display: block;
