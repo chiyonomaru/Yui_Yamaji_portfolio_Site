@@ -272,6 +272,21 @@ article span {
     color: #696969
   
 }
+
+
+
+.fade-in {
+  opacity: 0;
+  transition-duration: 500ms;
+  transition-property: opacity, transform;
+}
+
+.fade-in-up {
+  transform: translate(0, 50px);
+}
+#article p {
+  text-align: left;
+}
 aside h1 {
 　margin-rem;
 }
@@ -291,6 +306,7 @@ footer {
   background-color: #404855;
   color:white;
 }
+
 
 #page_top{
   width: 50px;
