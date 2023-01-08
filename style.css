@@ -222,9 +222,11 @@ h1 {
 }
 
 .works__item {
-   width: 180px;
+   width: 50vw;
   border-radius: 30px;
    margin-top: 20px;
+  margin-left: -5px;
+  
 }
 
 a.btn_27 {
