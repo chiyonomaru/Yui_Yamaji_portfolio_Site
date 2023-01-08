@@ -233,7 +233,7 @@ a.btn_27 {
 	vertical-align: middle;
 	text-decoration: none;
 	width:120px;
-	margin-left: 5px;
+	margin-left: 9px;
 	padding: 1rem 4rem;
 	color: #696969;
 	font-weight: bold;
@@ -255,6 +255,7 @@ article h1 {
 article p {
     margin-top: 1rem;
     margin-bottom: 2rem;
+   color: #696969;
 }
 aside h1 {
 　margin-bottom: 5rem;
