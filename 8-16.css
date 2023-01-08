@@ -1,16 +1,20 @@
 @charset "utf-8";
 
 /*========= レイアウトのためのCSS ===============*/
-p {
+info2 p {
     margin: 20px 0;
-    font-size: 1.5rem;
   text-align: center;
+  height: 140px
+}
+
+aside p {
+  margin : 0px 4;
 }
 
 /*========= テキストを滑らかに出現させるためのCSS ===============*/
 span.smoothText {
   overflow: hidden;
-  display: block;
+
 }
 
 /* アニメーションで傾斜がついている文字列を水平に戻す*/
