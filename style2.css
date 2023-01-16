@@ -240,9 +240,7 @@ article{
 
 #info4 h4 {
   margin-top: 40px;
-   font-weight: bold;
 }
-
 
 #info4 p span {
         font-size: 12px;
@@ -620,32 +618,31 @@ footer {
 
 #info span { 
         width: 100%;
-        font-size: 20px;
+        font-size: px;
         font-weight: bold; 
         text-align: left;  
-        margin-top: 50px;
   　　　 
        }
 
-  #info2 span {
-    width: 100%;
-        font-size: 14px;
-        font-weight: bold;   
-    margin-left: 60px;
-     
+#info2 p span {
+    margin-left: 50px;
+        font-size: 15px;
+        font-weight: bold; 
+        text-align: left;  
+        margin-top: 0px;
   }
 
 
- #info4 p span {
+  #info4 p span {
     margin-left: 50px;
-        font-size: 14px;
+        font-size: 15px;
         font-weight: bold; 
         text-align: left;  
-        margin-top: 20px;
+        margin-top: 0px;
   }
   
 #info4 h4 {
-   margin-left: 60px;
+   margin-left: 50px;
    margin-top: 30px;
 }
   
@@ -668,7 +665,7 @@ aside p {
   width: 100%;
     text-align: left;
     margin-left: 20px;
-    font-size: 14px;
+    font-size: 15px;
   }
   
 }
