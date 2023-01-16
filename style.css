@@ -407,12 +407,14 @@ footer {
   justify-content: space-around;
 }
 
+}
 
   
-.image a {
-  margin-top: 80px;
-  text-align: center;
-  heght:px;
+.works__item  {
+  margin-top: 60px;
+  display: flex;
+    width: 350px;
+  height: 500px;
 }
 
 
