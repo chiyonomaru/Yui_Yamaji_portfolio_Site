@@ -221,12 +221,10 @@ h1 {
   margin-top: 3rem;
 }
 
-.works__item {
+.picbig2 img {
    width: 50vw;
-  border-radius: 30px;
-   margin-top: 20px;
-  margin-left: -5px;
-  
+  border-radius: 20px;
+  margin: 0 auto;
 }
 
 a.btn_27 {
@@ -409,12 +407,17 @@ footer {
 
 }
 
+
+#pic {
+  width: 100%;
+  height: auto;
+}
   
-.works__item  {
+.picbig2 img {
   margin-top: 60px;
-  display: flex;
-    width: 350px;
-  height: 500px;
+    width: 100%;
+  height: auto;
+    margin: 0 auto;
 }
 
 
