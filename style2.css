@@ -240,7 +240,9 @@ article{
 
 #info4 h4 {
   margin-top: 40px;
+   font-weight: bold;
 }
+
 
 #info4 p span {
         font-size: 12px;
@@ -626,19 +628,20 @@ footer {
        }
 
   #info2 span {
-        font-size: 18px;
+    width: 100%;
+        font-size: 14px;
         font-weight: bold;   
-    margin-left: 50px;
+    margin-left: 60px;
      
   }
 
 
-  #info4 span {
+ #info4 p span {
     margin-left: 50px;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: bold; 
         text-align: left;  
-        margin-top: 0px;
+        margin-top: 20px;
   }
   
 #info4 h4 {
