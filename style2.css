@@ -615,12 +615,16 @@ footer {
 
   #info2 span {
     width: 100%;
-        font-size: 15px;
+        font-size: 18px;
         font-weight: bold; 
         text-align: left;  
         margin-top: 50px;
+     margin-left: 60px;
   }
 
+h4 {
+   margin-left: 60px;
+}
   
   h1 {
      text-align: center;
@@ -630,9 +634,9 @@ footer {
 }
 
   aside {
-    
+    margin-left: 65px;
     text-align: left;
-    flex: 1;
+    
     padding: 2rem;
     font-size: 17px;
   }
