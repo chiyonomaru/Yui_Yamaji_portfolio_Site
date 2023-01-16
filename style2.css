@@ -597,10 +597,10 @@ footer {
 
 
   
-.image a {
-  margin-top: 80px;
-  text-align: center;
-  heght:px;
+.picbig img {
+  width: 30%;
+  height: 50%;
+  margin: 80px 50px 40px 50px;
 }
 
 
