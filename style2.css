@@ -237,6 +237,17 @@ article{
    margin-left: px;
 }
 
+
+#info4 h4 {
+  margin-top: 40px;
+}
+
+#info4 p span {
+        font-size: 12px;
+        font-weight: bold; 
+        text-align: left;  
+        margin-top: 0px;
+  }
 /*----------------------------
 scroll_up ｜下から上へ出現
 ----------------------------*/
@@ -429,6 +440,7 @@ footer {
         margin-top: 50px;
   }
 
+
   
   h1 {
      text-align: center;
@@ -614,16 +626,24 @@ footer {
        }
 
   #info2 span {
-    width: 100%;
+        font-size: 18px;
+        font-weight: bold;   
+    margin-left: 50px;
+     
+  }
+
+
+  #info4 span {
+    margin-left: 50px;
         font-size: 18px;
         font-weight: bold; 
         text-align: left;  
-        margin-top: 50px;
-     margin-left: 60px;
+        margin-top: 0px;
   }
-
-h4 {
+  
+#info4 h4 {
    margin-left: 60px;
+   margin-top: 30px;
 }
   
   h1 {
