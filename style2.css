@@ -659,27 +659,27 @@ footer {
     margin-left: 50px;
         font-size: 15px;
         font-weight: bold; 
-        text-align: center;  
+        text-align: left;  
         margin-top: 0px;
   }
 
 
   #info4 p span {
-
+        margin-left: 50px;
         font-size: 15px;
         font-weight: bold; 
-        text-align: center;  
+        text-align: left;  
         margin-top: 30px;
   }
   
 #info4 h4 {
-   margin-left: px;
+   margin-left: 50px;
    margin-top: 50px;
-   text-align: center;  
+   text-align:;  
 }
   
   h1 {
-     text-align: center;
+     text-align: ;
     margin: 30px;
     font-size: 25px;
     margin: 120px 0 0 0;
@@ -695,8 +695,8 @@ footer {
 
 aside p {
   width: 100%;
-    text-align: center;
-    margin-left: 20px;
+    text-align: left;
+    margin-left: 0px;
     font-size: 15px;
   }
   
