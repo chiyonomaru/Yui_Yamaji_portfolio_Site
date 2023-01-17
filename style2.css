@@ -212,8 +212,14 @@ h4 {
     margin-left: 0px;
   }
 
+#info2 {
+    max-width: 900px;
+  text-align: center;
+}
+
 #info2 p {
-    font-size: 12px;
+  font-size: 12px;
+   display: inline-block;
     color: #444;
   text-align: left;
 }
@@ -248,6 +254,12 @@ article{
         text-align: left;  
         margin-top: 0px;
   }
+
+#info5  {
+  font-size: 12px;
+  margin-top: 0px;
+}
+
 /*----------------------------
 scroll_up ｜下から上へ出現
 ----------------------------*/
@@ -576,6 +588,7 @@ footer {
 
   header {
     height: 5em;
+        position: relative;
   }
   header h1 {
     top: 2.4rem;
@@ -590,7 +603,7 @@ footer {
  
     position: relative;
  
-    width: %;
+    width: 100%;
     margin: auto;
   }
 
@@ -655,17 +668,19 @@ footer {
   　　　 
        }
 
-#info2 p  {
- 
- margin: 0 auto;
-    margin-left: 50px;
-        font-size: 15px;
-        font-weight: bold; 
-        text-align: left;  
-        margin-top: 0px;
+#info2  {
+        max-width: 900px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 30px;
   }
 
-
+#info2 p {
+    font-size: 17px;
+   display: inline-block;
+  text-align: left;
+}
+  
   #info4 p span {
         margin-left: 50px;
         font-size: 15px;
