@@ -252,6 +252,7 @@ article{
 	text-align: center;
 	display: block;
 	border: 1px solid #00
+   margin-left: px;
 }
 
 #info4 p {
@@ -260,9 +261,11 @@ article{
 }
 
 
-#info4  span {
+#info4 p span {
      text-align: left;
   color: #444;
+   margin-left: px;
+  font-size: 11.5px;
  }
 
 #info4  {
