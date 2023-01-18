@@ -1,4 +1,4 @@
-
+  
 
 
 /*-------------------------------
@@ -213,13 +213,14 @@ h4 {
   }
 
 #info2 {
-    max-width:900px;
-  text-align: cnte;
-
+  margin: 16px auto;
+	text-align: center;
+	display: block;
+	border: 1px solid #00
 }
 
 #info2 p {
-  font-size: 12px;
+  font-size: 13px;
    display: inline-block;
     color: #444;
   text-align: left;
@@ -247,17 +248,15 @@ article{
 
 
 #info4 {
-    max-width: 900px;
-  text-align: cente;
-   margin-top: 30px;
-  color: #444;
+   margin: 16px auto;
+	text-align: center;
+	display: block;
+	border: 1px solid #00
 }
 
 #info4 p {
-  font-size: 12px;
-   display: inline-block;
-  
-  text-align: left;
+ text-align: left;
+	display: inline-block;
 }
 
 
@@ -265,6 +264,18 @@ article{
      text-align: left;
   color: #444;
  }
+
+#info4  {
+   margin: 16px auto;
+	text-align: center;
+	display: block;
+	border: 1px solid #00
+}
+
+#info4 h4 {
+   text-align: left;
+	display: inline-block;
+}
 
 #info5    {
   max-width: 900px;
