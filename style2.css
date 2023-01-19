@@ -280,13 +280,16 @@ article{
 	display: inline-block;
 }
 
-#info5  p  {
- margin: 16px auto;
-	text-align: center;
+#info3   {
+max-width: 500px;
+  text-align: ;
+  margin: 0 auto;
+
+   margin-right: 130px;
 }
 
-#info5 span {
-display: inline-block;
+#info3 p {
+ display: inline-block;
   text-align: left;
 }
 
