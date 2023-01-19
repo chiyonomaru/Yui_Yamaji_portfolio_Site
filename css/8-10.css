@@ -1,21 +1,32 @@
-.typing-animation {
-	width: 5ch;	/*文字の長さ*/
-	border-right: 5px solid #000;	/*点滅バー*/
-	overflow: hidden;	/*必須*/
-	white-space: nowrap;	/*必須*/
-	color:#444;
-	font-size:1rem;
-	line-height:1.4;
-	font-weight:700;
-	animation: typing 3s steps(18), blink .4s step-end infinite alternate;	/*アニメーション関連*/
+/*見やすくするためのCSS*/
+.wrap {
+  margin: 0 auto;
+  max-width: 300px;
 }
-@keyframes typing {
-	from {
-		width: 0;
-	}
+
+/*タイピング*/
+.typing {
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  word-break : break-all;
 }
-@keyframes blink {
-	50% {
-		border-color: transparent;		/*点滅風に見せる*/
-	}
+
+/*jsで生成されるspanタグ*/
+.typing span{
+    display: none;
+}
+
+/*|カーソルを表示*/
+.typing:after {
+  content: "|";
+  animation: typingCursor .8s ease infinite;
+}
+
+@keyframes typingCursor {
+  from　{
+    opacity:0;
+  }
+  to{
+    opacity:1
+  }
 }
