@@ -1,19 +1,14 @@
-@charset "utf-8";
-/* CSS Document */
-
-/*========= タイピング ===============*/
-
-.TextTyping1 span {
-  display: none;
+.TextTyping span {
+	display: none;
 }
 
 /*文字列後ろの線の設定*/
-.TextTyping1 h1::after {
-  content: "|";
-  animation: typinganime .8s ease infinite;
+.TextTyping::after {
+ 	content: "|";
+	animation: typinganime .8s ease infinite;
 }
 
 @keyframes typinganime{
-  from{opacity:0}
-  to{opacity:1}
+	from{opacity:0}
+	to{opacity:1}
 }
