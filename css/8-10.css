@@ -1,32 +1,32 @@
-/*見やすくするためのCSS*/
-.wrap {
-  margin: 0 auto;
-  max-width: 300px;
+@charset "utf-8";
+
+/*========= レイアウトのためのCSS ===============*/
+TextTyping p{
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.5rem;
+  letter-spacing: .5em;
+    word-break : break-all;
 }
 
-/*タイピング*/
-.typing {
-  font-size: 16px;
-  letter-spacing: 0.2em;
-  word-break : break-all;
+.TextTyping {
+  text-align: center;
 }
 
-/*jsで生成されるspanタグ*/
-.typing span{
-    display: none;
+/*========= タイピング ===============*/
+
+.TextTyping span {
+  display: none;
 }
 
-/*|カーソルを表示*/
-.typing:after {
+
+/*文字列後ろの線の設定*/
+.TextTyping::after {
   content: "|";
-  animation: typingCursor .8s ease infinite;
+  animation: typinganime .8s ease infinite;
 }
 
-@keyframes typingCursor {
-  from　{
-    opacity:0;
-  }
-  to{
-    opacity:1
-  }
+@keyframes typinganime{
+  from{opacity:0}
+  to{opacity:1}
 }
