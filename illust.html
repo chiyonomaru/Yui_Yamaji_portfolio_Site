@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -6,13 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="jquery-3.2.1.min.js"></script>
   <script src="script.js" defer></script>
-  <link href="style2.css" rel="stylesheet">
-  <title>Sample Site</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
-	<link rel="stylesheet" type="text/css" href="8-16.css">
-	<link rel="stylesheet" type="text/css" href="css/8-10.css">
-	<script>
+  <link href="style.css" rel="stylesheet" >
+  <link rel="stylesheet" type="text/css" href="css/4-1-1.css">
+  <link rel="stylesheet" type="text/css" href="css/8-10.css">
+  <title>Yui's portfolio</title>
+ <script>
   (function(d) {
     var config = {
       kitId: 'aos4zmx',
@@ -22,12 +21,21 @@
     h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
   })(document);
 </script>
+	
+
 </head>
 
 <body>
 
   <div id="container">
-	    
+    
+     <!-- loading -->
+    <div id="loading">
+         <div id="loading_inner">
+            <img src="images/site.png" alt="Yui's portfolio" class="loading-logo">
+        </div>
+    </div>
+    
     <header>
       <div class=logo>
     <a href="index.html">
@@ -37,85 +45,60 @@
         <img src="images/icon (1).png" width="30px">
       </div>
       <nav>
-        <ul id="lists" >
+         <ul id="lists">
           <li><a href="2.html">POSTER</a></li>
           <li><a href="3.html">ROGO</a></li>
-          <li><a href="web.html">WEB</a></li>
+          <li> <a href="web.html">WEB</a></li>
           <li><a href="illust.html">ILLUST</a></li>
-         
+           
         </ul>
       </nav>
     </header>
-
-    <main>
-
       
-        <div id="page">
-	 <div id="pic">
-	 <div class="picbig" >
-     <a href="images/poster/20AS000九産大郎_課題.png" data-lightbox="group"><img src="images/poster/20AS000九産大郎_課題.png" width="300" hight="400" alt="" id="picbig01"></a>
-	</div>
-<div id="info">
-	 <span>ソーシャルデザイン学科ポスター<span>
-</div>
-	
-           <div id="wrapper">
-	   
-		     
-			 <article>
-	
-	<div id="info2">
+<img src="images/site.png" width="100%" alt="" id="main">
+
+    <div id="wrapper">
+  
+      <article>　　
+　　　　 
+	 <p class="TextTyping">illust</p>
+        
+        <div id="info2">
 		<p>
-			ソーシャルデザイン学科の「社会をデザインする」という理念をグラデーションで表現し、<br>
-		        情報デザインという文字を大きくすることでポスターの中心に目が行くようにしました.<br>
-		        そして差し色で明るい色を使うことで何にでも関われるソーシャルデザイン学科の特性を表しました。<br>
+			私はイラストを描くことが好きで、暇さえあれば描いています。<br>
+		        特に線の細い長身イケメンが好みです。黒髪青目は好みドストライク。<br>
+		        日々理想のイラストに近づけるため研究しています。<br>
 			 
 			</p>
 				 </div>
-				 
-				 <div id="info4">
-			  
-       <p>
-	       <span class="smoothText"><span class="smoothTextTrigger">工夫した点<br>
-		                                                        あまり色を置きすぎると統一感がなくなってしまう為、ビビットな色などは見出しの色だけに使うようにしました。</span></span></p>
+        
              
-				   </div>
-				
-   <div id="info3">
-	<p>
-		 使用カラー
-	</p>
-</div>
-
-    <div class="article__color-all">
-            <div class="article__portfolio_color1"></div>
-	    <div class="article__portfolio_color2"></div>
-            <div class="article__portfolio_color3"></div>
-	     </div>
-	     		
-				 </article>
-      <aside>
-       <p><span class="smoothText"><span class="smoothTextTrigger">Date.2021.12.21<br>
-          使用ソフト：Photoshop<br>
-          タイトル書体　DIN 2014を使用
-          写真と文字を活用</span></span></p>
-      </aside>
-
+       　       	<div id="gallery">
+			
+                            <div class="illust1">
+                             <div class="illustchara">
+                          <a href="images/イラスト/umi.png" data-lightbox="group"><img src="images/イラスト/umi-up.png" width="300" hight="400" alt="" id="picbig01"></a>
+                                </div>
+                            </div>
+                             
+                            <div class="illust1">
+                             <div class="illustchara">
+                            
+                                   <a href="images/イラスト/hara.png" data-lightbox="group"><img src="images/イラスト/hara-up.png" width="300" hight="400" alt="" id="picbig01"></a>
+                                </div>
+                                </div>
+      </article>
+       
+         <a href="kyu.html" class="btn_27">view more</a></div>
     </main>
-　　　<div id="wrapper">
-	   </div>
- 
-	 <ul>
-<li><a href="https://twitter.com/chiyo_569"><img class="icon" src="images/Twitter.png"></a></li>
-	</ul>
+ <div id="page_top"><a href="#"><img class="top" src="images/Toppage.png"></a></div>
     <footer>
-　　　
       <h6>&copy; http://www.example.com</h6>
     </footer>
 
   </div>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="js/8-10.js"></script>
-<script src="js/8-16.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="js/8-10.js"></script>
+  <script src="js/8-16.js"></script>
 </body>
 </html>
