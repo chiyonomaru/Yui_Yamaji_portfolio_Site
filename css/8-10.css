@@ -1,11 +1,11 @@
 @charset "utf-8";
 
 /*========= レイアウトのためのCSS ===============*/
-TextTyping p{
+.TextTyping {
   text-align: center;
   margin: 20px 0;
   font-size: 1.5rem;
-  letter-spacing: .5em;
+  letter-spacing: .5e
     word-break : break-all;
 }
 
@@ -15,7 +15,7 @@ TextTyping p{
 
 /*========= タイピング ===============*/
 
-.TextTyping span {
+.TextTyping p {
   display: none;
 }
 
