@@ -1,14 +1,21 @@
-.TextTyping span {
-	display: none;
+.typing-animation {
+	width: 5ch;	/*文字の長さ*/
+	border-right: 5px solid #000;	/*点滅バー*/
+	overflow: hidden;	/*必須*/
+	white-space: nowrap;	/*必須*/
+	color:#444;
+	font-size:1rem;
+	line-height:1.4;
+	font-weight:700;
+	animation: typing 3s steps(18), blink .4s step-end infinite alternate;	/*アニメーション関連*/
 }
-
-/*文字列後ろの線の設定*/
-.TextTyping::after {
- 	content: "|";
-	animation: typinganime .8s ease infinite;
+@keyframes typing {
+	from {
+		width: 0;
+	}
 }
-
-@keyframes typinganime{
-	from{opacity:0}
-	to{opacity:1}
+@keyframes blink {
+	50% {
+		border-color: transparent;		/*点滅風に見せる*/
+	}
 }
