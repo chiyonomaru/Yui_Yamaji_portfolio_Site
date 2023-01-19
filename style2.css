@@ -154,6 +154,38 @@ article {
 }
 
 
+.box0 {
+  width:100px
+      background-color:#fff;
+
+      margin:0px auto;
+	
+      text-align:center;
+  border-radius: 10px 20px 30px 40px;
+     }
+
+.box1{
+  width:480px;
+
+  background-color:#FFF;
+ 
+  text-align:left; 
+   
+  margin:20px auto 0 auto;
+
+  clear:left;
+	
+  overflow: hidden; 
+   width:410px;
+	
+  float:left;
+
+ border-radius: 10px 20px 30px 40px;
+}
+
+
+
+
 .image {
   width: 200px;
   heght: 20px;
