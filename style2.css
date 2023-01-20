@@ -165,7 +165,7 @@ article {
      }
 
 .box1{
-  width:480px;
+  width:90px;
 
   background-color:#FFF;
  
@@ -176,14 +176,26 @@ article {
   clear:left;
 	
   overflow: hidden; 
-   width:410px;
+   width:310px;
 	
   float:left;
 
  border-radius: 10px 20px 30px 40px;
 }
 
+.box3 {
+  width:100%;
+      
+  font-size:18px;
+	 
+  line-height:24px;
+	 
+  margin-bottom:5px;
+	
+  overflow: hidden;
 
+  border-bottom: double 3px #bbb;
+}
 
 
 .image {
