@@ -179,6 +179,30 @@ article {
 }
 
 
+.boxl{
+
+  width:100%;
+	
+  box-sizing: border-box;
+	  
+  overflow: hidden;
+    
+  padding:0px 0px 20px 0px;
+}
+.boxr {
+
+  width:100%;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+
+  padding:0;
+	
+  margin-top: 20px;
+
+}
+
 .image {
   width: 200px;
   heght: 20px;
