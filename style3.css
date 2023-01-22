@@ -296,38 +296,23 @@ article{
 }
 
 
-#info4 {
-   margin: 16px auto;
+
+#info4  {
+    margin: 16px auto;
 	text-align: center;
 	display: block;
 	border: 1px solid #00
-
+	color: #444;
 }
 
 #info4 p {
- text-align: left;
-	display: inline-block;
-}
-
-
-#info4 p span {
-     text-align: left;
-  color: #444;
-   margin-left: px;
-  font-size: 11.5px;
-   margin-top: 10px;
- }
-
-#info4  {
-   margin: 16px auto;
-	text-align: center;
-	display: block;
-	border: 1px solid #00
-}
-
-#info4 h4 {
    text-align: left;
 	display: inline-block;
+	color: #444;
+}
+
+#info4 span {
+	color: #444;
 }
 
 #info3   {
@@ -487,7 +472,7 @@ footer {
   header h1 {
     top: 2.4rem;
     left: -20.6rem;
-    width: 200%;
+    width: 100%;
     text-align: center;
     font-size: 1.5rem;
   }
@@ -495,10 +480,7 @@ footer {
 
   #container {
  
-    position: relative;
- 
-    width: %;
-    margin: auto;
+    
   }
 
   
@@ -573,16 +555,45 @@ footer {
         margin-top: 50px;
   　　　 
        }
+	
+#info2 {
+	
+	 margin: 16px auto;
+	text-align: center;
+	display: block;
+	border: 1px solid #00
+	
+}
 
-  #info2 span {
-    width: 100%;
-        font-size: 15px;
+#info2 p {
+	 margin: 0px 0px 80px 2
+		 00px;
+  font-size: 20px;
+   display: inline-block;
+  text-align: left;
+}
+#info2 p span {
+     text-align: left;
+ }
+
+#info4 {
+	 margin: 16px auto;
+	text-align: center;
+	display: block;
+	border: 1px solid #00
+}
+
+#info4 p {
+	 width: 100%
+        font-size: 2px;
         font-weight: bold; 
         text-align: left;  
         margin-top: 50px;
-  }
-
-
+	  line-height: 32px;
+	  text-align: left;
+	display: inline-block;
+	   margin-left: 100px;
+}	
   
   h1 {
      text-align: center;
