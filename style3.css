@@ -303,16 +303,23 @@ article{
 	display: block;
 	border: 1px solid #00
 	color: #444;
+   
 }
 
 #info4 p {
    text-align: left;
 	display: inline-block;
 	color: #444;
+	font-size: 11.5px;
 }
 
-#info4 span {
+#info4 p span {
 	color: #444;
+	   text-align: left;
+  color: #444;
+   margin-left: px;
+  font-size: 11.5px;
+   margin-top: 10px;
 }
 
 #info3   {
@@ -478,11 +485,17 @@ footer {
   }
 
 
-  #container {
- 
+  main {
+  position: relative; max-width: 960px;
+  margin: auto;
+	  margin-top: 30px;
     
   }
 
+
+	#main {
+		
+	}
   
   #lists {
     flex-direction: row;
@@ -519,7 +532,7 @@ footer {
   
 #gallery {
   margin:auto;
-  margin-top: 70px;
+  margin-top: 80px;
   width: 600px;
   outline: none;
 　border: none;
@@ -540,7 +553,7 @@ footer {
 }
 
   
-.image a {
+.picbig  {
   margin-top: 80px;
   text-align: center;
   heght:px;
