@@ -520,6 +520,7 @@ header {
   position: relative;
   width: 100%;
   max-width: 960px;   margin: auto;
+	height: 30px;
   }
 
 
@@ -555,9 +556,8 @@ header {
   }
  
   main {
-    height: 950px
     flex-direction: row;
-    margin-top: 3rem;
+    margin-top: 10rem;
   }
   article {
     flex: 3;
