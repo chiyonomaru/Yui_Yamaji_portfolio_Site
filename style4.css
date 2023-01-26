@@ -557,7 +557,7 @@ header {
  
   main {
     flex-direction: row;
-    margin-top: 10rem;
+    margin-top: 15rem;
   }
   article {
     flex: 3;
