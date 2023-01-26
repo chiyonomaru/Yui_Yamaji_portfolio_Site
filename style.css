@@ -353,7 +353,7 @@ footer {
       LAYOUT PC (OverWrite)
 --------------------------------*/
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 767px) {
 
   header {
     height: 5em;
