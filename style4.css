@@ -49,23 +49,6 @@ font-style: normal;
   text-align: center;
 }
 
-/* 全体div　*/
-.box0{width:00px;
-      background-color:#fff;
-	  margin:0px auto;
-	  text-align:center;
-	   margin: 0px ;
-}
-
-.box1{width:750px;
-      background-color:#FFF;
-      text-align:left; 
-      margin:10px auto 0 auto;
-      clear:left;
-	  overflow: hidden;
-	  
-}
-
 
 #loading img{
   max-width: 200px;
@@ -171,13 +154,14 @@ article {
 }
 
 .box0{
-  width:100%;
+  width:105%;
     
   box-sizing: border-box;
       background-color:#fff;
-	  padding:0 20px;
+	
 	  text-align:left;
 	  overflow: hidden; 
+	 margin-left: px;
 }
 
 .box1{width:90%;
@@ -488,7 +472,7 @@ aside p span {
       LAYOUT PC (OverWrite)
 --------------------------------*/
 
-@media  screen and (min-width: 769px) {
+@media only screen and (min-width: 767px) {
 
   header {
   
@@ -576,14 +560,14 @@ header {
 
 
 /* 全体div　*/
-.box0{width:900px
+.box0{width:900px;
       background-color:#fff;
 	  margin:0px auto;
 	  text-align:center;
 	   margin: 0px ;
 }
 
-.box1{width:690px;
+.box1{width:750px;
       background-color:#FFF;
       text-align:left; 
       margin:10px auto 0 auto;
@@ -644,33 +628,16 @@ header {
   　　　 
        }
 
+  #info2 span {
+    width: 100%;
+        font-size: 15px;
+        font-weight: bold; 
+        text-align: left;  
+        margin-top: 50px;
+  }
 
 
-h4 {
-	text-align: center;
-	font-size: 25px;
-	margin-bottom: 20px;
-}
-
-#info2 {
-  margin: 16px auto;
-	text-align: center;
-	display: block;
-	border: 1px solid #00
-}
-
-#info2 p {
-  font-size: 19px;
-   display: inline-block;
-    color: #444;
-  text-align: left;
- line-height: 150%;
-}
-#info2 p span {
-     text-align: left;
- }
-
-	
+  
   h1 {
      text-align: center;
     margin: 30px;
