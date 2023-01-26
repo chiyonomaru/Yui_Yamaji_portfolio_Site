@@ -435,13 +435,27 @@ footer {
     height: 35px;
   }
 
+.article__color-all{
+ 
+  display: flex;
+  
+  
+  border-radius: 10px;
+
+   margin-top: 30px;
+
+	margin: auto;
+	
+}
+
+
 .article__portfolio_color1 {
  
-  margin-left: 48px;
+ 
   
-  width: 50px;
+  width: 40px;
 
-  height: 50px;
+  height: 40px;
  
   background-color: #e5037b;
   
@@ -453,18 +467,18 @@ footer {
 
 
 .article__portfolio_color2 {  
-  
-  margin-top: -50px;
 
-  margin-left: 120px;
-  
-  width: 50px;
+margin-left: 30px;
+	
+  width: 40px;
 
-  height: 50px;
+  height: 40px;
  
   background-color: #72a8db;
   
   border-radius: 10px;
+
+	margin-top: 30px;
 }
 
 /*-------------------------------
@@ -664,7 +678,6 @@ aside p {
   width: 25px;
   height: 25px;
   margin: auto;
-margin-top: 10px;
   
 }
 
