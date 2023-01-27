@@ -141,6 +141,7 @@ article {
   filter: 0;
   flex-wrap: wrap;
   justify-content: space-around;
+  
 }
 
 
@@ -150,11 +151,13 @@ article {
  margin:0 auto;
   margin-top: 30px;
   background-color: #fff;
+  border-radius: 20px;
 }
 
 .thumb {
   width: 200px;
   height: 280px;
+  border-radius: 13px;
 }
 
 #page {
@@ -178,6 +181,7 @@ article {
   height: 50%;
   margin: 80px 50px 40px 50px;
   display: flex;
+  border-radius: 20px;
 }
 
 aside {
