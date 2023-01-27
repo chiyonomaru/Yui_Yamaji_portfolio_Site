@@ -8,7 +8,7 @@
   z-index: -1;
   opacity: 0;/*はじめは透過0*/
     /*ナビの位置と形状*/
-  top:0;
+  top:0;               
   width:100%;
     height: 100vh;/*ナビの高さ*/
   background:#999;
