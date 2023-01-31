@@ -30,3 +30,94 @@
   from{opacity:0}
   to{opacity:1}
 }
+
+/*==================================================
+　印象編　8-16 テキストが滑らかに出現
+===================================*/
+
+
+span.smoothText {
+
+  overflow: hidden;
+
+  display: block;
+}
+
+
+span.smoothTextTrigger{
+	
+  transition: .8s ease-in-out;
+
+  transform: translate3d(0,100%,0) skewY(12deg);
+
+  transform-origin: left;
+	display: block;
+
+}
+
+
+span.smoothTextTrigger.smoothTextAppear{
+    
+  
+  transform: translate3d(0,0,0) skewY(0);
+}
+
+
+
+
+/* service */
+
+#service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ 
+}
+
+_:-ms-lang(x)::-ms-backdrop, #service{/*IE11用ハック*/
+    display: block;
+}
+
+#service .service-area{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   margin-top: -60px;
+}
+
+#service .service-area section{
+    width: 60%;
+}
+
+#service .service-area .service-img{
+     width:100%;
+    margin: 0 auto 1vh auto;
+}
+
+#service h3{
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+#service h2{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+
+#service .caption{
+    font-weight: bold;
+    margin: 0 0 3vh 0;
+}   
+
+
+
+
+/*==================================================
+　印象編　9-4-1　SVG アニメーション
+===================================*/
+
+.service-img svg{
+	width:102%;/*SVGのサイズ*/
+}
