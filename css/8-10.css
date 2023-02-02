@@ -64,52 +64,71 @@ span.smoothTextTrigger.smoothTextAppear{
 
 
 
+@charset "utf-8";
 
-/* service */
-
-#service{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
- 
+/*========= レイアウトのためのCSS ===============*/
+.TextTyping {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 1.5rem;
+  letter-spacing: .5e
+    word-break : break-all;
 }
 
-_:-ms-lang(x)::-ms-backdrop, #service{/*IE11用ハック*/
-    display: block;
+.TextTyping {
+  text-align: center;
 }
 
-#service .service-area{
-    display:flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-   margin-top: -60px;
-}
+/*========= タイピング ===============*/
 
-#service .service-area section{
-    width: 60%;
-}
-
-#service .service-area .service-img{
-     width:100%;
-    margin: 0 auto 1vh auto;
-}
-
-#service h3{
-    font-size: 2rem;
-    font-weight: normal;
-}
-
-#service h2{
-    font-size: 1.5rem;
-    font-weight: normal;
+.TextTyping p {
+  display: none;
 }
 
 
-#service .caption{
-    font-weight: bold;
-    margin: 0 0 3vh 0;
-}   
+/*文字列後ろの線の設定*/
+.TextTyping::after {
+  content: "|";
+  animation: typinganime .8s ease infinite;
+}
+
+@keyframes typinganime{
+  from{opacity:0}
+  to{opacity:1}
+}
+
+/*==================================================
+　印象編　8-16 テキストが滑らかに出現
+===================================*/
+
+
+span.smoothText {
+
+  overflow: hidden;
+
+  display: block;
+}
+
+
+span.smoothTextTrigger{
+	
+  transition: .8s ease-in-out;
+
+  transform: translate3d(0,100%,0) skewY(12deg);
+
+  transform-origin: left;
+	display: block;
+
+}
+
+
+span.smoothTextTrigger.smoothTextAppear{
+    
+  
+  transform: translate3d(0,0,0) skewY(0);
+}
+
+
 
 
 
@@ -120,4 +139,120 @@ _:-ms-lang(x)::-ms-backdrop, #service{/*IE11用ハック*/
 
 .service-img svg{
 	width:102%;/*SVGのサイズ*/
+}
+
+
+
+*{box-sizing: border-box;}
+
+ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+    outline: none;
+}
+
+
+
+/* area */
+
+.fixed{
+    z-index: 1;
+    width:100%;
+    max-width:100%;
+    padding:0 7vw;
+	animation: bgchange 40s ease infinite;
+}
+
+@media screen and (max-width:768px) {
+  #service.fixed,
+  #about.fixed{
+      height: auto;
+    }
+}
+
+@media screen and (max-width:540px) {
+.fixed{
+    padding:0 60px;
+    }
+    
+}
+
+
+/* service */
+
+#service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+_:-ms-lang(x)::-ms-backdrop, #service{/*IE11用ハック*/
+    display: block;
+}
+
+#service .service-area{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#service .service-area section{
+    width: 30%;
+}
+
+#service .service-area .service-img{
+     width:40%;
+    margin: 0 auto 1vh auto;
+}
+
+#service h3{
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+#service .caption{
+    font-weight: bold;
+    margin: 0 0 3vh 0;
+}   
+
+@media screen and (max-width:768px) {
+#service{
+    padding:0 0 18vh 0; 
+}
+
+#service .service-area{
+    justify-content: space-around;
+}
+
+#service .service-area section{
+    width: 45%;
+    margin: 0 0 5vh 0;
+}
+
+#service h2{
+    padding:15vh 0 0 0;
+}
+    
+#service h3{
+    font-size: 1.5rem;
+}
+}
+
+@media screen and (max-width:500px) {
+
+ #service .service-area{
+    display: block;
+}
+
+#service .service-area section{
+    width: 100%;
+} 
+    
 }
