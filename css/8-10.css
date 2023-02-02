@@ -167,6 +167,7 @@ a{
     max-width:100%;
     padding:0 7vw;
 	animation: bgchange 40s ease infinite;
+	height: 570px;;
 }
 
 @media screen and (max-width:768px) {
