@@ -200,7 +200,7 @@ _:-ms-lang(x)::-ms-backdrop, #service{/*IE11用ハック*/
 #service .service-area{
     display:flex;
     justify-content: space-between;
-   
+   flex-wrap:wrap;
 }
 
 #service .service-area section{
