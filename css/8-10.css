@@ -163,8 +163,9 @@ a{
 
 .fixed{
     z-index: 1;
-    width:100%;
+    width:109%;
     max-width:100%;
+	 justify-content: space-around;
     padding:0 7vw;
 	animation: bgchange 40s ease infinite;
 }
@@ -191,30 +192,41 @@ a{
     justify-content: center;
     align-items: center;
     text-align: center;
+	
 }
 
 _:-ms-lang(x)::-ms-backdrop, #service{/*IE11用ハック*/
     display: block;
 }
 
-#service .service-area{
+#service .service-area {
     display:flex;
-    justify-content: space-between;
+  justify-content: space-around;
    flex-wrap:wrap;
+	 margin: 0 0 0 30px;
+	
 }
 
-#service .service-area section{
-    width: 40%;
+
+
+
+#service .service-area inner{
+    width: 65%;
+	
 }
 
 #service .service-area .service-img{
-     width:40%;
-    margin: 0 auto 1vh auto;
+     width:100%;
+    margin: 0 auto 2vh auto;
+	 display:flex;
+	 flex-wrap:wrap;
+	 margin: auto;
 }
 
 #service h3{
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: normal;
+	
 }
 
 #service .caption{
@@ -227,12 +239,20 @@ _:-ms-lang(x)::-ms-backdrop, #service{/*IE11用ハック*/
     padding:0 0 18vh 0; 
 }
 
+
+#service .service-area {
+  justify-content: space-around;
+    margin: 0 0 0 0px;
+	
+}
+	
+
 #service .service-area{
     justify-content: space-around;
 }
 
 #service .service-area section{
-    width: 45%;
+    width: 65%;
     margin: 0 0 5vh 0;
 }
 
@@ -242,17 +262,39 @@ _:-ms-lang(x)::-ms-backdrop, #service{/*IE11用ハック*/
     
 #service h3{
     font-size: 1.5rem;
+	
 }
+
+#service .service-area .service-img{
+     width:50%;
+    margin: 0 auto 2vh auto;
+	
+}
+	
 }
 
 @media screen and (max-width:500px) {
 
  #service .service-area{
     display: block;
+	  margin: 0 0 0 0px;
 }
 
 #service .service-area section{
     width: 100%;
+	 margin: 0 0 0 0px;
 } 
-    
+
+#service .service-area .service-img{
+     width:45%;
+    margin: 0 auto 2vh auto;
+	
+}
+
+
+#service h3{
+    font-size: ;
+    font-weight: normal;
+}
+	
 }
