@@ -215,16 +215,22 @@ aside {
     color: #444;
 }
 
-
-#info2 p{
-  color: #696969;
-  margin: 40px;
+#info2 {
+  margin: 16px auto;
+	text-align: center;
+	display: block;
+	border: 1px solid #00
 }
 
-#info2 span{
-  font-size: 11px;
-  font-weight: bold;
+#info2 p {
+  font-size: 13px;
+   display: inline-block;
+    color: #444;
+  text-align: left;
 }
+#info2 p span {
+     text-align: left;
+ }
 
 @keyframes typinganime{
 	from{opacity:0}
