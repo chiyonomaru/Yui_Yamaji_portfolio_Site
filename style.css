@@ -197,7 +197,6 @@ aside {
   background-color: #EE;
 }
 
-
  #pic {
     width: 100%;
     margin-bottom: 2rem;
@@ -223,7 +222,7 @@ aside {
 }
 
 #info2 p {
-  font-size: 13px;
+  font-size: 16px;
    display: inline-block;
     color: #444;
   text-align: left;
@@ -261,6 +260,13 @@ a.btn_27 {
 a.btn_27:hover {
     background: #fff;
     color: #696969;
+}
+
+
+img{
+	width:100%;
+    vertical-align: bottom;
+    border:0;
 }
 
 
@@ -476,6 +482,15 @@ footer {
 }
 
 
+#info2 p {
+  font-size: 15px;
+   display: inline-block;
+    color: #444;
+  text-align: left;
+}
+#info2 p span {
+     text-align: left;
+ }
 
 section {
   margin:auto;
