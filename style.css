@@ -231,6 +231,32 @@ aside {
      text-align: left;
  }
 
+
+#info4  {
+    margin: 16px auto;
+	text-align: center;
+	display: block;
+	border: 1px solid #00
+	color: #444;
+    margin-top: 10px;
+}
+
+#info4 p {
+   text-align: left;
+	display: inline-block;
+	color: #444;
+	font-size: 16.5px;
+	 margin-bottom: -40px;
+}
+
+#info4 p span {
+	color: #444;
+	   text-align: left;
+  color: #444;
+   margin-left: px;
+ 
+}
+
 @keyframes typinganime{
 	from{opacity:0}
 	to{opacity:1}
