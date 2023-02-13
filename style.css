@@ -233,7 +233,7 @@ aside {
 
 
 #info4  {
-    margin: 16px auto;
+    margin: 15px auto;
 	text-align: center;
 	display: block;
 	border: 1px solid #00
@@ -245,7 +245,7 @@ aside {
    text-align: left;
 	display: inline-block;
 	color: #444;
-	font-size: 16.5px;
+	font-size: 15.5px;
 	 margin-bottom: -40px;
 }
 
@@ -254,7 +254,7 @@ aside {
 	   text-align: left;
   color: #444;
    margin-left: px;
- 
+ font-size: 13.5px;
 }
 
 @keyframes typinganime{
@@ -517,6 +517,33 @@ footer {
 #info2 p span {
      text-align: left;
  }
+
+
+#info4  {
+    margin: 16px auto;
+	text-align: center;
+	display: block;
+	border: 1px solid #00
+	color: #444;
+    margin-top: 10px;
+}
+
+#info4 p {
+   text-align: left;
+	display: inline-block;
+	color: #444;
+	font-size: 16.5px;
+	 margin-bottom: -40px;
+}
+
+#info4 p span {
+	color: #444;
+	   text-align: left;
+  color: #444;
+   margin-left: px;
+ font-size: 14.5px;
+}
+
 
 section {
   margin:auto;
