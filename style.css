@@ -156,12 +156,11 @@ article {
  margin:0 auto;
   margin-top: 30px;
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 
-
-@media screen and (max-width:1280px) {
+@media screen and (min-width:1000px) {
 
 #gallery {
   width: 100%;
@@ -175,18 +174,68 @@ article {
 
 
 .image {
-  width: 300px;
+  width: 200px;
   heght: 30px;
  margin:0 auto;
   margin-top: 30px;
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 }
 
 
-@media screen and (max-width:280px) {
+@media screen and (min-width:1280px) {
+
+#gallery {
+  width: 100%;
+  left: 10% 
+  display: flex;
+  filter: 0;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+
+.image {
+  width: 200px;
+  heght: 30px;
+ margin:0 auto;
+  margin-top: 30px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+}
+
+
+@media screen and (min-width:1300px) {
+
+#gallery {
+  width: 100%;
+  left: 10% 
+  display: flex;
+  filter: 0;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+
+.image {
+  width: 200px;
+  heght: 30px;
+ margin:0 auto;
+  margin-top: 30px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+}
+
+
+@media screen and (max-width:500px) {
 
 #gallery {
   width: 100%;
@@ -201,6 +250,29 @@ article {
 
 .image {
   width: 230px;
+  heght: 30px;
+ margin:0 auto;
+  margin-top: 30px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+}
+@media screen and (max-width:280px) {
+
+#gallery {
+  width: 100%;
+  left: 10% 
+  display: flex;
+  filter: 0;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+
+.image {
+  width: 180px;
   heght: 30px;
  margin:0 auto;
   margin-top: 30px;
@@ -239,6 +311,7 @@ aside {
   text-align: center;
   font-size: 0.85rem;
   background-color: #EE;
+	margin-top: 20px;
 }
 
  #pic {
@@ -340,7 +413,7 @@ a.btn_27:hover {
 img{
 	width:100%;
     vertical-align: bottom;
-    border:0;
+     border-radius: 20px;
 }
 
 
@@ -405,12 +478,12 @@ article p {
     margin-bottom: 2rem;
    color: #696969;
 }
-aside h1 {
+aside  {
 　margin-bottom: 5rem;
-　margin-top: 3rem;
+　margin-top: rem;
 }
 aside p {
-  margin-top: 1rem;
+  margin-top: rem;
   text-align: left;
   color: #696969;
 }
@@ -630,6 +703,7 @@ aside p {
 
 
 .image{
+	width:100px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
