@@ -196,7 +196,7 @@ a{
     justify-content: center;
     align-items: center;
     text-align: center;
-	
+	  flex-wrap:wrap;
 }
 
 _:-ms-lang(x)::-ms-backdrop, #service{/*IE11用ハック*/
@@ -207,7 +207,7 @@ _:-ms-lang(x)::-ms-backdrop, #service{/*IE11用ハック*/
     display:flex;
   justify-content: space-around;
    flex-wrap:wrap;
-	 margin: 0 0 0 30px;
+	 margin: 0 0 0 40px;
 	
 }
 
@@ -242,6 +242,16 @@ margin:-55px 14.5% 20px -49.5%;
     margin: 0 0 3vh 0;
 }   
 
+
+
+	
+#service .service-area .service-img{
+     width:150%;
+    margin: 0 auto 2vh auto;
+	margin:-55px 14.5% 20px -21.5%;
+}
+	
+}
 
 @media screen and (max-width:1280px) {
 
@@ -317,8 +327,17 @@ margin:-55px 14.5% 20px -49.5%;
      width:120%;
 	margin:-52px 14.2% -0px -9%;
 }
-	
 
+#service .service-area section{
+    width: 1\80%;
+    margin: 0 0 5vh 0;
+	
+}
+
+
+
+	
+}
 @media screen and (max-width:768px) {
 #service{
     padding:0 0 18vh 0; 
@@ -330,28 +349,10 @@ margin:-55px 14.5% 20px -49.5%;
     margin: 0 0 0 0px;
 	
 }
-	
 
-#service .service-area{
-    justify-content: space-around;
-}
-
-#service .service-area section{
-    width: 65%;
-    margin: 0 0 5vh 0;
-}
-
-#service h2{
-    padding:15vh 0 0 0;
-}
-    
-#service h3{
-    font-size: 1.5rem;
-	
-}
 
 #service .service-area .service-img{
-     width:0%;
+     width:140%;
     margin: 0 auto 2vh auto;
 	
 }
@@ -364,6 +365,7 @@ margin:-55px 14.5% 20px -49.5%;
 #service{
     padding:0 0 18vh 0; 
 	 display:flex;
+	margin-top: ;
 }
 
 	
@@ -371,28 +373,22 @@ margin:-55px 14.5% 20px -49.5%;
 #service .service-area{
     justify-content: space-around;
 	 display:flex;
+	
 }
 
 #service .service-area section{
-    width: 80%;
+    width: 1\80%;
     margin: 0 0 5vh 0;
-	
+	margin-top: -0px;
 }
 
-#service h2{
-    padding:15vh 0 0 0;
-}
-    
-#service h3{
-    font-size: 1.5rem;
-	
-}
+
 
 #service .service-area .service-img{
-     width:30%;
+     width:55%;
     margin: 0 auto 2vh auto;
 	 display:flex;
-	height: -40px;
+	
 }
 
 	
