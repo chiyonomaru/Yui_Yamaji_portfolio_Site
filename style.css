@@ -65,7 +65,9 @@ header h1 {
 }
 
 
-
+.logo {
+	width:100px;
+}
 
 
 
@@ -138,7 +140,6 @@ article {
 }
 
 
-
 #gallery {
   width: 100%;
   left: 10% 
@@ -151,7 +152,7 @@ article {
 
 
 .image {
-  width: 320px;
+  width: 420px;
   heght: 30px;
  margin:0 auto;
   margin-top: 30px;
@@ -180,6 +181,7 @@ article {
   margin-top: 30px;
   background-color: #fff;
   border-radius: 30px;
+	display:flex;
 }
 
 }
@@ -199,12 +201,12 @@ article {
 
 
 .image {
-  width: 200px;
+  width: 1860px;
   heght: 30px;
  margin:0 auto;
   margin-top: 30px;
   background-color: #fff;
-  border-radius: 30px;
+  border-radius: 80px;
 }
 
 }
@@ -224,7 +226,7 @@ article {
 
 
 .image {
-  width: 200px;
+  width: 860px;
   heght: 30px;
  margin:0 auto;
   margin-top: 30px;
