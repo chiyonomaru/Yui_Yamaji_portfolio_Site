@@ -197,6 +197,7 @@ a{
     align-items: center;
     text-align: center;
 	  flex-wrap:wrap;
+	
 }
 
 _:-ms-lang(x)::-ms-backdrop, #service{/*IE11用ハック*/
@@ -341,6 +342,7 @@ margin:-55px 14.5% 20px -49.5%;
 @media screen and (max-width:768px) {
 #service{
     padding:0 0 18vh 0; 
+	margin-bottom: -260px;
 }
 
 
