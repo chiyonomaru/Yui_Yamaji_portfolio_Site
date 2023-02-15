@@ -132,7 +132,7 @@ main {
   flex-direction: column;
 }
 article {
-  
+ 
   padding: 2rem;
   text-align: justify;
   font-size: 0.85rem;
@@ -155,16 +155,17 @@ article {
   width: 420px;
   heght: 30px;
  margin:0 auto;
-  margin-top: 30px;
+  margin-top: 40px;
   background-color: #fff;
   border-radius: 30px;
+	
 }
 
 
 @media screen and (min-width:1000px) {
 
 #gallery {
-  width: 100%;
+  width: 200%;
   left: 10% 
   display: flex;
   filter: 0;
@@ -175,10 +176,15 @@ article {
 
 
 .image {
-  width: 200px;
-  heght: 30px;
+	
+  left: 0% 
+  filter: 0;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 230px;
  margin:0 auto;
-  margin-top: 30px;
+  margin-top: 70px;
+	margin:90pxx;
   background-color: #fff;
   border-radius: 30px;
 	display:flex;
@@ -187,54 +193,6 @@ article {
 }
 
 
-@media screen and (min-width:1280px) {
-
-#gallery {
-  width: 100%;
-  left: 10% 
-  display: flex;
-  filter: 0;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  
-}
-
-
-.image {
-  width: 1860px;
-  heght: 30px;
- margin:0 auto;
-  margin-top: 30px;
-  background-color: #fff;
-  border-radius: 80px;
-}
-
-}
-
-
-@media screen and (min-width:1300px) {
-
-#gallery {
-  width: 100%;
-  left: 10% 
-  display: flex;
-  filter: 0;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  
-}
-
-
-.image {
-  width: 860px;
-  heght: 30px;
- margin:0 auto;
-  margin-top: 30px;
-  background-color: #fff;
-  border-radius: 30px;
-}
-
-}
 
 
 @media screen and (max-width:500px) {
@@ -415,13 +373,13 @@ a.btn_27:hover {
 img{
 	width:100%;
     vertical-align: bottom;
-     border-radius: 20px;
+     border-radius: 10px;
 }
 
 
 section {
   margin:auto;
-  	width:150px;
+  	width:10px;
   display: block;
 	text-align: center;
 }
@@ -497,6 +455,8 @@ aside  p {
    display: inline-block;
   text-align: left;
 }
+
+
 #info2 p span {
      text-align: left;
  }
@@ -714,14 +674,4 @@ aside p {
 	display: inline-block;
 	color: #444;
 	font-size: 15.5px;
-
-
-
-.image{
-	width:100px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  height:500px;
 }
