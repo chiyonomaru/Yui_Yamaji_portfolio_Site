@@ -480,15 +480,28 @@ article p {
     margin-bottom: 2rem;
    color: #696969;
 }
-aside  {
-　margin-bottom: 5rem;
-　margin-top: rem;
+	
+aside {
+	
+	 margin: 15px auto;
+	text-align: center;
+	display: block;
+	border: 1px solid #00
+	
 }
-aside p {
-  margin-top: rem;
+
+aside  p {
+	 color: #696969;
+	line-height: 30px;
+  font-size: 15px;
+   display: inline-block;
   text-align: left;
-  color: #696969;
 }
+#info2 p span {
+     text-align: left;
+ }
+
+
 
 footer {
   margin-top: 4rem;
