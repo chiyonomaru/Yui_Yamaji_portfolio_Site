@@ -241,9 +241,28 @@ margin:-55px 14.5% 20px -49.5%;
 #service .caption{
     font-weight: bold;
     margin: 0 0 3vh 0;
+	
 }   
 
+smoothTextTrigger{
+  position: relative;
+  text-decoration: none;/*デフォルトで下線を非表示*/
+}
 
+/** 下線を左から引く **/
+smoothTextTrigger:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 0;
+  height: 1.5px; /*下線の太さ*/
+  background-color: #0000ee; /*下線の色*/
+  transition: .3s; /*アニメーション速度*/
+}
+smoothTextTrigger:hover:after {
+  width:100%;
+}
 
 	
 #service .service-area .service-img{
