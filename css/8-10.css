@@ -244,13 +244,13 @@ margin:-55px 14.5% 20px -49.5%;
 	
 }   
 
-smoothTextTrigger{
+.smoothText{
   position: relative;
   text-decoration: none;/*デフォルトで下線を非表示*/
 }
 
 /** 下線を左から引く **/
-smoothTextTrigger:after{
+.smoothText:after{
   position: absolute;
   bottom: 0;
   left: 0;
@@ -260,7 +260,7 @@ smoothTextTrigger:after{
   background-color: #0000ee; /*下線の色*/
   transition: .3s; /*アニメーション速度*/
 }
-smoothTextTrigger:hover:after {
+.smoothText:hover:after {
   width:100%;
 }
 
