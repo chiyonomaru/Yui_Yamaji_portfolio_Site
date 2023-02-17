@@ -485,7 +485,7 @@ margin-left: 30px;
       LAYOUT PC (OverWrite)
 --------------------------------*/
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
 
   header {
     height: 5em;
@@ -595,7 +595,7 @@ margin-left: 30px;
 #info2 p {
 	 margin: 0px 0px 80px 20px;
 	line-height: 30px;
-  font-size: 18px;
+  font-size: 15px;
    display: inline-block;
   text-align: left;
 }
