@@ -64,12 +64,13 @@ header h1 {
   font-size: 1.2rem;
 }
 
-
-.logo {
-	width:100px;
+.logo img {
+	 position: absolute;
+	top: -24px;;
+    width: 55%;
+	margin-left: -45px;
+	margin-top:-2px;
 }
-
-
 
 #button {
   position: absolute;
@@ -84,10 +85,7 @@ header h1 {
   width: 1.8rem;
 }
 
-.logo img {
-   margin: -25px -87px -37px -40px;
-  text-align:ceter;
-}
+.
 nav ul {
     color: white;
     list-style: none;
@@ -208,6 +206,15 @@ article {
   margin-top: 30px;
   background-color: #fff;
   border-radius: 20px;
+}
+
+	
+.logo img {
+	 position: absolute;
+	top: -24px;;
+    width: 75%;
+	margin-left: -45px;
+	margin-top:-2px;
 }
 
 }
