@@ -165,49 +165,55 @@ article {
 
 @media screen and (max-width:500px) {
 
+
 #gallery {
   width: 100%;
-  left: 10% 
+  height: 40%;
+  outline: none;
+　border: none;
   display: flex;
   filter: 0;
   flex-wrap: wrap;
   justify-content: space-around;
-  
 }
 
-
 .image {
-  width: 230px;
-  heght: 30px;
- margin:0 auto;
-  margin-top: 30px;
-  background-color: #fff;
-  border-radius: 30px;
+  width: 650px;
+  height: 200px;
+  margin: 20px1 0 0 0;
+  background: #FFFFFF;
+}
+
+.thumb {
+  width: 388px;
+  height: 162px;
 }
 
 }
 @media screen and (max-width:280px) {
-
+	
 #gallery {
   width: 100%;
-  left: 10% 
+  height: 40%;
+  outline: none;
+　border: none;
   display: flex;
   filter: 0;
   flex-wrap: wrap;
   justify-content: space-around;
-  
 }
-
 
 .image {
-  width: 180px;
-  heght: 30px;
- margin:0 auto;
-  margin-top: 30px;
-  background-color: #fff;
-  border-radius: 20px;
+  width: 250px;
+  height: 200px;
+  margin: 20px 0 0 0;
+  background: #FFFFFF;
 }
 
+.thumb {
+  width: 388px;
+  height: 162px;
+}
 	
 .logo img {
 	 position: absolute;
