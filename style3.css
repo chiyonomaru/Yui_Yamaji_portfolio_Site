@@ -144,6 +144,11 @@ article {
   background-color: #fff;
 }
 
+a.sample1 {
+  text-decoration: none;
+	
+}
+
 #gallery {
   width: 100%;
   left: 10% 
