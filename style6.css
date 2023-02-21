@@ -65,10 +65,10 @@ header h1 {
 }
 
 
-.logo {
-	width:100px;
+.logo img {
+	width:50%;
+  text-align:ceter;
 }
-
 
 
 #button {
@@ -615,6 +615,15 @@ footer {
 
   }
 
+.logo img {
+	width:30%;
+  text-align:ceter;
+}
+.logo img {
+   margin: -25px -87px -37px -40px;
+  text-align:ceter;
+}
+	
 #info2 p {
   font-size: 15px;
    display: inline-block;
