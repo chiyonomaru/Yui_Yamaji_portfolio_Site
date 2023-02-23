@@ -178,16 +178,13 @@ article {
 }
 
 .image {
-  width: 650px;
-  height: 200px;
+  width: 250px;
+
   margin: 20px1 0 0 0;
   background: #FFFFFF;
 }
 
-.thumb {
-  width: 388px;
-  height: 162px;
-}
+
 
 }
 @media screen and (max-width:280px) {
