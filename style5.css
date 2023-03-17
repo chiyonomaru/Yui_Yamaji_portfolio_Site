@@ -16,7 +16,7 @@ font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+
 }
 
 /*-------------------------------
@@ -24,7 +24,7 @@ font-weight: 700;
 --------------------------------*/
 
 #container {
-  margin: auto;
+  margi
   
 }
 
