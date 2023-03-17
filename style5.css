@@ -55,6 +55,13 @@ font-weight: 700;
 }
 
 
+#info6 p {
+  font-size: 16px;
+   display: inline-block;
+    color: white;
+  text-align: center;
+}
+
 .whiskey-loader {
   position: relative;
 
