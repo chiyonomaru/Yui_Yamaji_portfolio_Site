@@ -167,10 +167,11 @@ article {
     margin-bottom: 3rem;
     position: relative;
     display: inline-block;
+	  
   }
   
   .image{
-    width: 50%;
+    width: 60%;
     height: 50%;
     object-fit: cover;
     aspect-ratio: 16 / 9;
@@ -179,6 +180,7 @@ article {
     display: block;
     transition: filter 0.5s;
 	  margin:auto;
+	    margin-bottom: 3rem;
   } 
 
 
@@ -202,7 +204,7 @@ article {
 
 .image {
   width: 150px;
-  
+    margin-bottom: 3rem;
   margin: 20px 0 0 0;
   background: #FFFFFF;
 }
@@ -584,13 +586,7 @@ footer {
       margin-bottom: 3rem;
     }
   
-    .workbox:nth-child(2n+1){
-      margin-right:0;
-    }
-  
-    .workbox:nth-child(2n){
-      margin-left:0;
-    }
+    
   }
   
   @media screen and (min-width:1024px){
