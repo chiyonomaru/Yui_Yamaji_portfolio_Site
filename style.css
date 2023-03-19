@@ -569,29 +569,41 @@ footer {
   }
   
 
-#gallery {
-  width: 100%;
-  height: 40%;
-  outline: none;
-　border: none;
-  display: flex;
-  filter: 0;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.image {
-  width: 450px;
-  height: 200px;
-  margin: 20px1 0 0 0;
-  background: #FFFFFF;
-}
-
-
-.thumb {
-  width: 288px;
-  height: 162px;
-}
+	 
+  @media screen and (min-width:500px){
+    #wgallely{
+      max-width: 800px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .image{
+      width: 47%;
+      margin-bottom: 3rem;
+    }
+  
+    .workbox:nth-child(2n+1){
+      margin-right:0;
+    }
+  
+    .workbox:nth-child(2n){
+      margin-left:0;
+    }
+  }
+  
+  @media screen and (min-width:1024px){
+    #gallely{
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1200px;
+    }
+  
+    .image{
+      width: 30%;
+    }
+  }
 
 #info2 p {
   font-size: 15px;
