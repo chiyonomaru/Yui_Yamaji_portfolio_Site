@@ -131,7 +131,6 @@ main {
 }
 article {
  
-  padding: 2rem;
   text-align: justify;
   font-size: 0.85rem;
   background-color: #fff;
@@ -588,7 +587,7 @@ footer {
 
 	 
   @media screen and (min-width:500px){
-    #wgallely{
+    #gallely{
       max-width: 800px;
       display: flex;
       flex-direction: row;
@@ -604,17 +603,6 @@ footer {
     
   }
   
-  @media screen and (min-width:1024px){
-    #gallely{
-      display: flex;
-      flex-wrap: wrap;
-      max-width: 1200px;
-    }
-  
-    .image{
-      width: 30%;
-    }
-  }
 
 #info2 p {
   font-size: 15px;
