@@ -541,10 +541,9 @@ input {
 }
 
 
-#container {
-  border: solid 3px #474544;
-  position: relative;
-    height: max-content;
+#main {
+  border: solid 1px #474544;
+  
 }
 
 form {
@@ -691,42 +690,3 @@ textarea {
   color: #F2F3EB;
 }
 
-@media screen and (max-width: 768px) {
-  #container {
-    margin: 20px auto;
-    width: 95%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  h1 {
-    font-size: 26px;
-  }
-  
-  .underline {
-    width: 68px;
-  }
-  
-  #form_button {
-    padding: 15px 25px;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  h1 {
-    font-size: 18px;
-  }
-  
-  .icon {
-    height: 35px;
-    width: 35px;
-  }
-  
-  .underline {
-    width: 53px;
-  }
-  
-  input[type='text'], [type='email'], select, textarea {
-    font-size: 0.875em;
-  }
-}
