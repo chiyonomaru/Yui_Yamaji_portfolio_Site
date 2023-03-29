@@ -125,7 +125,7 @@ font-weight: 700;
 header {
   position: relative;
   height: 4rem;
-  background-color: #404855;
+  background-color: #;
   color: white;
 }
 header h1 {
@@ -223,6 +223,22 @@ article {
   width: 10%;
   height: auto;
 }
+
+#backTop  {
+  width: 100%;
+  height: 50%;
+  margin: auto;
+  display: flex;
+	 width: 200px;
+  height: 200px;
+  line-height: 200px;
+  background-color: green;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+}
+
+
 
 .picbig img {
   width: 30%;
