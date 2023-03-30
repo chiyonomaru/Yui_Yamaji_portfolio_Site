@@ -632,6 +632,15 @@ footer {
     flex-direction: row;
     
   }
+
+.logo img {
+	 position: absolute;
+	top: -24px;
+    width: 20%;
+	margin-left: -45px;
+	margin-top:-2px;
+}
+	
   article {
     flex: 3;
     padding: 3rem;
