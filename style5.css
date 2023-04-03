@@ -529,19 +529,20 @@ p {
 
 .grid {
   display: grid;
-  gap: 60px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
-.item {
+.works {
   border-radius: 10px;
   background: #e8e0d4;
   padding: 18px;
   text-align: center;
+	margin:10px;
 }
 img {
   width: 89%;
-  height: auto;
-	margin:auto;
+  height: 30p;
+	margin-top:20px;
 }
 p {
   text-align: center;
