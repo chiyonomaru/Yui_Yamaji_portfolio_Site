@@ -504,8 +504,8 @@ aside p {
 
 .grid {
   display: grid;
-  gap: 40px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
 }
 .works {
   border-radius: 10px;
@@ -514,7 +514,7 @@ aside p {
   text-align: center;
 }
 img {
-  width: 89%;
+  width: 109%;
   height: auto;
 	margin:auto;
 }
