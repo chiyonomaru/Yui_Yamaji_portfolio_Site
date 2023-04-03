@@ -524,6 +524,33 @@ p {
 	
 
 
+
+@media screen and (max-width: 1000px) {
+  
+
+.grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.item {
+  border-radius: 10px;
+  background: 
+  padding: 18px;
+  text-align: center;
+	margin:10px;
+}
+img {
+  width: 89%;
+  height: 30p;
+	margin-top:20px;
+}
+p {
+  text-align: center;
+}
+	
+}
+
 @media screen and (max-width: 500px) {
   
 
@@ -534,7 +561,7 @@ p {
 }
 .item {
   border-radius: 10px;
-  background: #e8e0d4;
+  background: 
   padding: 18px;
   text-align: center;
 	margin:10px;
