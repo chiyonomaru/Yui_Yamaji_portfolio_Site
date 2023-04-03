@@ -505,9 +505,9 @@ aside p {
 .grid {
   display: grid;
   gap: 50px;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+  grid-template-columns: repeat(4, 200px);
 }
-.item {
+.works {
   border-radius: 10px;
   background: #e8e0d4;
   padding: 18px;
@@ -532,7 +532,7 @@ p {
   gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
-.item {
+.works {
   border-radius: 10px;
   background: #e8e0d4;
   padding: 18px;
