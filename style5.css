@@ -322,6 +322,8 @@ aside {
 	to{opacity:1}
 }
 
+
+
 .stepbar {
   margin: 0 auto;
   width: 80%;
@@ -764,7 +766,14 @@ footer {
 }
 
 
+.stepbar {
+  margin: 0 auto;
+  width: 80%;
+	display:flex;
+	padding:10px;
+}
 
+	
 #info2 p {
   font-size: 15px;
    display: inline-block;
