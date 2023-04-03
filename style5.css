@@ -507,7 +507,7 @@ aside p {
   gap: 40px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
-.item {
+.works {
   border-radius: 10px;
   background: #e8e0d4;
   padding: 18px;
