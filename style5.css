@@ -779,12 +779,27 @@ footer {
    display: inline-block;
     color: #444;
   text-align: left;
+	margin:20px;
 }
 #info2 p span {
      text-align: left;
  }
 
 
+@media only screen and (min-width: 1208px) {
+		
+#info2 p {
+  font-size: 15px;
+   display: inline-block;
+    color: #444;
+  text-align: left;
+	width:80%;
+}
+#info2 p span {
+     text-align: left;
+ }
+}
+	
 #info4  {
     margin: 16px auto;
 	text-align: center;
