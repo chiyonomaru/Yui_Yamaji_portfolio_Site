@@ -508,12 +508,14 @@ aside p {
   display: grid;
   gap: 65px;
   grid-template-columns: repeat(5, 200px);
+	margin-bottom:50px;
 }
 .item {
   border-radius: 10px;
   background: #e8e0d4;
   padding: 18px;
   text-align: center;
+	
 }
 img {
   width: 109%;
@@ -771,6 +773,7 @@ footer {
   width: 80%;
 	display:flex;
 	padding:10px;
+	margin-bottom:30px;
 }
 
 	
