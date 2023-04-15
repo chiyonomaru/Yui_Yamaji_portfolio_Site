@@ -257,17 +257,22 @@ aside {
 	margin-top: 20px;
 }
 
- #pic {
-    width: 100%;
+ 
+#pic {
+	
+	  width: 100%;
     margin-bottom: 2rem;
     margin-left: 0;
-  }
+}
 
+.picbig2 img {
+  width: 70%;
+  height: 80%;
+  margin: 80px 50px 40px 50px;
+  display: flex;
+  border-radius: 20px;
+}
 
-  #pic2 {
-    width: 100%;
-    margin-left: 0px;
-  }
 
 #info p {
     font-size: 12px;
