@@ -139,7 +139,13 @@ article {
   background-color: #fff;
 }
 
-
+article h1 {
+ texit-align:left;
+  padding: 2rem;
+  text-align: justify;
+  font-size: 0.85rem;
+  background-color: #fff;
+}
 #gallery {
   width: 100%;
   left: 10% 
@@ -299,7 +305,7 @@ aside {
 }
 
 #info2 p {
-  font-size: 16px;
+  font-size: 13px;
    display: inline-block;
     color: #444;
   text-align: left;
@@ -440,24 +446,22 @@ article p {
 }
 	
 aside {
-	
-	 margin: 15px auto;
-	text-align: center;
+	 color: #696969;
+	 margin: 16px auto;
+	text-align: left;
 	display: block;
 	border: 1px solid #00
-	
 }
 
 aside  p {
-	 color: #696969;
-	line-height: 30px;
-  font-size: 15px;
+	 font-size: 13px;
    display: inline-block;
+    color: #444;
   text-align: left;
 }
 
 
-#info2 p span {
+aside p span {
      text-align: left;
  }
 
