@@ -532,7 +532,13 @@ footer {
     font-size: 1rem;
   }
   
-
+.logo img {
+	 position: absolute;
+	top: -24px;;
+    width: 20%;
+	margin-left: -45px;
+	margin-top:-2px;
+}
 	
 #gallery{
   width: 100%;
