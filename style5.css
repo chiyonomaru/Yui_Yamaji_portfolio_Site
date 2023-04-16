@@ -619,7 +619,7 @@ p {
 
 	
 #skill{
-  width: 60%;
+  width: 100%;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -628,7 +628,7 @@ p {
 	}
 
 .skill{
-  width: 300px;
+  width: px;
   margin-bottom: 3rem;
 	
 	}
