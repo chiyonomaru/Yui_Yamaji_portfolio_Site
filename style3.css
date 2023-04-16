@@ -625,7 +625,33 @@ margin-left: 30px;
 	 margin: 0px 0px 80px 10px;
 }
 
+
+
+#pic {
+  width: 100%;
+  height: auto;
+}
+
+.picbig img {
+  width: 30%;
+
   
+	  border-radius: 4%;
+}
+
+.image {
+  width: 200px;
+  heght: 20px;
+ margin:0 auto;
+  margin-top: 30px;
+  background-color: #fff;
+}
+
+.thumb {
+  width: 200px;
+  height: 280px;
+}
+
   h1 {
      text-align: center;
     margin: 30px;
