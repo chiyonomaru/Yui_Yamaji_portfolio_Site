@@ -673,6 +673,7 @@ textarea {
   cursor: pointer;
   display: inline-block;
   font-family: 'Helvetica', Arial, sans-serif;
+   font-family: fot-tsukuardgothic-std,sans-serif;
   font-size: 0.875em;
   font-weight: bold;
   outline: none;
@@ -683,6 +684,7 @@ textarea {
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+	 border-radius: 7px;
 }
 
 #form_button:hover {
