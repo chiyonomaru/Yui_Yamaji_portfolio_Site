@@ -636,7 +636,7 @@ p {
 .skill img{
    width: 100%;
    border-radius: 50%;
-	border: solid 3px #6969;
+	border: solid 3px #444;
 	margin:auto;
 	 box-shadow: 4px 4px 8px 0 rgb(0 0 0 / 13%);
 	}
