@@ -83,10 +83,12 @@ header h1 {
   cursor: pointer;
   width: 1.8rem;
 }
-
 .logo img {
-   margin: -25px -87px -37px -40px;
-  text-align:ceter;
+	 position: absolute;
+	top: -24px;;
+	width: 55%;
+	margin-left: -45px;
+	margin-top:-2px;
 }
 nav ul {
     color: white;
