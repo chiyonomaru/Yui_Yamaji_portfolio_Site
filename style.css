@@ -135,6 +135,20 @@ article {
   font-size: 0.85rem;
   background-color: #fff;
 }
+
+#backTop  {
+  
+  margin: auto;
+  display: flex;
+	 width: 200px;
+  line-height: 200px;
+  background-color: green
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+}
+
+
 	
 #gallery{
   width: 70%;
@@ -145,7 +159,7 @@ article {
 	
 .image{
 
-	margin-top: 5rem;
+	margin-top: rem;
 	padding-bottom: 1rem;
 	
 	}
