@@ -170,7 +170,7 @@ span.smoothTextTrigger.smoothTextAppear{
 
 body {
   background: #444;
-  
+  height:00px;
 }
 
 button {
@@ -207,7 +207,7 @@ form {
 }
 
 h1 {
-  color: #444;
+  color: #fff;
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 7px;
@@ -216,7 +216,7 @@ h1 {
 }
 
 .underline {
-  border-bottom: solid 2px #fff;
+
   margin: -0.512em auto;
   width: 80px;
 }
@@ -317,24 +317,24 @@ textarea {
 }
 
 :-moz-placeholder { 
-  color: #444;
+  color: #fff;
   opacity: 1;
 }
 
 ::-moz-placeholder {
-  color: #444;
+  color: #fff;
   opacity: 1;
 }
 
 :-ms-input-placeholder {
-  color: #444;
+  color: #fff;
 }
 
 #form_button {
   background: none;
   border: solid 2px #fff;
   color: #fff;
-  background-color:#444;
+
   cursor: pointer;
   display: inline-block;
   font-family: 'Helvetica', Arial, sans-serif;
