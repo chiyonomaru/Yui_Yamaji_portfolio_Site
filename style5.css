@@ -639,12 +639,15 @@ p {
   width: px;
   margin-bottom: 3rem;
 	
+	
 	}
 	
 .skill img{
    width: 100%;
    border-radius: 50%;
 	border: solid 3px #444;
+	
+	background-color:#444;
 	margin:auto;
 	 box-shadow: 4px 4px 8px 0 rgb(0 0 0 / 13%);
 	}
@@ -653,6 +656,7 @@ p {
    width: 100%;
    padding-top: 1rem;
    text-align: center;
+	
 	}
 	
 .skill a{
@@ -917,6 +921,7 @@ footer {
    width: 100%;
    border-radius: 50%;
 	display:flex;
+background-color:#444;
 	}
 	
 .skill p{
@@ -944,16 +949,5 @@ aside p {
 	display: inline-block;
 	color: #444;
 	font-size: 15.5px;
-
-
-
-.image{
-	width:100px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  height:500px;
-}
 
 
