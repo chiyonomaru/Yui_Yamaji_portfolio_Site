@@ -168,11 +168,6 @@ span.smoothTextTrigger.smoothTextAppear{
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-body {
-  background: #444;
-  height:00px;
-}
-
 button {
   overflow: visible;
   
@@ -180,13 +175,13 @@ button {
 
 button, select {
   text-transform: none;
-  
+   
 }
 
 button, input, select, textarea {
   color: #fff;
   font: inherit;
-
+   
 }
 
 input {
@@ -197,13 +192,13 @@ input {
 
 #main {
   border: solid 1px #fff;
-  
+   background-color: #444;
 }
 
 form {
   padding: 37.5px;
   margin: 50px 0;
-  
+   background-color: #32373c
 }
 
 h1 {
