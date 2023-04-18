@@ -127,6 +127,7 @@ header {
   height: 4rem;
   background-color: #;
   color: white;
+	
 }
 header h1 {
   position: absolute;
@@ -156,6 +157,7 @@ header h1 {
     width: 55%;
 	margin-left: -45px;
 	margin-top:-2px;
+	 position: fixed;
 }
 nav ul {
     color: white;
@@ -216,7 +218,7 @@ article {
   filter: 0;
   flex-wrap: wrap;
   justify-content: space-around;
-  
+  margin-bottom: 20px;
 }
 
 #pic {
@@ -283,7 +285,9 @@ aside {
   margin: 16px auto;
 	text-align: center;
 	display: block;
-	border: 1px solid #00
+	border: 1px solid #000
+	border-radius: 20px;
+	margin-bottom:120px;
 }
 
 #info2 p {
@@ -332,6 +336,7 @@ aside {
 .stepbar {
   margin: 0 auto;
   width: 80%;
+	margin-top:30px;
 }
 
 .stepbar .stepbarwrap {
@@ -570,6 +575,7 @@ p {
   display: grid;
   gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(182px, 1fr));
+	margin-top:50px;
 }
 .item {
   border-radius: 10px;
