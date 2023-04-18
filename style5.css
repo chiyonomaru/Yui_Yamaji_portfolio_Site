@@ -155,9 +155,9 @@ header h1 {
 .logo img {
 	 position: absolute;
 	top: -24px;;
-    width: 55%;
-	margin-left: -45px;
-	margin-top:-2px;
+    width: 100%;
+	margin-left: -125px;
+	margin-top:-36px;
 	 position: fixed;
 }
 nav ul {
