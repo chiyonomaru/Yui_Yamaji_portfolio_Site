@@ -686,13 +686,44 @@ footer {
     font-size: 1rem;
   }
   
+	
+
 .logo img {
-	 position: absolute;
+	  position: absolute;
 	top: -24px;;
-    width: 20%;
-	margin-left: -45px;
-	margin-top:-2px;
+    width: 33%;
+
+	margin-top:-36px;
 	 position: fixed;
+	
+}
+
+
+@media screen and (max-width:1030px) {
+	
+.logo img {
+	  position: absolute;
+	top: -24px;;
+    width: 39%;
+
+	margin-top:-36px;
+	 position: fixed;
+	
+}
+}
+
+	
+@media screen and (max-width:1000px) {
+	
+.logo img {
+	  position: absolute;
+	top: -24px;;
+    width: 50%;
+
+	margin-top:-36px;
+	 position: fixed;
+	
+}
 }
 	
 #gallery{
