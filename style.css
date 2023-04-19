@@ -70,6 +70,7 @@ header h1 {
     width: 55%;
 	margin-left: -45px;
 	margin-top:-2px;
+	 position: fixed;
 }
 
 #button {
@@ -545,6 +546,7 @@ footer {
     width: 20%;
 	margin-left: -45px;
 	margin-top:-2px;
+	 position: fixed;
 }
 	
 #gallery{
