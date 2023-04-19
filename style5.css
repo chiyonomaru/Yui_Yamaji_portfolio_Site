@@ -156,58 +156,47 @@ header h1 {
 	 position: absolute;
 	top: -24px;;
     width: 100%;
-	margin-left: -139px;
+	margin-left: -124px;
 	margin-top:-36px;
 	 position: fixed;
 }
 
-@media only screen and (max-width: 300px) {
-header {
-  position: relative;
-  height: 4rem;
-  background-color: #;
-  background-color: white;
-	z-index:9;
-}
-header h1 {
-  position: absolute;
-  top: 1.9rem;
-  left: 2rem;
-  font-size: 1.2rem;
-	  background-color: white;
-}
 
 
-	.logo img {
-	 position: absolute;
-    width: 120%;
-	margin-top:-26px;
+
+nav ul {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0px px 1px;
+   
+}
+
+@media screen and (min-width:540px) {
+	
+.logo img {
+	  position: absolute;
+	top: -24px;;
+    width: 50%;
+   margin-left:-76px;
+	margin-top:-4px;
 	 position: fixed;
+	
 }
 }
 
-@media only screen and (min-width: 500px) {
-header {
-  position: relative;
-  height: 4rem;
-  background-color: #;
-  background-color: white;
-	z-index:9;
-}
-header h1 {
-  position: absolute;
-  top: 1.9rem;
-  left: 2rem;
-  font-size: 1.2rem;
-	  background-color: white;
-}
 
-
-	.logo img {
-	 position: absolute;
-    width: 70%;
-	margin-top:-26px;
+@media screen and (max-width:300px) {
+	
+.logo img {
+	  position: absolute;
+	top: -24px;;
+    width: 90%;
+   margin-left:-76px;
+	margin-top:-4px;
 	 position: fixed;
+	
 }
 }
 
@@ -921,65 +910,42 @@ footer {
     
   }
 
+
+	
+
 .logo img {
 	  position: absolute;
 	top: -24px;;
-    width: 30%;
-	margin-left: -432px;
+    width: 33%;
+
 	margin-top:-36px;
 	 position: fixed;
 	
 }
 
 
+@media screen and (max-width:1030px) {
 	
-
-@media only screen and (max-width: 1268px) {
-	.logo img {
+.logo img {
 	  position: absolute;
 	top: -24px;;
-    width: 30%;
-	margin-left: -252px;
-	margin-top:-30px;
+    width: 39%;
+
+	margin-top:-36px;
 	 position: fixed;
 	
 }
 }
 
 	
-@media only screen and (max-width: 912px) {
-	.logo img {
+@media screen and (max-width:1000px) {
+	
+.logo img {
 	  position: absolute;
 	top: -24px;;
-    width: 30%;
-	margin-left: -210px;
-	margin-top:-3px;
-	 position: fixed;
-	
-}
-}
-	
-	
-@media only screen and (max-width: 768px) {
-	.logo img {
-	  position: absolute;
-	top: -24px;;
-    width: 30%;
-	margin-left: -120px;
-	margin-top:-3px;
-	 position: fixed;
-	
-}
-}
+    width: 50%;
 
-		
-@media only screen and (max-width: 820px) {
-	.logo img {
-	  position: absolute;
-	top: -24px;;
-    width: 30%;
-	margin-left: -128px;
-	margin-top:-3px;
+	margin-top:-36px;
 	 position: fixed;
 	
 }
