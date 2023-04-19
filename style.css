@@ -67,10 +67,49 @@ header h1 {
 .logo img {
 	 position: absolute;
 	top: -24px;;
-    width: 55%;
-	margin-left: -45px;
-	margin-top:-2px;
+    width: 100%;
+	margin-left: -124px;
+	margin-top:-36px;
 	 position: fixed;
+}
+
+
+
+
+nav ul {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0px px 1px;
+   
+}
+
+@media screen and (min-width:540px) {
+	
+.logo img {
+	  position: absolute;
+	top: -24px;;
+    width: 50%;
+   margin-left:-76px;
+	margin-top:-4px;
+	 position: fixed;
+	
+}
+}
+
+
+@media screen and (max-width:300px) {
+	
+.logo img {
+	  position: absolute;
+	top: -24px;;
+    width: 90%;
+   margin-left:-76px;
+	margin-top:-4px;
+	 position: fixed;
+	
+}
 }
 
 #button {
