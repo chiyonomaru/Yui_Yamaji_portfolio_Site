@@ -190,69 +190,8 @@ article {
   justify-content: space-around;
 }
 
-.box0{
-  width:100%;
-    
-  box-sizing: border-box;
-      background-color:#fff;
-	  padding:0 20px;
-	  text-align:left;
-	  overflow: hidden; 
-}
-
-.box1{width:90%;
-      background-color:#FFF;
-      text-align:left; 
-      clear:left;
-	  overflow: hidden; 
-}
-
-.box3{width:100%;
-      font-size:18px;
-	  line-height:24px;
-	  margin-bottom:5px;
-	  overflow: hidden;
-	  border-bottom: double 3px #bbb;
-}
 
 
-.boxl{
-
-  width:100%;
-	
-  box-sizing: border-box;
-	  
-  overflow: hidden;
-    
-  padding:0px 0px 20px 0px;
-}
-.boxr {
-
-  width:100%;
-
-  box-sizing: border-box;
-
-  overflow: hidden;
-
-  padding:0;
-	
-  margin-top: 20px;
-
-}
-
-.image {
-  width: 200px;
-  heght: 20px;
- margin:0 auto;
-  margin-top: 30px;
-	
-  background-color: #fff;
-}
-
-.thumb {
-  width: 200px;
-  height: 280px;
-}
 
 #page {
    margin-bottom: 5rem;
@@ -574,10 +513,12 @@ footer {
     
   }
 	
+	
+
 .logo img {
 	  position: absolute;
-	top: -24px;;
-    width: 33%;
+	top: 24px;;
+    width: 37%;
 
 	margin-top:-36px;
 	 position: fixed;
@@ -585,12 +526,13 @@ footer {
 }
 
 
+
 @media screen and (max-width:1030px) {
 	
 .logo img {
 	  position: absolute;
-	top: -24px;;
-    width: 39%;
+	top: 24px;;
+    width: %;
 
 	margin-top:-36px;
 	 position: fixed;
@@ -624,13 +566,6 @@ footer {
 }
 
 
-
-  
-.image a {
-  margin-top: 80px;
-  text-align: center;
-  heght:px;
-}
 
 
 #info span { 
