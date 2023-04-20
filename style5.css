@@ -723,7 +723,7 @@ p {
 	
 .skill img{
    width: 100%;
-   border-radius: 50%;
+   border-radius: 5%;
 	border: solid 3px #000;
 	
 	background-color:#fff;
