@@ -58,7 +58,7 @@ font-style: normal;
 header {
   position: relative;
   height: 4rem;
-  background-color: #404855;
+ 
   color: white;
 }
 header h1 {
@@ -647,7 +647,7 @@ footer {
   margin-top: 4rem;
   padding: 1.5rem;
   text-align: center;
-  background-color: #404855;
+
   color:white;
 }
 
