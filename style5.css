@@ -990,8 +990,9 @@ footer ul {
 
 .stepbar {
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
 	display:flex;
+	
 	padding:10px;
 	margin-bottom:30px;
 }
