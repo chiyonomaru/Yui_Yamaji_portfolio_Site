@@ -324,7 +324,7 @@ max-width: 500px;
   text-align: ;
   margin: 0 auto;
    color: #444;
-   margin-right: 135px;
+   margin-right: 134px;
 }
 
 #info3 p {
@@ -432,9 +432,25 @@ footer {
     height: 35px;
   }
 
+
+.article__color-all {
+ 
+  margin-left: -90px;
+  
+  width: 50px;
+
+  height: 50px;
+ 
+
+  
+  border-radius: 10px;
+
+   margin-top: 30px;
+}
+
 .article__portfolio_color1 {
  
-  margin-left: 48px;
+  margin-left: -110px;
   
   width: 50px;
 
@@ -451,9 +467,9 @@ footer {
 
 .article__portfolio_color2 {  
   
-  margin-top: -50px;
+  
 
-  margin-left: 120px;
+  margin-left: -10px;
   
   width: 50px;
 
