@@ -435,7 +435,7 @@ footer {
 
 .article__color-all {
  
-  margin-left: -90px;
+  margin-left: -120px;
   
   width: 50px;
 
@@ -450,7 +450,7 @@ footer {
 
 .article__portfolio_color1 {
  
-  margin-left: -110px;
+  
   
   width: 50px;
 
@@ -468,8 +468,9 @@ footer {
 .article__portfolio_color2 {  
   
   
+   margin-left: -90px;
+  
 
-  margin-left: -10px;
   
   width: 50px;
 
@@ -718,7 +719,8 @@ aside p {
 }
 
 .article__color-all{
-	margin-left:119px;
+	margin-left:269px;
+	margin-top:50px;
 }
 
 .article__portfolio_color1 {
