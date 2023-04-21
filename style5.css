@@ -890,7 +890,7 @@ footer ul {
       LAYOUT PC (OverWrite)
 --------------------------------*/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
 
   header {
     height: 5em;
@@ -991,13 +991,40 @@ footer ul {
 .stepbar {
   margin: 0 auto;
   width: 100%;
-	display:flex;
-	
-	padding:10px;
-	margin-bottom:30px;
+	margin-top:30px;
 }
 
 	
+@media screen and (min-width:900px) {
+	
+.stepbar {
+	  margin: 0 auto;
+  width: 80%;
+	margin-top:30px;
+	
+}
+}
+#info2 p {
+  font-size: 15px;
+   display: inline-block;
+    color: #444;
+  text-align: left;
+	margin:20px;
+}
+#info2 p span {
+     text-align: left;
+ }
+
+	
+@media screen and (min-width:1000px) {
+	
+.stepbar {
+	  margin: 0 auto;
+  width: 50%;
+	margin-top:30px;
+	
+}
+}
 #info2 p {
   font-size: 15px;
    display: inline-block;
