@@ -320,8 +320,8 @@ h4 {
 article{
    max-width:900px;
   color: #696969;
-  margin-right: 10px;
-   margin-left: 14px;
+  margin-right: auto;
+   margin-left: auto;
     text-align: left;
   font-size: 1px;
 }
