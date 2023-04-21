@@ -235,6 +235,79 @@ article {
   margin: 80px 50px 40px 50px;
 	 border-radius: 5%;
 }
+#skill{
+  width: 36%;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+
+	}
+
+.skill{
+  width: px;
+  margin-bottom: 3rem;
+		margin-top:40px;
+	
+	}
+	
+.skill img{
+   width: 100%;
+   border-radius: 50%;
+	border: solid 3px #000;
+	margin-top:0px;
+	background-color:#fff;
+	margin:auto;
+	 box-shadow: 4px 4px 8px 0 rgb(0 0 0 / 13%);
+	}
+	
+.skill p{
+   width: 100%;
+   padding-top: 1rem;
+   text-align: center;
+		color:#000;
+	}
+	
+.skill a{
+   text-decoration: none;
+	}	
+
+
+@media screen and (max-width:300px) {
+	
+	
+#skill{
+  width: 26%;
+ 
+	}
+
+.skill{
+  width: px;
+  margin-bottom: 3rem;
+	
+	
+	}
+	
+.skill img{
+   width: 116%;
+   border-radius: 50%;
+	border: solid 3px #000;
+	
+	background-color:#fff;
+	margin:auto;
+	 box-shadow: 4px 4px 8px 0 rgb(0 0 0 / 13%);
+	}
+	
+.skill p{
+   width: 550%;
+   text-align: center;
+		color:#000;
+	}
+	
+.skill a{
+   text-decoration: none;
+	}	
+
+}
 
 aside {
 
@@ -609,6 +682,38 @@ footer {
 }
 
 
+		
+#skill{
+  width: 70%;
+  position: relative;
+  margin: auto;
+	}
+
+
+.skill{
+  width: 100px;
+	margin-top:30px;
+	
+	}
+	
+.skill img{
+   width: 100%;
+   border-radius: 50%;
+	
+	}
+	
+.skill p{
+   width: 100%;
+   padding-top: 1rem;
+   text-align: center;
+	color:#000;
+	}
+	
+.skill a{
+   text-decoration: none;
+	}	
+
+
 #info span { 
         width: 100%;
         font-size: 20px;
@@ -701,6 +806,7 @@ aside p {
   
 }
   
+	
 
 
 article  {
