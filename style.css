@@ -86,12 +86,14 @@ header h1 {
 
 .logo img {
 	 position: absolute;
-	top: 24px;
+	top: -24px;;
     width: 100%;
 	margin-left: -124px;
 	margin-top:-36px;
 	 position: fixed;
 }
+
+
 
 
 nav ul {
@@ -102,7 +104,6 @@ nav ul {
     margin: 0 0px px 1px;
    
 }
-
 
 @media screen and (min-width:540px) {
 	
@@ -131,6 +132,14 @@ nav ul {
 }
 }
 
+nav ul {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0px px 1px;
+   
+}
 #lists {
   letter-spacing: 3px;
   display: flex;
