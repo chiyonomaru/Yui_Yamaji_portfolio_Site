@@ -120,12 +120,26 @@ article {
   background-color: #fff;
 }
 
+#backTop  {
+  
+  margin: auto;
+  display: flex;
+	 width: 200px;
+
+  line-height: 200px;
+
+  border-radius: 50%;
+  
+  text-align: center;
+}
+
+
 #gallery{
-  width: 80%;
+  width: 100%;
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  width: 50%;
+  width: 60%;
    margin: auto;
   justify-content: space-around;
   margin: auto;
@@ -133,10 +147,9 @@ article {
 	}
 
 .image{
-	width: 150px;
+	width: 300px;
 
 	margin-top: 5rem;
-	padding-bottom: 1rem;
 
 	}
 
@@ -183,13 +196,7 @@ article {
   width: 10%;
   height: auto;
 }
-.picbig img {
-  width: 30%;
-  height: 50%;
-  margin: 80px 50px 40px 50px;
-  display: flex;
-  border-radius: 20px;
-}
+
 aside {
   margin: -90px 50px -0px 50px;
   padding: 2rem;
@@ -496,8 +503,8 @@ footer {
 	
 	
 .image{
-  width: 250px;
-  margin-bottom: 3rem;
+  width: 400px;
+  
 	}
 	
 .image img{
