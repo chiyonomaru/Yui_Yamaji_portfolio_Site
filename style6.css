@@ -230,7 +230,7 @@ article {
 }
 
 .picbig img {
-  width: 50%;
+  width: 70%;
   height: 50%;
   margin: 80px 50px 40px 50px;
 	 border-radius: 5%;
@@ -626,8 +626,7 @@ footer {
 
 
 .picbig img {
-  width: 20%;
-  height: 50%;
+  width: 60%;
   margin: 80px 50px 40px 50px;
 	 border-radius: 5%;
 }
@@ -872,7 +871,7 @@ footer {
 }
 
   .top {
-    width: 35px; 
+    width: 35px;
     height: 35px;
   }
 
