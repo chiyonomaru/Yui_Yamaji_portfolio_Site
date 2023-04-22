@@ -1,934 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="script.js" defer></script>
+  <link href="style.css" rel="stylesheet">
+  <title>Sample Site</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="8-16.css">
+	<link rel="stylesheet" type="text/css" href="css/8-10.css">
+	<link rel="stylesheet" type="text/css" href="css/5-16.css">
+	<link rel="stylesheet" type="text/css" href="css/5-1-15.css">
+	<script>
+  (function(d) {
+    var config = {
+      kitId: 'aos4zmx',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+</head>
+<body>
+  <div id="container">
+	    
   
-
-
-/*-------------------------------
-               BASE
---------------------------------*/   
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: sans-serif;
-  font-family: fot-tsukuardgothic-std,sans-serif;
-font-weight: 700;
-font-style: normal;
-  font-size: 16px;
-  background-color: white;
-}
-
-/*-------------------------------
-         LAYOUT MOBILE
---------------------------------*/
-
-#container {
-  margin: auto;
-  
-}
-
-#loading {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  z-index: 999;
-  width: 100vw;
-  height: 100vh;
-  background: #686868
-}
-
-
-#loading_inner {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  text-align: center;
-}
-
-
-#loading img{
-  max-width: 200px;
-}
-
-
-header {
-    position: relative;
-  height: 4rem;
-  background-color: #;
-  background-color: white;
-	z-index:9;
-}
-header h1 {
- position: absolute;
-  top: 1.9rem;
-  left: 2rem;
-  font-size: 1.2rem;
-	  background-color: white;
-}
-
-#button {
-  position: absolute;
-  top: -0.5rem;
-  right: 1rem;
-}
-#button a {
-  color:#FFF;
-}
-#button img {
-  cursor: pointer;
-  width: 1.8rem;
-}
-
-
-.logo img {
-	 position: absolute;
-	top: -24px;;
-    width: 100%;
-	margin-left: -124px;
-	margin-top:-36px;
-	 position: fixed;
-}
-
-
-
-
-nav ul {
-    color: white;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    margin: 0 0px px 1px;
-   
-}
-
-@media screen and (min-width:540px) {
+      <header>
+      <div class=logo>
+    <a href="index.html">
+          <img src="images/site-logo2.png">
+        </a>
+  </div>
+            </header>
+     
+ 	<div class="openbtn1"><span></span><span></span><span></span></div> 
+                <nav id="openbtn1">
+		<nav id="g-nav">
+                <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
+                <ul>
+                 <li class="blurTrigger"><li><a href="index.html">Top</a></li>  
+                 <li class="blurTrigger"><li><a href="2.html">poster</a></li>  
+                 <li class="blurTrigger"><li><a href="web.html">web</a></li>  
+                 <li class="blurTrigger"><li><a href="3.html">logo</a></li>  
+               
+                </ul>
+                </div>
+                </nav>
+    <main>
+      
+        <div id="page">
+	 <div id="pic">
+	 <div class="picbig" >
+     <a href="images/Call to Action Mockup Instagram Post.png" data-lightbox="group"><img src="images/Call to Action Mockup Instagram Post.png" width="300" hight="400" alt="" id="picbig01"></a>
+	</div>
+<div id="info">
+	<span>TEAMI STADIO サイト</span>
+</div>
 	
-.logo img {
-	  position: absolute;
-	top: -24px;;
-    width: 50%;
-   margin-left:-76px;
-	margin-top:-4px;
-	 position: fixed;
-	
-}
-}
-
-
-@media screen and (max-width:300px) {
-	
-.logo img {
-	  position: absolute;
-	top: -24px;;
-    width: 90%;
-   margin-left:-76px;
-	margin-top:-4px;
-	 position: fixed;
-	
-}
-}
-
-nav ul {
-    color: white;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    margin: 0 0px px 1px;
-   
-}
-#lists {
-  letter-spacing: 3px;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  position: absolute;
-  top: rem;
-  color: #fff;
-  background-color: #fff;
-  opacity: 0.85;
-}
-#lists li {
-  width: 100%;
-  border-bottom: 1px solid #444;
-  list-style-type: none;
-  font-size: 80%;
-}
-#lists li:last-child {
-  border-bottom: none;
-  
-}
-#lists a {
-  display: block;
-  font-size: 18px;
-  padding: 1.4rem;
-  color: #444;
-  text-decoration: none;
-  text-align: center;
-  margin-top: -1px;
-}
-
-#container {
- 
-    position: relative;
- 
-    width: 100%;
-    margin: auto;
-  }
-
-main {
-  flex-direction: column;
-}
-article {
-  
-  padding: 2rem;
-  text-align: justify;
-  font-size: 0.85rem;
-  background-color: #fff;
-}
-
-#gallery {
-  width: 100%;
-  left: 10% 
-  display: flex;
-  filter: 0;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.image {
-  width: 200px;
-  heght: 20px;
- margin:0 auto;
-  margin-top: 30px;
-	
-  background-color: #fff;
-}
-
-.thumb {
-  width: 200px;
-  height: 280px;
-}
-
-#page {
-   margin-bottom: 5rem;
-  display: fex;
-  text-align: center;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 100%;
-  background-color: #fff;
-  
-}
-
-#pic {
-  width: 10%;
-  height: auto;
-}
-
-.picbig img {
-  width: 50%;
-  height: 50%;
-  margin: 80px 50px 40px 50px;
-	 border-radius: 5%;
-}
-#skill{
-  width: 100%;
-  position: relative;
-  display: flex;
-  justify-content: space-around;
-
-	}
-
-.skill{
-  width:100%;
-  margin-bottom: 3rem;
-		margin-top:40px;
-	
-	}
-	
-.skill img{
-   width: 60%;
-   border-radius: 50%;
-	border: solid 3px #000;
-	margin-top:0px;
-	background-color:#fff;
-	margin:auto;
-	 box-shadow: 4px 4px 8px 0 rgb(0 0 0 / 13%);
-	}
-	
-.skill p{
-   width: 100%;
-   text-align: center;
-		color:#000;
-	margin-left:-26px;
-	}
-	
-.skill a{
-   text-decoration: none;
-	}	
-
-
-@media screen and (max-width:300px) {
-	
-	
-#skill{
-  width: 100%;
- 
-	}
-
-.skill{
-  width: px;
-  margin-bottom: 3rem;
-	
-	
-	}
-	
-.skill img{
-   width: 50%;
-   border-radius: 50%;
-	border: solid 3px #000;
-	
-	background-color:#fff;
-	margin:auto;
-	 box-shadow: 4px 4px 8px 0 rgb(0 0 0 / 13%);
-	}
-	
-.skill p{
-   width: 90%;
-   text-align: center;
-		color:#000;
-	margin-left:-20px;
-	}
-	
-.skill a{
-   text-decoration: none;
-	}	
-
-}
-
-aside {
-
-  padding: 2rem;
-  text-align: center;
-  font-size: 0.85rem;
-  background-color: #EE;
-}
-
-
- #pic {
-    width: 100%;
-    margin-bottom: 2rem;
-    margin-left: 0;
-  }
-
-h4 {
-   font-weight: bold;
-}
-  #pic2 {
-    width: 100%;
-    margin-left: 0px;
-  }
-
-#info2 {
-  margin: 16px auto;
-	text-align: center;
-	display: block;
-	border: 1px solid #00
-}
-
-#info2 p {
-  font-size: 13px;
-   display: inline-block;
-    color: #444;
-  text-align: left;
-}
-#info2 p span {
-     text-align: left;
- }
-
-article{
-   max-width:900px;
-  color: #696969;
-  margin-right: auto;
-   margin-left: auto;
-    text-align: left;
-  font-size: 1px;
-}
-
-#info span{
-  font-size: 12px;
-  font-weight: bold;
-  color: #696969;
-  text-align: left;
-   margin-left: px;
-}
-
-
-#info4 {
-   margin: 16px auto;
-	text-align: center;
-	display: block;
-	border: 1px solid #00
-
-}
-
-#info4 p {
- text-align: left;
-	display: inline-block;
-}
-
-
-#info4 p span {
-     text-align: left;
-  color: #444;
-   margin-left: px;
-  font-size: 11.5px;
-   margin-top: 10px;
- }
-
-#info4  {
-   margin: 16px auto;
-	text-align: center;
-	display: block;
-	border: 1px solid #00
-}
-
-#info4 h4 {
-   text-align: left;
-	display: inline-block;
-}
-
-#info3   {
-max-width: 100%;
-  text-align: ;
-  margin: 0 auto;
-   color: #444;
-   margin-right: 134px;
-}
-
-#info3 p {
- display: inline-block;
-  text-align: left;
-	width:100%;
-}
-
-/*----------------------------
-scroll_up ｜下から上へ出現
-----------------------------*/
-.scroll_up {
-  transition: 0.8s ease-in-out;
-  transform: translateY(30px);
-  opacity: 0;
-}
-.scroll_up.on {
-  transform: translateY(0);
-  opacity: 1.0;
-}
-
-#wrapper span {
-  max-width: 100%;
-  font-weight: bold;
-    margin-left:1px;
-  font-size: 12px;
-  
-}
-
-h1 {
-  text-align: left;
-  color: #696969;
-  margin-top: 3rem;
-}
-
-
-article  {
-  margin-top: 1rem;
-  text-align: left;
-   color: #696969
-  line-height: 180%;
-  font-size: 11px;
-}
-article span {
-    margin-top: rem;
-  text-align: left;
-    margin-bottom: 2rem;
-    color: #444;
-  
-}
-
-
-#article p {
-  text-align: left;
-}
-aside h1 {
-　margin-rem;
-}
-aside  {
- max-width: 603px;
-  text-align: center;
-  margin: 0 auto;
-  padding: 10px 30px;
-}
-
-aside p span {
-  color: #444;
-}
-
-
-footer {
-  margin-top: 4rem;
-  padding: 1.5rem;
-  text-align: center;
-
-  color:white;
-}
-
-
-#page_top{
-  width: 50px;
-  height: 50px;
-  position: fixed;
-  right: 0;
-  bottom: -50px;
-
-  opacity: 0.6;
-  border-radius: 50%;
-   
-    bottom: 20px;
-    right: 10px;
-}
-
-#page_top{
-  width: 50px;
-  height: 50px;
-  position: fixed;
-  right: 0;
-  bottom: -50px;
-  opacity: 0.6;
-  border-radius: 50%;
-}
-
-  .top {
-    width: 35px;
-    height: 35px;
-  }
-
-
-.article__color-all {
- 
-  margin-left: -120px;
-  
-  width: 50px;
-
-  height: 50px;
- 
-
-  
-  border-radius: 10px;
-
-   margin-top: 30px;
-}
-
-.article__portfolio_color1 {
- 
-  
-  
-  width: 50px;
-
-  height: 50px;
- 
-  background-color: #e5037b;
-  
-  border-radius: 10px;
-
-   margin-top: 30px;
-}
-
-
-
-.article__portfolio_color2 {  
-  
-  
-   margin-left: -90px;
-  
-
-  
-  width: 50px;
-
-  height: 50px;
- 
-  background-color: #72a8db;
-  
-  border-radius: 10px;
-}
-
-/*-------------------------------
-      LAYOUT PC (OverWrite)
---------------------------------*/
-
-@media only screen and (min-width: 768px) {
-
-  header {
-    height: 5em;
-  }
-  header h1 {
-    top: 2.4rem;
-    left: -20.6rem;
-    width: 200%;
-    text-align: center;
-    font-size: 1.5rem;
-  }
-
-
-  #container {
- 
-    position: relative;
- 
-
-    margin: auto;
-  }
-
-  
-  #lists {
-    flex-direction: row;
-    justify-contet: space-between;
-    top: 6rem;
-    left: 0;
-
-    background-color: white;
-  }
-  #lists li {
-    flex:1;
-    border-bottom: none;
-     display: block;
-  padding: 12px 12px 12px 12px;
-  /*color: #778899;*/
-  text-align: center;
-   
-  }
-  #lists li:last-child {
-    border-right: none;
-  }
- 
-  main {
-    height: 950px
-    flex-direction: row;
-    margin-top: 3rem;
-  }
-  article {
-    flex: 3;
-    padding: 3rem;
-    font-size: 1rem;
-    
-  }
-	
-.logo img {
-	  position: absolute;
-	top: -24px;;
-    width: 33%;
-
-	margin-top:-36px;
-	 position: fixed;
-	
-}
-
-
-@media screen and (max-width:1030px) {
-	
-.logo img {
-	  position: absolute;
-	top: -24px;;
-    width: 39%;
-
-	margin-top:-36px;
-	 position: fixed;
-	
-}
-}
-
-	
-@media screen and (max-width:1000px) {
-	
-.logo img {
-	  position: absolute;
-	top: -24px;;
-    width: 50%;
-
-	margin-top:-36px;
-	 position: fixed;
-	
-}
-}
-	
-  
-#gallery {
-  margin:auto;
-  margin-top: 70px;
-  width: 600px;
-  outline: none;
-　border: none;
-  display: flex;
-  justify-content: space-around;
-}
-
-
-
-.picbig img {
-  width: 50%;
-  height: 50%;
-  margin: 80px 50px 40px 50px;
-	 border-radius: 5%;
-}
-
-
+         
+		     
+			 <article>
+
+	<div id="info2">
+		<p>
+			授業の課題でWordpressを使用して制作したウェブサイトです。<br>
+			サイトのテーマは「手編みの編み物を見て癒されて欲しい」で全体
+			的に優しい雰囲気のサイトにすることを意識しました。<br> 
+		    授業の課題でWordpressを使用して制作したウェブサイトです。サイトのテーマは「手編みの編み物を見て癒されて欲しい」<br>
+			で全体的に優しい雰囲気のサイトにすることを意識しました。<br> 作品に目を向けて欲しい為説明は最小限にしました。
+            <span><a href="https://design.kyusan-u.ac.jp/socialdesign/?%E5%B1%B1%E8%B7%AF%E7%94%B1%E4%BE%9D/%E6%83%85%E5%A0%B1%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E6%BC%94%E7%BF%92IIIA" class="sample1">概要はここをクリック</a></span>
+
+			</p>
+				 </div>
+				 
+				 
+			
+				 
+						
+         <div id="info3">
+	    <p>
+		 使用したモチーフ、写真
+	    </p>
+             </div>
+				 
+				 
+				 <div id="skill" class="about">
+	    <div class="skill"><img src="images/fish.png">
+		    <div class="balloon-006">
+			    <p></p></div></div>
+					 
+		     <div class="skill">
+			     <img src="images/wave.png"><div class="balloon-006"><p></p></div></div>
+	   </div>
+				 
+				
+   <div id="info3">
+	<p>
 		
-#skill{
-  width: 70%;
-  position: relative;
-  margin: auto;
-	}
-
-
-.skill{
-  width: 100px;
-	margin-top:30px;
-	
-	}
-	
-.skill img{
-   width: 100%;
-   border-radius: 50%;
-	
-	}
-	
-.skill p{
-   width: 100%;
-   padding-top: 1rem;
-   text-align: center;
-	color:#000;
-	}
-	
-.skill a{
-   text-decoration: none;
-	}	
-
-
-#info span { 
-        width: 100%;
-        font-size: 20px;
-        font-weight: bold; 
-        text-align: left;  
-        margin-top: 50px;
-  　　　 
-       }
-
-  #info2 {
-	 
-    letter-spacing:20%;
-	text-align: center;
-	display: block;
-	border: 1px solid #000
-	border-radius: 20px;
-	margin-bottom:120px;
-}
-
-#info2 p {
-	width:600px;
-  font-size: 17px;
-   display: inline-block;
-    color: #444;
-  text-align: left;
-	line-height:30px;
-}
-#info2 p span {
-     text-align: left;
- }
-
-
-
-#info3   {
-
-  text-align: ;
-  margin: 0 auto;
-   color: #444;
-   margin-left: 160px;
-}
-
-#info3 p {
- display: inline-block;
-  text-align: left;
-	font-size:15px;
-}
-
-
-	
-#info4 {
-   margin: 16px auto;
-	text-align: center;
-	display: block;
-	border: 1px solid #00
-   width:100px;
-}
-
-#info4 p {
- text-align: left;
-	display: inline-block;
-	  width:100px;
-}
-
-
-#info4 p span {
-     text-align: left;
-  color: #444;
-   margin-left: px;
-  font-size: 13px;
-   margin-top: 10px;
- }
-
-#info4  {
-   margin: 16px auto;
-	text-align: center;
-	display: block;
-	border: 1px solid #00
-}
-
-#info4 h4 {
-   text-align: left;
-	display: inline-block;
-}
-
-
-	
-#skill{
-  width: 40%;
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: auto;
-	margin-top:50px;
-	}
-
-
-.skill img{
-   width: 80%;
-   border-radius: 50%;
-	display:flex;
-margin-left:-160%;;
-	
-	}
-	
-.skill p{
-   width: 80%;
-   padding-top: 1rem;
-   text-align: left;
-	margin-left:-145px;
-	color:#000;
-	}
-	
-.skill a{
-   text-decoration: none;
-	}	
-
-  h1 {
-     text-align: center;
-    margin: 30px;
-    font-size: 25px;
-    margin: 120px 0 0 0;
-}
-
-  aside {
+	</p>
+</div>
+    <div class="article__color-all">
+            
+	     </div>
+	     		
+				 </article>
+       <aside>
+       <p><span class="smoothText"><span class="smoothTextTrigger">Date.2022.9.14~12.21<br><br>
+          使用ソフト：Photoshop,Wordpress<br>
+          写真は自分で撮影したものを使用
+          写真と文字を活用</span></span></p>
+      </aside>
+  
+    </main>
     
-    text-align: left;
-    flex: 1;
-    padding: 2rem;
-    font-size: 17px;
-  }
-
-aside p {
-  width: 100%;
-    text-align: left;
-    margin-left: 20px;
-    font-size: 14px;
-  }
-  
-}
-  
 	
-
-
-article  {
-  margin-top: 1rem;
-  text-align: left;
-   color: #696969;
-  line-height: 180%;
-  font-size: 11px;
-}
-article span {
-    margin-top: rem;
-    margin-bottom: 2rem;
-    color: #696969
+		  
+		   
+	 
+		<div id="wrapper">  
+		 
+		  
+     <footer>
+		 
+      <h6>&copy; http://www.example.com</h6>   
   
-}
-aside h1 {
-　margin-rem;
-}
-aside p {
-  margin-top: 1rem;
-  text-align: left;
-  color: #696969;
-  font-size: 15px;
-  font-weight: bold;
-   margin-left: 1px;
-}
-
-
-.icon {
-  display: flex;
-  width: 25px;
-  height: 25px;
-  margin: auto;
+	  
+  </div>  
+	    </footer>
   
-}
-
-footer {
-  margin-top: 4rem;
-  padding: 1.5rem;
-  text-align: center;
- 
-  color:white;
-}
-
-#page_top{
-  width: 50px;
-  height: 50px;
-  position: fixed;
-  right: 0;
-  bottom: -50px;
-
-  opacity: 0.6;
-  border-radius: 50%;
-   
-    bottom: 20px;
-    right: 10px;
-}
-
-#page_top{
-  width: 50px;
-  height: 50px;
-  position: fixed;
-  right: 0;
-  bottom: -50px;
-  opacity: 0.6;
-  border-radius: 50%;
-}
-
-  .top {
-    width: 35px;
-    height: 35px;
-  }
-
-  
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script
+src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+crossorigin="anonymous"></script>
+<script src="js/raindrops.js"></script><!--Raindrops.js（https://daniellaharel.com/raindrops/）からダウンロードして使用-->
+<script src="js/5-16.js"></script>
+<script src="js/5-1-15.js"></script>
+<script src="js/8-10.js"></script>
+<script src="js/8-16.js"></script>
+</body>
+</html>
