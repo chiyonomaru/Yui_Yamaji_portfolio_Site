@@ -298,9 +298,10 @@ article {
 	}
 	
 .skill p{
-   width: 50%;
+   width: 90%;
    text-align: center;
 		color:#000;
+	margin-left:-20px;
 	}
 	
 .skill a{
@@ -402,7 +403,7 @@ article{
 }
 
 #info3   {
-max-width: 500px;
+max-width: 100%;
   text-align: ;
   margin: 0 auto;
    color: #444;
@@ -412,6 +413,7 @@ max-width: 500px;
 #info3 p {
  display: inline-block;
   text-align: left;
+	width:100%;
 }
 
 /*----------------------------
@@ -585,7 +587,7 @@ footer {
  
     position: relative;
  
-    width: %;
+
     margin: auto;
   }
 
@@ -723,13 +725,27 @@ footer {
   　　　 
        }
 
-  #info2 span {
-    width: 100%;
-        font-size: 15px;
-        font-weight: bold; 
-        text-align: left;  
-        margin-top: 50px;
-  }
+  #info2 {
+	 
+    letter-spacing:20%;
+	text-align: center;
+	display: block;
+	border: 1px solid #000
+	border-radius: 20px;
+	margin-bottom:120px;
+}
+
+#info2 p {
+  font-size: 13px;
+   display: inline-block;
+    color: #444;
+  text-align: left;
+}
+#info2 p span {
+     text-align: left;
+ }
+
+
 
 #info3   {
 
@@ -742,6 +758,7 @@ footer {
 #info3 p {
  display: inline-block;
   text-align: left;
+	font-size:15px;
 }
 
 
