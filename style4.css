@@ -269,37 +269,19 @@ article {
 }
 
 #backTop  {
+  width: 100%;
+  height: 50%;
   margin: auto;
-  margin-bottom:30px;
-	margin-top:70px;
-	 width:200px;
+  display: flex;
+	 width: 200px;
+  height: 200px;
+  line-height: 200px;
 
+  border-radius: 50%;
+  
   text-align: center;
-    border-radius: 56%;
-	border: solid 3px #000;
-	
-	background-color:#fff;
 }
 
-
-
-@media screen and (max-width:300px) {
-	
-
-#backTop  {
-  margin: auto;
-  margin-bottom:30px;
-	 width:150px;
-
-  text-align: center;
-    border-radius: 56%;
-	border: solid 3px #000;
-	
-	background-color:#fff;
-}
-
-
-}
 
 
 .picbig img {
@@ -397,6 +379,7 @@ aside {
   margin: 0 auto;
   width: 80%;
 	margin-top:30px;
+	margin-bottom:40px;
 }
 
 .stepbar .stepbarwrap {
@@ -579,6 +562,7 @@ aside p {
   gap: 65px;
   grid-template-columns: repeat(3, 200px);
 	margin-bottom:50px;
+	margin-top:40px;
 }
 .item {
   border-radius: 10px;
@@ -908,7 +892,7 @@ footer ul {
       LAYOUT PC (OverWrite)
 --------------------------------*/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
 
   header {
     height: 5em;
@@ -1009,13 +993,42 @@ footer ul {
 .stepbar {
   margin: 0 auto;
   width: 100%;
-	display:flex;
-	
-	padding:10px;
-	margin-bottom:30px;
+	margin-top:30px;
 }
 
 	
+@media screen and (min-width:900px) {
+	
+.stepbar {
+	  margin: 0 auto;
+  width: 80%;
+	margin-top:30px;
+	
+}
+}
+#info2 p {
+  font-size: 15px;
+   display: inline-block;
+    color: #444;
+  text-align: left;
+	margin:20px;
+}
+#info2 p span {
+     text-align: left;
+ }
+
+	
+@media screen and (min-width:1000px) {
+	
+.stepbar {
+	  margin:auto;
+  width: 50%;
+	margin-top:30px;
+	border: 4px solid #000;
+	border-radius:5%;
+	padding: 20px 25px 20px 25px;
+}
+}
 #info2 p {
   font-size: 15px;
    display: inline-block;
