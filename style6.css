@@ -272,23 +272,26 @@ article {
 	}	
 
 
-@media screen and (max-width:300px) {
+
+
+@media screen and (max-width:500px) {
 	
 	
 #skill{
   width: 100%;
- 
+ display:flex;
+	 flex-wrap: wrap;
 	}
 
 .skill{
-  width: px;
+  width: 120px;
   margin-bottom: 3rem;
 	
 	
 	}
 	
 .skill img{
-   width: 50%;
+   width: 80%;
    border-radius: 50%;
 	border: solid 3px #000;
 	
@@ -298,7 +301,7 @@ article {
 	}
 	
 .skill p{
-   width: 90%;
+   width: 100%;
    text-align: center;
 		color:#000;
 	margin-left:-20px;
@@ -309,6 +312,7 @@ article {
 	}	
 
 }
+
 
 aside {
 
@@ -687,7 +691,7 @@ footer {
 
 		
 #skill{
-  width: 70%;
+  width: 90%;
   position: relative;
   margin: auto;
 	}
@@ -700,7 +704,7 @@ footer {
 	}
 	
 .skill img{
-   width: 100%;
+   width: 60%;
    border-radius: 50%;
 	
 	}
@@ -716,7 +720,75 @@ footer {
    text-decoration: none;
 	}	
 
+@media screen and (min-width:900px) {
+	
+		
+#skill{
+  width: 80%;
+  position: relative;
+  margin: auto;
+	}
 
+
+.skill{
+  width: 100px;
+	margin-top:30px;
+	
+	}
+	
+.skill img{
+   width: 60%;
+   border-radius: 50%;
+	
+	}
+	
+.skill p{
+   width: 100%;
+   padding-top: 1rem;
+   text-align: center;
+	color:#000;
+	}
+	
+.skill a{
+   text-decoration: none;
+	}	
+}
+
+@media screen and (max-width:1024px) {
+	
+		
+#skill{
+  width: 70%;
+  position: relative;
+  margin: auto;
+	}
+
+
+.skill{
+  width: 100px;
+	margin-top:30px;
+	
+	}
+	
+.skill img{
+   width: 80%;
+   border-radius: 50%;
+	
+	}
+	
+.skill p{
+   width: 100%;
+   padding-top: 1rem;
+   text-align: center;
+	color:#000;
+	}
+	
+.skill a{
+   text-decoration: none;
+	}	
+}
+
+	
 #info span { 
         width: 100%;
         font-size: 20px;
@@ -802,37 +874,7 @@ footer {
 }
 
 
-	
-#skill{
-  width: 40%;
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: auto;
-	margin-top:50px;
-	}
 
-
-.skill img{
-   width: 80%;
-   border-radius: 50%;
-	display:flex;
-margin-left:-160%;;
-	
-	}
-	
-.skill p{
-   width: 80%;
-   padding-top: 1rem;
-   text-align: left;
-	margin-left:-145px;
-	color:#000;
-	}
-	
-.skill a{
-   text-decoration: none;
-	}	
 
   h1 {
      text-align: center;
