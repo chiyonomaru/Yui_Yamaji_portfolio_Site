@@ -682,7 +682,7 @@ footer {
 
 
 .picbig img {
-  width: 50%;
+  width: 20%;
   height: 50%;
   margin: 80px 50px 40px 50px;
 	 border-radius: 5%;
@@ -788,7 +788,53 @@ footer {
 	}	
 }
 
+.gaiyou{
+	width:60%;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	align-items:center;
+	margin:0 auto;
+	text-align:left;
+	margin-top:-50px;
+}
+	.gaiyou p{
+		margin-top: 60px;
+		line-height:1.8;
+		text-align:justify;
+		max-width: 700px;
+	}
+
+.gaiyou h1{
+	margin-top: -60px;
+				 }
 	
+	.gaiyou h2{
+		margin-top: 60px;
+		font-size:25px;
+	}
+
+.gaiyou{
+	display:inline-block;
+	width:33%;
+}
+	.gaiyou h1{
+		font-size:33px;
+	}
+	.gaiyou h2{
+		font-size:20px;
+		margin-top: 30px;
+	}
+	.gaiyou{
+		margin-top: 30px;}
+
+
+	.word{
+	width:100%;
+}
+	.word p{
+		margin-right:0px;
+	}
 #info span { 
         width: 100%;
         font-size: 20px;
@@ -839,17 +885,18 @@ footer {
 
 	
 #info4 {
-   margin: 16px auto;
 	text-align: center;
 	display: block;
 	border: 1px solid #00
    width:100px;
+	margin-top:-70px;
 }
 
 #info4 p {
  text-align: left;
 	display: inline-block;
 	  width:600px;
+	font-size:20px;
 }
 
 
@@ -857,22 +904,54 @@ footer {
      text-align: left;
   color: #444;
    margin-left: px;
-  font-size: 15px;
+  font-size: 17px;
    margin-top: 10px;
  }
 
-#info4  {
-   margin: 16px auto;
-	text-align: center;
-	display: block;
-	border: 1px solid #00
-}
+
 
 #info4 h4 {
    text-align: left;
 	display: inline-block;
 }
 
+
+	
+#info5 {
+   margin: 16px auto;
+	text-align: center;
+	display: block;
+	border: 1px solid #00
+   width:100px;
+}
+
+#info5 p {
+ text-align: left;
+	display: inline-block;
+	  width:609px;
+	line-height:30px;
+}
+
+
+#info5 p span {
+     text-align: left;
+  color: #444;
+   margin-left: px;
+  font-size: 15px;
+   margin-top: 10px;
+ }
+
+#info5 {
+   margin: 16px auto;
+	text-align: center;
+	display: block;
+	border: 1px solid #00
+}
+
+#info5 h2 {
+   text-align: left;
+ width:130px;
+}
 
 
 
