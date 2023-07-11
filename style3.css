@@ -55,10 +55,13 @@ header h1 {
 .logo img {
 	 position: absolute;
 	top: -24px;;
-    width: 55%;
-	margin-left: -45px;
-	margin-top:-2px;
+    width: 100%;
+	margin-left: -124px;
+	margin-top:-36px;
+	 position: fixed;
 }
+
+
 #button {
   position: absolute;
   top: -0.5rem;
