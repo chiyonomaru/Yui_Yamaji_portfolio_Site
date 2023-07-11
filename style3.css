@@ -45,6 +45,7 @@ header {
   height: 4rem;
   background-color: #404855
   color: white;
+	z-index:9;
 }
 header h1 {
   position: absolute;
