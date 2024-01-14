@@ -83,13 +83,16 @@ header h1 {
   width: 1.8rem;
 }
 
+.logo{
+	width:100%;
+}
 
 .logo img {
 	 position: absolute;
-	top: -24px;;
-    width: 100%;
-	margin-left: -124px;
-	margin-top:-36px;
+	top: -24px;
+    width:100%;
+	margin-left: -109px;
+	margin-top:6px;
 	 position: fixed;
 }
 
@@ -105,18 +108,6 @@ nav ul {
    
 }
 
-@media screen and (min-width:540px) {
-	
-.logo img {
-	  position: absolute;
-	top: -24px;;
-    width: 50%;
-   margin-left:-76px;
-	margin-top:-4px;
-	 position: fixed;
-	
-}
-}
 
 
 @media screen and (max-width:300px) {
@@ -124,9 +115,8 @@ nav ul {
 .logo img {
 	  position: absolute;
 	top: -24px;;
-    width: 90%;
-   margin-left:-76px;
-	margin-top:-4px;
+    width: 100%;
+   margin-left:-79px;
 	 position: fixed;
 	
 }
@@ -183,7 +173,6 @@ main {
   flex-direction: column;
 }
 article {
-  
   padding: 2rem;
   text-align: justify;
   font-size: 0.85rem;
@@ -192,16 +181,11 @@ article {
 
 #gallery {
   width: 100%;
-  left: 10% 
-  display: flex;
-  filter: 0;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  
 }
 
 .image {
-  width: 200px;
-  heght: 20px;
+  width: 100%;
  margin:0 auto;
   margin-top: 30px;
 	
@@ -209,68 +193,16 @@ article {
 }
 
 .thumb {
-  width: 200px;
-  height: 280px;
+  width: 100%;
+ 
 }
 
-#page {
-   margin-bottom: 5rem;
-  display: fex;
-  text-align: center;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 100%;
-  background-color: #fff;
-  
 }
 
 #pic {
-  width: 10%;
+  width: 100%;
   height: auto;
 }
-
-.picbig img {
-  width: 50%;
-  height: 50%;
-  margin: 80px 50px 40px 50px;
-	 border-radius: 5%;
-}
-#skill{
-  width: 100%;
-  position: relative;
-  display: flex;
-  justify-content: space-around;
-
-	}
-
-.skill{
-  width:100%;
-  margin-bottom: 3rem;
-		margin-top:40px;
-	
-	}
-	
-.skill img{
-   width: 60%;
-   border-radius: 50%;
-	border: solid 3px #000;
-	margin-top:0px;
-	background-color:#fff;
-	margin:auto;
-	 box-shadow: 4px 4px 8px 0 rgb(0 0 0 / 13%);
-	}
-	
-.skill p{
-   width: 100%;
-   text-align: center;
-		color:#000;
-	margin-left:-26px;
-	}
-	
-.skill a{
-   text-decoration: none;
-	}	
-
 
 
 
