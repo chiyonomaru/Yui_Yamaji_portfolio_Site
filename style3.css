@@ -279,7 +279,7 @@ h4 {
 #info2 p {
   font-size: 13px;
    display: inline-block;
-    color: #444;
+    color: #000;
   text-align: left;
 }
 #info2 p span {
@@ -288,7 +288,7 @@ h4 {
 
 article{
    max-width:900px;
-  color: #696969;
+  color: #000;
   margin-right: auto;
    margin-left: auto;
     text-align: left;
@@ -298,7 +298,7 @@ article{
 #info span{
   font-size: 12px;
   font-weight: bold;
-  color: #696969;
+  color: #000;
   text-align: left;
    margin-left: px;
 }
@@ -320,7 +320,7 @@ article{
 
 #info4 p span {
      text-align: left;
-  color: #444;
+  color: #000;
    margin-left: px;
   font-size: 11.5px;
    margin-top: 10px;
@@ -342,7 +342,7 @@ article{
 max-width: 100%;
   text-align: ;
   margin: 0 auto;
-   color: #444;
+   color: #000;
    margin-right: 134px;
 }
 
@@ -375,7 +375,7 @@ scroll_up ｜下から上へ出現
 
 h1 {
   text-align: left;
-  color: #696969;
+  color: #000;
   margin-top: 3rem;
 }
 
@@ -383,8 +383,7 @@ h1 {
 article  {
   margin-top: 1rem;
   text-align: left;
-   color: #696969
-  line-height: 180%;
+   color: #696969;
   font-size: 11px;
 }
 article span {
@@ -454,53 +453,7 @@ footer {
   }
 
 
-.article__color-all {
- 
-  margin-left: -120px;
-  
-  width: 50px;
 
-  height: 50px;
- 
-
-  
-  border-radius: 10px;
-
-   margin-top: 30px;
-}
-
-.article__portfolio_color1 {
- 
-  
-  
-  width: 50px;
-
-  height: 50px;
- 
-  background-color: #e5037b;
-  
-  border-radius: 10px;
-
-   margin-top: 30px;
-}
-
-
-
-.article__portfolio_color2 {  
-  
-  
-   margin-left: -90px;
-  
-
-  
-  width: 50px;
-
-  height: 50px;
- 
-  background-color: #72a8db;
-  
-  border-radius: 10px;
-}
 
 /*-------------------------------
       LAYOUT PC (OverWrite)
@@ -686,46 +639,6 @@ footer {
 	}	
 }
 
-
-
-.gaiyou2{
-	width:0%;
-	justify-content:space-between;
-	flex-wrap:wrap;
-	align-items:center;
-	margin:0 auto;
-	text-align:left;
-	margin-top:-50px;
-}
-	.gaiyou2 p{
-		margin-top: 60px;
-		line-height:1.8;
-		text-align:justify;
-		max-width: 700px;
-	}
-
-.gaiyou2 h1{
-	margin-top: -40px;
-				 }
-	
-	.gaiyou2 h2{
-		margin-top: 60px;
-		font-size:25px;
-	}
-
-.gaiyou2{
-	display:inline-block;
-	width:33%;
-}
-	.gaiyou2 h1{
-		font-size:33px;
-	}
-	.gaiyou2 h2{
-		font-size:20px;
-		margin-top: 30px;
-	}
-	.gaiyou2{
-		margin-top: 30px;}
 
 	
 #info span { 
