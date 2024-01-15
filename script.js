@@ -97,3 +97,9 @@ function fadeAnime(){
   });// ここまで画面が読み込まれたらすぐに動かしたい場合の記述
 
 
+// Title
+$(function () {
+  $('.title span').addClass('fadeUp');
+})
+
+
