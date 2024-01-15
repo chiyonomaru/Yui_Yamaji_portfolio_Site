@@ -99,7 +99,7 @@ function fadeAnime(){
 
 // Title
 $(function () {
-  $('.title span').addClass('fadeUp');
+  $('.title box').addClass('fadeUp');
 })
 
 
