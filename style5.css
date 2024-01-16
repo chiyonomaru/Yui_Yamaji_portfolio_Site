@@ -12,10 +12,8 @@ body {
   font-family: fot-tsukuardgothic-std,sans-serif;
 font-weight: 700;
   font-size: 16px;
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: #fafaf5;
+
 
 }
 
@@ -24,7 +22,6 @@ font-weight: 700;
 --------------------------------*/
 
 #container {
-  margi
   
 }
 
@@ -126,7 +123,7 @@ header {
   position: relative;
   height: 4rem;
   background-color: #;
-  background-color: white;
+  background-color: #fafaf5;
 	z-index:9;
 }
 header h1 {
@@ -249,7 +246,7 @@ article {
   padding: 2rem;
   text-align: justify;
   font-size: 0.85rem;
-  background-color: #fff;
+  #fafaf5;
 }
 
 
