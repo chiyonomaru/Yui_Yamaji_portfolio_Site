@@ -93,7 +93,9 @@ header h1 {
 	 position: fixed;
 }
 
-
+p{
+	color:#000;
+}
 
 
 nav ul {
@@ -381,7 +383,7 @@ h4 {
 
 article{
    max-width:900px;
-  color: #696969;
+  color: #000;
   margin-right: auto;
    margin-left: auto;
     text-align: left;
@@ -419,27 +421,28 @@ article{
    margin-top: 10px;
  }
 
-#info4  {
+
+
+#info5  {
    margin: 16px auto;
 	text-align: center;
 	display: block;
-	border: 1px solid #00
+
+}
+
+#info5 p {
+ text-align: left;
+	display: inline-block;
 }
 
 
-#info3   {
-max-width: 100%;
-  text-align: ;
-  margin: 0 auto;
-   color: #444;
-   margin-right: 134px;
-}
+#info5 p span {
+     text-align: left;
+  color: #000;
+  font-size: 11.5px;
+   margin-top: 10px;
+ }
 
-#info3 p {
- display: inline-block;
-  text-align: left;
-	width:100%;
-}
 
 /*----------------------------
 scroll_up ｜下から上へ出現
@@ -464,7 +467,7 @@ scroll_up ｜下から上へ出現
 
 h1 {
   text-align: left;
-  color: #696969;
+  color: #000;
   margin-top: 3rem;
 }
 
@@ -472,7 +475,7 @@ h1 {
 article  {
   margin-top: 1rem;
   text-align: left;
-   color: #696969
+   color: #000:
   line-height: 180%;
   font-size: 11px;
 }
@@ -480,7 +483,7 @@ article span {
     margin-top: rem;
   text-align: left;
     margin-bottom: 2rem;
-    color: #444;
+    color: #000;
   
 }
 
@@ -499,7 +502,7 @@ aside  {
 }
 
 aside p span {
-  color: #444;
+  color: #000;
 	font-size:12px;
 }
 
@@ -542,54 +545,6 @@ footer {
     height: 35px;
   }
 
-
-.article__color-all {
- 
-  margin-left: -120px;
-  
-  width: 50px;
-
-  height: 50px;
- 
-
-  
-  border-radius: 10px;
-
-   margin-top: 30px;
-}
-
-.article__portfolio_color1 {
- 
-  
-  
-  width: 50px;
-
-  height: 50px;
- 
-  background-color: #e5037b;
-  
-  border-radius: 10px;
-
-   margin-top: 30px;
-}
-
-
-
-.article__portfolio_color2 {  
-  
-  
-   margin-left: -90px;
-  
-
-  
-  width: 50px;
-
-  height: 50px;
- 
-  background-color: #72a8db;
-  
-  border-radius: 10px;
-}
 
 /*-------------------------------
       LAYOUT PC (OverWrite)
