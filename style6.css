@@ -567,16 +567,7 @@ footer {
     text-align: center;
     font-size: 1.5rem;
   }
-
-
-  #container {
- 
-    position: relative;
- 
-
-    margin: auto;
-  }
-
+	
   
   #lists {
     flex-direction: row;
@@ -600,16 +591,36 @@ footer {
   }
  
   main {
-    height: 950px
+    width: 100%;
     flex-direction: row;
     margin-top: 3rem;
   }
-  article {
-    flex: 3;
-    padding: 3rem;
-    font-size: 1rem;
-    
-  }
+  
+
+	
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+	position: relative;
+	margin-bottom: 20px;
+	display: inline-block;
+	color:#000;
+	margin-top:50px;
+}
+
+h2 p {
+	font-size: 11px;
+	background: #fff;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -4px;
+	padding: 0 px;
+	margin: 4px auto 0;
+	text-align:left;
+}
+
 	
 .logo img {
 	  position: absolute;
@@ -873,7 +884,6 @@ footer {
 }
 
 #info2 p {
-	width:600px;
   font-size: 17px;
    display: inline-block;
     color: #444;
@@ -905,10 +915,9 @@ footer {
 #info4 {
 	text-align: center;
 	display: block;
-	border: 1px solid #00
+	border: 1px solid #00;
    width:100px;
 	margin-top:-70px;
-}
 
 #info4 p {
  text-align: left;
@@ -929,18 +938,18 @@ footer {
 
 
 #info4 h4 {
-   text-align: left;
+   text-align: center;;
 	display: inline-block;
 }
 
 
 	
 #info5 {
-   margin: 16px auto;
+   margin:auto;
 	text-align: center;
 	display: block;
-	border: 1px solid #00
-   width:100px;
+	border: 1px solid #00;
+   width:100%;
 }
 
 #info5 p {
@@ -957,7 +966,7 @@ footer {
    margin-left: px;
   font-size: 15px;
    margin-top: 10px;
- }
+ 
 
 #info5 {
    margin: 16px auto;
@@ -968,7 +977,7 @@ footer {
 
 #info5 h2 {
    text-align: left;
- width:130px;
+ width:100px;
 }
 
 
