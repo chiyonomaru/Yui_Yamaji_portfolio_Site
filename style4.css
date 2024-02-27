@@ -12,7 +12,7 @@ body {
   font-family: fot-tsukuardgothic-std,sans-serif;
 font-weight: 700;
   font-size: 16px;
-  background-color: white;
+  background-color: #fffbde;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -126,7 +126,7 @@ header {
   position: relative;
   height: 4rem;
   background-color: #;
-  background-color: white;
+ 
 	z-index:9;
 }
 header h1 {
@@ -134,7 +134,7 @@ header h1 {
   top: 1.9rem;
   left: 2rem;
   font-size: 1.2rem;
-	  background-color: white;
+	  
 }
 
 
@@ -217,7 +217,7 @@ nav ul {
   position: absolute;
   top: rem;
   color: #fff;
-  background-color: #fff;
+  
   opacity: 0.85;
 }
 #lists li {
@@ -249,7 +249,7 @@ article {
   padding: 2rem;
   text-align: justify;
   font-size: 0.85rem;
-  background-color: #fff;
+ 
 }
 
 
@@ -672,8 +672,8 @@ p {
     margin-top: 49px;
     padding: .0em 1.2em;
     border: 3px solid #000000;
-    border-radius: 17px;
-    background-color: #fff;
+    border-radius: 69px;
+   
     color: #333333;
 }
 
@@ -694,7 +694,7 @@ p {
 
 .balloon-006::after {
     top: -11px;
-    background-color: #fff;
+    
 }
 
 .layout {
