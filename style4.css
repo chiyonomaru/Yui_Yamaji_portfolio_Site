@@ -13,9 +13,7 @@ body {
 font-weight: 700;
   font-size: 16px;
   background-color: #fafaf5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
 
 }
 
@@ -24,7 +22,6 @@ font-weight: 700;
 --------------------------------*/
 
 #container {
-  margi
   
 }
 
@@ -126,7 +123,7 @@ header {
   position: relative;
   height: 4rem;
   background-color: #;
- 
+  background-color: #fafaf5;
 	z-index:9;
 }
 header h1 {
@@ -134,7 +131,7 @@ header h1 {
   top: 1.9rem;
   left: 2rem;
   font-size: 1.2rem;
-	  
+	  background-color: white;
 }
 
 
@@ -217,7 +214,7 @@ nav ul {
   position: absolute;
   top: rem;
   color: #fff;
-  
+  background-color: #fff;
   opacity: 0.85;
 }
 #lists li {
@@ -249,7 +246,7 @@ article {
   padding: 2rem;
   text-align: justify;
   font-size: 0.85rem;
- 
+  #fafaf5;
 }
 
 
@@ -566,7 +563,7 @@ aside p {
 }
 .item {
   border-radius: 10px;
-  background: #e8e0d4;
+  background: #e
   padding: 18px;
   text-align: center;
 	
@@ -584,10 +581,95 @@ p {
 
 
 
+@media screen and (max-width: 1100px) {
+  
+
+.grid {
+  display: grid;
+  gap: 30px;
+   grid-template-columns: repeat(4, 200px);
+}
+.item {
+  border-radius: 10px;
+  background: #
+  padding: 18px;
+  text-align: center;
+	margin:10px;
+}
+img {
+  width: 89%;
+  height: 30p;
+	margin-top:20px;
+}
+p {
+  text-align: center;
+}
+	
+}
+
+@media screen and (max-width: 820px) {
+  
+
+.grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(182px, 1fr));
+	margin-top:50px;
+}
+.item {
+  border-radius: 10px;
+  background: #e
+  padding: 18px;
+  text-align: center;
+	margin:10px;
+}
+img {
+  width: 89%;
+  height: 30p;
+	margin-top:20px;
+}
+p {
+  text-align: center;
+}
+	
+}
+
+
+@media screen and (max-width: 500px) {
+  
+
+.grid {
+  display: grid;
+  gap: 60px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.item {
+  border-radius: 10px;
+  background: #e
+  padding: 18px;
+  text-align: center;
+	margin:10px;
+}
+img {
+  width: 89%;
+  height: 30p;
+	margin-top:20px;
+}
+p {
+  text-align: center;
+}
+	
+}
+
 
 	
 #skill{
-  width: 100%;
+  width: 56%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
 	}
 
 .skill{
@@ -598,13 +680,9 @@ p {
 	}
 	
 .skill img{
-   width: 50%;
-	 position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: auto;
-   border-radius: 5%;
+   width: 100%;
+   border-radius: 50%;
+	border: solid 3px #000;
 	
 	background-color:#fff;
 	margin:auto;
@@ -644,7 +722,7 @@ p {
 	
 .skill img{
    width: 100%;
-   border-radius: 5%;
+   border-radius: 50%;
 	border: solid 3px #000;
 	
 	background-color:#fff;
@@ -668,12 +746,12 @@ p {
     display: flex;
     justify-content: center;
     position: relative;
-    width: 90%;
+    max-width: 300px;
     margin-top: 49px;
-    padding: .0em 1.2em;
+    padding: .8em 1.2em;
     border: 3px solid #000000;
-    border-radius: 69px;
-   
+    border-radius: 12px;
+    background-color: #fff;
     color: #333333;
 }
 
@@ -694,7 +772,7 @@ p {
 
 .balloon-006::after {
     top: -11px;
-    
+    background-color: #fff;
 }
 
 .layout {
@@ -1037,7 +1115,7 @@ footer ul {
 	
 .skill img{
    width: 100%;
-   border-radius: 5%;
+   border-radius: 50%;
 	display:flex;
 
 	
